@@ -1,0 +1,13 @@
+Info:
+  ID: 00000000-0000-0000-0009-01fa4004e92b
+  Name: .Enzokuoshu_pro
+  Type: bedrock
+  Status: normal
+  CreationDate: 1734556528128
+  Pin: ''
+  LastOnline: 1734556541228
+Holdings:
+  Main Server:
+    world:
+      fe4dd0fa-37f6-4432-9332-35e00bf7fdac:
+        tne:VIRTUAL_HOLDINGS: '200.0'
