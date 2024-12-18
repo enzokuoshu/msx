@@ -222,3 +222,23 @@ java.lang.NullPointerException: Cannot invoke "dev.pluginz.graveplugin.manager.G
 [21:18:25] [Server thread/INFO]: [.Enzokuoshu_pro: Set own game mode to Creative Mode]
 [21:19:10] [Server thread/INFO]: .Enzokuoshu_pro has made the advancement [Diamonds!]
 [21:20:02] [Server thread/INFO]: .Enzokuoshu_pro issued server command: /mybal
+[21:24:17] [Server thread/INFO]: .Enzokuoshu_pro has made the advancement [Monster Hunter]
+[21:26:56] [Geyser Spigot connection thread-6-4/INFO]: [floodgate] Floodgate player logged in as .Enzokuoshu_pro disconnected
+[21:26:56] [localSession-7-3/INFO]: [Geyser-Spigot] Enzokuoshu pro has disconnected from the Java server because of Bedrock client timed out
+[21:26:56] [Server thread/INFO]: .Enzokuoshu_pro lost connection: Disconnected
+[21:26:56] [Server thread/INFO]: .Enzokuoshu_pro left the game
+[21:27:58] [User Authenticator #0/INFO]: UUID of player enzokuoshu2 is 72ef933b-ad04-30d9-ba8e-7d3fff18ebdc
+[21:28:02] [Server thread/INFO]: enzokuoshu2 joined the game
+[21:28:02] [Server thread/INFO]: enzokuoshu2[/100.95.11.115:57110] logged in with entity id 1388 at ([world]31.31017449079943, 68.0, -6.118117201869647)
+[21:28:41] [Server thread/INFO]: enzokuoshu2 lost connection: Timed out
+[21:28:41] [Server thread/INFO]: enzokuoshu2 left the game
+[21:29:05] [User Authenticator #1/INFO]: UUID of player enzokuoshu2 is 72ef933b-ad04-30d9-ba8e-7d3fff18ebdc
+[21:29:07] [Server thread/INFO]: enzokuoshu2 joined the game
+[21:29:07] [Server thread/INFO]: enzokuoshu2[/100.95.11.115:57144] logged in with entity id 1468 at ([world]31.29786903319401, 68.0, -6.5361683867807665)
+[21:29:30] [Server thread/INFO]: Made enzokuoshu2 a server operator
+[21:29:41] [Server thread/INFO]: enzokuoshu2 issued server command: /gamemode creative @s
+[21:29:41] [Server thread/INFO]: [enzokuoshu2: Set own game mode to Creative Mode]
+[21:29:55] [Server thread/INFO]: enzokuoshu2 issued server command: /mybal
+[21:30:52] [Server thread/INFO]: enzokuoshu2 issued server command: /armorup
+[21:32:04] [Server thread/INFO]: enzokuoshu2 issued server command: /
+[21:32:39] [Server thread/INFO]: enzokuoshu2 issued server command: /armorqualities:reforge
