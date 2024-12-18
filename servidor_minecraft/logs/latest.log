@@ -175,3 +175,16 @@ java.lang.NullPointerException: Cannot invoke "dev.pluginz.graveplugin.manager.G
 [22:31:30] [Async Chat Thread - #3/INFO]: [Not Secure] <.Lienx10146465> no tengo permiso para el Mybal
 [22:33:20] [Server thread/INFO]: .Lienx10146465 has made the advancement [Stone Age]
 [22:33:30] [Server thread/INFO]: .Lienx10146465 has made the advancement [Getting an Upgrade]
+[22:38:40] [localSession-7-2/INFO]: [Geyser-Spigot] Lienx10146465 has disconnected from the Java server because of Bedrock client timed out
+[22:38:40] [Geyser Spigot connection thread-6-3/INFO]: [floodgate] Floodgate player logged in as .Lienx10146465 disconnected
+[22:38:40] [Server thread/INFO]: .Lienx10146465 lost connection: Disconnected
+[22:38:40] [Server thread/INFO]: .Lienx10146465 left the game
+[22:39:27] [epollEventLoopGroup-4-2/INFO]: [Geyser-Spigot] Player connected with username Lienx10146465
+[22:39:27] [localSession-7-3/INFO]: [Geyser-Spigot] Lienx10146465 (logged in as: Lienx10146465) has connected to the Java server
+[22:39:27] [Server thread/INFO]: [floodgate] Floodgate player logged in as .Lienx10146465 joined (UUID: 00000000-0000-0000-0009-01f6b61fc3fb)
+[22:39:27] [Server thread/INFO]: .Lienx10146465 joined the game
+[22:39:27] [Server thread/INFO]: .Lienx10146465[/100.113.150.102:0] logged in with entity id 2707 at ([world]261.73038, 69.0, 149.73352)
+[22:40:16] [Geyser Spigot connection thread-6-4/INFO]: [floodgate] Floodgate player logged in as .Lienx10146465 disconnected
+[22:40:16] [localSession-7-3/INFO]: [Geyser-Spigot] Lienx10146465 has disconnected from the Java server because of Bedrock client timed out
+[22:40:16] [Server thread/INFO]: .Lienx10146465 lost connection: Disconnected
+[22:40:16] [Server thread/INFO]: .Lienx10146465 left the game
