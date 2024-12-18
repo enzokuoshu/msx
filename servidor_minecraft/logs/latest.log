@@ -242,3 +242,20 @@ java.lang.NullPointerException: Cannot invoke "dev.pluginz.graveplugin.manager.G
 [21:30:52] [Server thread/INFO]: enzokuoshu2 issued server command: /armorup
 [21:32:04] [Server thread/INFO]: enzokuoshu2 issued server command: /
 [21:32:39] [Server thread/INFO]: enzokuoshu2 issued server command: /armorqualities:reforge
+[21:35:13] [Server thread/INFO]: enzokuoshu2 has made the advancement [Diamonds!]
+[21:36:34] [Server thread/INFO]: enzokuoshu2 issued server command: /armorup
+[21:36:54] [Server thread/INFO]: enzokuoshu2 issued server command: /au item sword air
+[21:37:13] [Server thread/INFO]: enzokuoshu2 issued server command: /au item sword air give enzokuoshu2
+[21:37:47] [Server thread/INFO]: enzokuoshu2 has made the advancement [Monster Hunter]
+[21:38:48] [Server thread/INFO]: enzokuoshu2 issued server command: /armorqualities:reforge enzokuoshu2
+[21:39:50] [epollEventLoopGroup-4-3/INFO]: [Geyser-Spigot] Player connected with username Enzokuoshu pro
+[21:39:50] [localSession-7-4/INFO]: [Geyser-Spigot] Enzokuoshu pro (logged in as: Enzokuoshu_pro) has connected to the Java server
+[21:39:50] [Server thread/INFO]: [floodgate] Floodgate player logged in as .Enzokuoshu_pro joined (UUID: 00000000-0000-0000-0009-01fa4004e92b)
+[21:39:50] [Server thread/INFO]: .Enzokuoshu_pro joined the game
+[21:39:50] [Server thread/INFO]: .Enzokuoshu_pro[/100.115.34.65:0] logged in with entity id 2743 at ([world]42.534122, 70.0, 3.4796371)
+[21:41:01] [Server thread/INFO]: enzokuoshu2 issued server command: /tp enzokuoshu2
+[21:41:01] [Server thread/INFO]: [enzokuoshu2: Teleported enzokuoshu2 to enzokuoshu2]
+[21:41:07] [Server thread/INFO]: enzokuoshu2 issued server command: /tps
+[21:41:28] [Server thread/INFO]: enzokuoshu2 issued server command: /tp .Enzokuoshu_pro
+[21:41:28] [Server thread/INFO]: [enzokuoshu2: Teleported enzokuoshu2 to .Enzokuoshu_pro]
+[21:42:49] [Server thread/INFO]: .Enzokuoshu_pro has made the advancement [Acquire Hardware]
