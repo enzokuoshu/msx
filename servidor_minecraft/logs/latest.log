@@ -310,3 +310,17 @@ java.lang.NullPointerException: Cannot invoke "io.lumine.mythic.bukkit.utils.ver
 [21:00:51] [Server thread/INFO]: enzokuoshu2 issued server command: /moreores generate world confirm
 [21:01:15] [Server thread/INFO]: [org.milkteamc.autotreechop.libs.hikari.HikariDataSource] HikariPool-1 - Starting...
 [21:01:15] [Server thread/INFO]: [org.milkteamc.autotreechop.libs.hikari.HikariDataSource] HikariPool-1 - Start completed.
+[21:04:08] [Server thread/WARN]: enzokuoshu2 moved too quickly! -8.529420636620806,0.0,15.446032017539224
+[21:06:39] [Server thread/INFO]: enzokuoshu2 issued server command: /magicitems:roll
+[21:07:13] [Server thread/INFO]: enzokuoshu2 issued server command: /armorqualities:ref
+[21:08:01] [Server thread/INFO]: enzokuoshu2 issued server command: /map
+[21:08:16] [Server thread/INFO]: enzokuoshu2 issued server command: /map reload
+[21:08:16] [Server thread/INFO]: [io.undertow] stopping server: Undertow - 2.3.18.Final
+[21:08:16] [Server thread/INFO]: [squaremap] Internal webserver stopped
+[21:08:16] [Server thread/INFO]: [io.undertow] starting server: Undertow - 2.3.18.Final
+[21:08:16] [Server thread/INFO]: [squaremap] Internal webserver running on 0.0.0.0:8080
+[21:10:21] [Server thread/INFO]: enzokuoshu2 issued server command: /roll
+[21:10:31] [Server thread/INFO]: enzokuoshu2 issued server command: /roll
+[21:10:34] [Server thread/INFO]: enzokuoshu2 issued server command: /roll
+[21:10:56] [Server thread/INFO]: enzokuoshu2 issued server command: /roll
+[21:12:01] [Server thread/INFO]: enzokuoshu2 issued server command: /roll
