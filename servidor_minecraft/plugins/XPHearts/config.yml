@@ -1,0 +1,25 @@
+##########################################################
+#                                                        #
+#              XPHearts  Configurations                  #
+#                                                        #
+##########################################################
+
+# Max health on level...
+# 0:20 means if you're level 0, your maximum health is 20.
+# 2 health points is equal to 1 heart. So 20 health points is equal to 10 hearts
+
+max-health-on-level:
+  0: 20
+  5: 22
+  10: 24
+  15: 25
+  20: 30
+  30: 50
+  50: 60
+  100: 100
+
+# The message that will be sent to player when their maximum health has been updated.
+max-health-update-message: "&aYour maximum health has been updated!"
+
+# Will players be healed when their maximum health is updated?
+heal-on-health-update: true
