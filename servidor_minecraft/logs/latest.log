@@ -1,185 +1,126 @@
-[20:22:55] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.5+11-Ubuntu-1ubuntu120.04; Ubuntu null) on Linux 6.5.0-1025-azure (amd64)
-[20:22:55] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.3-63-master@4190ee7 (2024-11-25T18:59:19Z) for Minecraft 1.21.3
-[20:22:55] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
-[20:22:56] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Remapping plugin 'plugins/XPHearts-1.1.0.jar'...
-[20:22:56] [Paper Plugin Remapper Thread - 3/INFO]: [PluginRemapper] Remapping plugin 'plugins/More Ores.jar'...
-[20:22:56] [Paper Plugin Remapper Thread - 0/INFO]: [PluginRemapper] Remapping plugin 'plugins/AxGraves-1.17.0.jar'...
-[20:22:56] [Paper Plugin Remapper Thread - 1/INFO]: [PluginRemapper] Remapping plugin 'plugins/MagicItems-1.2.jar'...
-[20:22:56] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Done remapping plugin 'plugins/XPHearts-1.1.0.jar' in 633ms.
-[20:22:56] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Remapping plugin 'plugins/AutoTreeChop-1.5.5.jar'...
-[20:22:57] [Paper Plugin Remapper Thread - 1/INFO]: [PluginRemapper] Done remapping plugin 'plugins/MagicItems-1.2.jar' in 559ms.
-[20:22:57] [Paper Plugin Remapper Thread - 1/INFO]: [PluginRemapper] Remapping plugin 'plugins/MythicMobs-5.7.2.jar'...
-[20:22:57] [Paper Plugin Remapper Thread - 3/INFO]: [PluginRemapper] Done remapping plugin 'plugins/More Ores.jar' in 681ms.
-[20:22:57] [Paper Plugin Remapper Thread - 3/INFO]: [PluginRemapper] Remapping plugin 'plugins/HealthBar-Reloaded.jar'...
-[20:22:57] [Paper Plugin Remapper Thread - 3/INFO]: [PluginRemapper] Done remapping plugin 'plugins/HealthBar-Reloaded.jar' in 195ms.
-[20:22:58] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Done remapping plugin 'plugins/AutoTreeChop-1.5.5.jar' in 1159ms.
-[20:22:59] [Paper Plugin Remapper Thread - 0/INFO]: [PluginRemapper] Done remapping plugin 'plugins/AxGraves-1.17.0.jar' in 2830ms.
-[20:23:02] [Paper Plugin Remapper Thread - 1/INFO]: [PluginRemapper] Done remapping plugin 'plugins/MythicMobs-5.7.2.jar' in 5197ms.
-[20:23:02] [ServerMain/INFO]: [PluginInitializerManager] Initialized 17 plugins
-[20:23:02] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (17):
+[20:53:22] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.5+11-Ubuntu-1ubuntu120.04; Ubuntu null) on Linux 6.5.0-1025-azure (amd64)
+[20:53:22] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.3-63-master@4190ee7 (2024-11-25T18:59:19Z) for Minecraft 1.21.3
+[20:53:22] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
+[20:53:28] [ServerMain/INFO]: [PluginInitializerManager] Initialized 17 plugins
+[20:53:28] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (17):
  - ArmorQualities (1.3.3), ArmorUp (1.0-SNAPSHOT), AutoTreeChop (1.5.5), AxGraves (1.17.0), CrazyEnchantments (2.5.1), Geyser-Spigot (2.6.0-SNAPSHOT), HealthBar-Reloaded (2.0.4.1), MagicItems (1.2), MoreOres (1.13.10), MythicMobs (5.7.2-${CI_COMMIT_SHORT_SHA}), TheNewEconomy (0.1.3.4), Veinminer (2.2.2), ViaBackwards (5.2.0), ViaVersion (5.2.0), XPHearts (1.1.0), floodgate (2.2.3-SNAPSHOT (b114-83fbd6e)), squaremap (1.3.3)
-[20:23:06] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[20:23:08] [ServerMain/INFO]: Loaded 1337 recipes
-[20:23:08] [ServerMain/INFO]: Loaded 1448 advancements
-[20:23:08] [Server thread/INFO]: Starting minecraft server version 1.21.3
-[20:23:08] [Server thread/INFO]: Loading properties
-[20:23:08] [Server thread/INFO]: This server is running Paper version 1.21.3-63-master@4190ee7 (2024-11-25T18:59:19Z) (Implementing API version 1.21.3-R0.1-SNAPSHOT)
-[20:23:09] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
-[20:23:09] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[20:23:09] [Server thread/INFO]: Using 4 threads for Netty based IO
-[20:23:10] [Server thread/INFO]: [MoonriseCommon] Paper is using 1 worker threads, 1 I/O threads
-[20:23:10] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using population gen parallelism: true
-[20:23:10] [Server thread/INFO]: Default game type: SURVIVAL
-[20:23:10] [Server thread/INFO]: Generating keypair
-[20:23:10] [Server thread/INFO]: Starting Minecraft server on *:25565
-[20:23:10] [Server thread/INFO]: Using epoll channel type
-[20:23:10] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
-[20:23:10] [Server thread/INFO]: Paper: Using OpenSSL 1.1.x (Linux x86_64) cipher from Velocity.
-[20:23:10] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loading 4 libraries... please wait
-[20:23:10] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/net/kyori/adventure-api/4.16.0/adventure-api-4.16.0.pom
-[20:23:10] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/net/kyori/adventure-bom/4.16.0/adventure-bom-4.16.0.pom
-[20:23:10] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/net/kyori/adventure-key/4.16.0/adventure-key-4.16.0.pom
-[20:23:10] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/net/kyori/examination-api/1.3.0/examination-api-1.3.0.pom
-[20:23:10] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/org/jetbrains/annotations/22.0.0/annotations-22.0.0.pom
-[20:23:10] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/net/kyori/examination-string/1.3.0/examination-string-1.3.0.pom
-[20:23:10] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/org/jetbrains/annotations/24.1.0/annotations-24.1.0.pom
-[20:23:10] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/net/kyori/adventure-platform-bukkit/4.3.2/adventure-platform-bukkit-4.3.2.pom
-[20:23:10] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/net/kyori/adventure-platform-api/4.3.2/adventure-platform-api-4.3.2.pom
-[20:23:10] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/net/kyori/adventure-api/4.13.1/adventure-api-4.13.1.pom
-[20:23:11] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/net/kyori/adventure-bom/4.13.1/adventure-bom-4.13.1.pom
-[20:23:11] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/net/kyori/adventure-key/4.13.1/adventure-key-4.13.1.pom
-[20:23:11] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/org/jetbrains/annotations/24.0.1/annotations-24.0.1.pom
-[20:23:11] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/net/kyori/adventure-text-serializer-bungeecord/4.3.2/adventure-text-serializer-bungeecord-4.3.2.pom
-[20:23:11] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/net/kyori/adventure-text-serializer-legacy/4.13.1/adventure-text-serializer-legacy-4.13.1.pom
-[20:23:11] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/net/kyori/adventure-text-serializer-gson/4.13.1/adventure-text-serializer-gson-4.13.1.pom
-[20:23:11] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/net/kyori/adventure-nbt/4.13.1/adventure-nbt-4.13.1.pom
-[20:23:11] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/net/kyori/adventure-text-serializer-gson-legacy-impl/4.13.1/adventure-text-serializer-gson-legacy-impl-4.13.1.pom
-[20:23:11] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/net/kyori/adventure-platform-facet/4.3.2/adventure-platform-facet-4.3.2.pom
-[20:23:11] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/net/kyori/adventure-platform-viaversion/4.3.2/adventure-platform-viaversion-4.3.2.pom
-[20:23:11] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/net/kyori/adventure-text-minimessage/4.16.0/adventure-text-minimessage-4.16.0.pom
-[20:23:11] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/net/kyori/adventure-text-serializer-gson/4.16.0/adventure-text-serializer-gson-4.16.0.pom
-[20:23:11] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/net/kyori/adventure-text-serializer-json/4.16.0/adventure-text-serializer-json-4.16.0.pom
-[20:23:11] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/net/kyori/option/1.0.0/option-1.0.0.pom
-[20:23:11] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/com/google/code/gson/gson/2.8.0/gson-2.8.0.pom
-[20:23:11] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/com/google/code/gson/gson-parent/2.8.0/gson-parent-2.8.0.pom
-[20:23:11] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/org/sonatype/oss/oss-parent/7/oss-parent-7.pom
-[20:23:11] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/net/kyori/adventure-api/4.16.0/adventure-api-4.16.0.jar
-[20:23:11] [BasicRepositoryConnector-repo.maven.apache.org-0-0/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/net/kyori/adventure-key/4.16.0/adventure-key-4.16.0.jar
-[20:23:11] [BasicRepositoryConnector-repo.maven.apache.org-0-0/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/net/kyori/adventure-text-serializer-legacy/4.13.1/adventure-text-serializer-legacy-4.13.1.jar
-[20:23:11] [BasicRepositoryConnector-repo.maven.apache.org-0-2/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/net/kyori/adventure-platform-bukkit/4.3.2/adventure-platform-bukkit-4.3.2.jar
-[20:23:11] [BasicRepositoryConnector-repo.maven.apache.org-0-3/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/net/kyori/adventure-platform-api/4.3.2/adventure-platform-api-4.3.2.jar
-[20:23:11] [BasicRepositoryConnector-repo.maven.apache.org-0-0/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/net/kyori/adventure-nbt/4.13.1/adventure-nbt-4.13.1.jar
-[20:23:11] [BasicRepositoryConnector-repo.maven.apache.org-0-4/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/net/kyori/adventure-text-serializer-bungeecord/4.3.2/adventure-text-serializer-bungeecord-4.3.2.jar
-[20:23:11] [BasicRepositoryConnector-repo.maven.apache.org-0-1/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/org/jetbrains/annotations/24.1.0/annotations-24.1.0.jar
-[20:23:11] [BasicRepositoryConnector-repo.maven.apache.org-0-3/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/net/kyori/adventure-platform-facet/4.3.2/adventure-platform-facet-4.3.2.jar
-[20:23:11] [BasicRepositoryConnector-repo.maven.apache.org-0-2/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/net/kyori/adventure-text-minimessage/4.16.0/adventure-text-minimessage-4.16.0.jar
-[20:23:11] [BasicRepositoryConnector-repo.maven.apache.org-0-4/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/net/kyori/adventure-platform-viaversion/4.3.2/adventure-platform-viaversion-4.3.2.jar
-[20:23:11] [BasicRepositoryConnector-repo.maven.apache.org-0-1/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/net/kyori/adventure-text-serializer-gson/4.16.0/adventure-text-serializer-gson-4.16.0.jar
-[20:23:11] [BasicRepositoryConnector-repo.maven.apache.org-0-0/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/net/kyori/adventure-text-serializer-gson-legacy-impl/4.13.1/adventure-text-serializer-gson-legacy-impl-4.13.1.jar
-[20:23:11] [BasicRepositoryConnector-repo.maven.apache.org-0-3/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/net/kyori/adventure-text-serializer-json/4.16.0/adventure-text-serializer-json-4.16.0.jar
-[20:23:11] [BasicRepositoryConnector-repo.maven.apache.org-0-4/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/com/google/code/gson/gson/2.8.0/gson-2.8.0.jar
-[20:23:11] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/msx/servidor_minecraft/libraries/net/kyori/adventure-api/4.16.0/adventure-api-4.16.0.jar
-[20:23:11] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/msx/servidor_minecraft/libraries/net/kyori/adventure-key/4.16.0/adventure-key-4.16.0.jar
-[20:23:11] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/msx/servidor_minecraft/libraries/net/kyori/examination-api/1.3.0/examination-api-1.3.0.jar
-[20:23:11] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/msx/servidor_minecraft/libraries/net/kyori/examination-string/1.3.0/examination-string-1.3.0.jar
-[20:23:11] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/msx/servidor_minecraft/libraries/org/jetbrains/annotations/24.1.0/annotations-24.1.0.jar
-[20:23:11] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/msx/servidor_minecraft/libraries/net/kyori/adventure-platform-bukkit/4.3.2/adventure-platform-bukkit-4.3.2.jar
-[20:23:11] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/msx/servidor_minecraft/libraries/net/kyori/adventure-platform-api/4.3.2/adventure-platform-api-4.3.2.jar
-[20:23:11] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/msx/servidor_minecraft/libraries/net/kyori/adventure-text-serializer-bungeecord/4.3.2/adventure-text-serializer-bungeecord-4.3.2.jar
-[20:23:11] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/msx/servidor_minecraft/libraries/net/kyori/adventure-text-serializer-legacy/4.13.1/adventure-text-serializer-legacy-4.13.1.jar
-[20:23:11] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/msx/servidor_minecraft/libraries/net/kyori/adventure-nbt/4.13.1/adventure-nbt-4.13.1.jar
-[20:23:11] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/msx/servidor_minecraft/libraries/net/kyori/adventure-text-serializer-gson-legacy-impl/4.13.1/adventure-text-serializer-gson-legacy-impl-4.13.1.jar
-[20:23:11] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/msx/servidor_minecraft/libraries/net/kyori/adventure-platform-facet/4.3.2/adventure-platform-facet-4.3.2.jar
-[20:23:11] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/msx/servidor_minecraft/libraries/net/kyori/adventure-platform-viaversion/4.3.2/adventure-platform-viaversion-4.3.2.jar
-[20:23:11] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/msx/servidor_minecraft/libraries/net/kyori/adventure-text-minimessage/4.16.0/adventure-text-minimessage-4.16.0.jar
-[20:23:11] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/msx/servidor_minecraft/libraries/net/kyori/adventure-text-serializer-gson/4.16.0/adventure-text-serializer-gson-4.16.0.jar
-[20:23:11] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/msx/servidor_minecraft/libraries/net/kyori/adventure-text-serializer-json/4.16.0/adventure-text-serializer-json-4.16.0.jar
-[20:23:11] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/msx/servidor_minecraft/libraries/net/kyori/option/1.0.0/option-1.0.0.jar
-[20:23:11] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/msx/servidor_minecraft/libraries/com/google/code/gson/gson/2.8.0/gson-2.8.0.jar
-[20:23:12] [Server thread/INFO]: [SpigotLibraryLoader] [Veinminer] Loading 4 libraries... please wait
-[20:23:12] [Server thread/INFO]: [SpigotLibraryLoader] [Veinminer] Loaded library /workspaces/msx/servidor_minecraft/libraries/org/jetbrains/kotlin/kotlin-stdlib/2.1.0/kotlin-stdlib-2.1.0.jar
-[20:23:12] [Server thread/INFO]: [SpigotLibraryLoader] [Veinminer] Loaded library /workspaces/msx/servidor_minecraft/libraries/org/jetbrains/annotations/13.0/annotations-13.0.jar
-[20:23:12] [Server thread/INFO]: [SpigotLibraryLoader] [Veinminer] Loaded library /workspaces/msx/servidor_minecraft/libraries/org/jetbrains/kotlinx/kotlinx-serialization-json/1.7.3/kotlinx-serialization-json-1.7.3.jar
-[20:23:12] [Server thread/INFO]: [SpigotLibraryLoader] [Veinminer] Loaded library /workspaces/msx/servidor_minecraft/libraries/org/jetbrains/kotlinx/kotlinx-serialization-json-jvm/1.7.3/kotlinx-serialization-json-jvm-1.7.3.jar
-[20:23:12] [Server thread/INFO]: [SpigotLibraryLoader] [Veinminer] Loaded library /workspaces/msx/servidor_minecraft/libraries/org/jetbrains/kotlinx/kotlinx-serialization-core-jvm/1.7.3/kotlinx-serialization-core-jvm-1.7.3.jar
-[20:23:12] [Server thread/INFO]: [SpigotLibraryLoader] [Veinminer] Loaded library /workspaces/msx/servidor_minecraft/libraries/org/jetbrains/kotlinx/kotlinx-coroutines-core/1.9.0/kotlinx-coroutines-core-1.9.0.jar
-[20:23:12] [Server thread/INFO]: [SpigotLibraryLoader] [Veinminer] Loaded library /workspaces/msx/servidor_minecraft/libraries/org/jetbrains/kotlinx/kotlinx-coroutines-core-jvm/1.9.0/kotlinx-coroutines-core-jvm-1.9.0.jar
-[20:23:12] [Server thread/INFO]: [SpigotLibraryLoader] [Veinminer] Loaded library /workspaces/msx/servidor_minecraft/libraries/de/miraculixx/kpaper/1.2.1/kpaper-1.2.1.jar
-[20:23:12] [Server thread/INFO]: [SpigotLibraryLoader] [Veinminer] Loaded library /workspaces/msx/servidor_minecraft/libraries/org/jetbrains/kotlinx/kotlinx-coroutines-jdk8/1.7.1/kotlinx-coroutines-jdk8-1.7.1.jar
-[20:23:12] [Server thread/INFO]: [SpigotLibraryLoader] [Veinminer] Loaded library /workspaces/msx/servidor_minecraft/libraries/org/jetbrains/kotlin/kotlin-stdlib-jdk8/1.8.22/kotlin-stdlib-jdk8-1.8.22.jar
-[20:23:12] [Server thread/INFO]: [SpigotLibraryLoader] [Veinminer] Loaded library /workspaces/msx/servidor_minecraft/libraries/org/jetbrains/kotlin/kotlin-stdlib-jdk7/1.8.22/kotlin-stdlib-jdk7-1.8.22.jar
-[20:23:12] [Server thread/INFO]: [MythicMobs] Loading server plugin MythicMobs v5.7.2-${CI_COMMIT_SHORT_SHA}
-[20:23:12] [Server thread/INFO]: [LumineUtils] (io.lumine.mythic.bukkit.utils.) is bound to plugin MythicMobs - io.lumine.mythic.bukkit.MythicBukkit
-[20:23:13] [Server thread/INFO]: [MythicMobs] §x§f§f§0§0§0§0M§x§f§f§6§6§0§0y§x§f§f§c§c§0§0t§x§c§b§f§f§0§0h§x§6§5§f§f§0§0i§x§0§0§f§f§0§0c§x§0§0§f§f§6§6 §x§0§0§f§f§c§bE§x§0§0§c§b§f§fn§x§0§0§6§5§f§fa§x§0§0§0§0§f§fb§x§6§6§0§0§f§fl§x§c§c§0§0§f§fe§x§f§f§0§0§c§cd§x§f§f§0§0§6§6!
-[20:23:13] [Server thread/INFO]: [floodgate] Loading server plugin floodgate v2.2.3-SNAPSHOT (b114-83fbd6e)
-[20:23:13] [Server thread/WARN]: [floodgate] en_ is not a supported Floodgate language.
-[20:23:13] [Server thread/INFO]: [floodgate] Took 847ms to boot Floodgate
-[20:23:13] [Server thread/INFO]: [ViaVersion] Loading server plugin ViaVersion v5.2.0
-[20:23:13] [Server thread/INFO]: [ViaVersion] ViaVersion 5.2.0 is now loaded. Registering protocol transformers and injecting...
-[20:23:14] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
-[20:23:14] [Via-Mappingloader-0/INFO]: [ViaVersion] Using FastUtil Long2ObjectOpenHashMap for block connections
-[20:23:14] [Server thread/INFO]: [ViaBackwards] Loading translations...
-[20:23:14] [Server thread/INFO]: [ViaBackwards] Registering protocols...
-[20:23:15] [Server thread/INFO]: [HealthBar-Reloaded] Loading server plugin HealthBar-Reloaded v2.0.4.1
-[20:23:15] [Server thread/INFO]: [CrazyEnchantments] Loading server plugin CrazyEnchantments v2.5.1
-[20:23:15] [Server thread/INFO]: [AutoTreeChop] Loading server plugin AutoTreeChop v1.5.5
-[20:23:15] [Server thread/INFO]: [MagicItems] Loading server plugin MagicItems v1.2
-[20:23:15] [Server thread/INFO]: [ArmorUp] Loading server plugin ArmorUp v1.0-SNAPSHOT
-[20:23:15] [Server thread/INFO]: [AxGraves] Loading server plugin AxGraves v1.17.0
-[20:23:15] [Server thread/INFO]: [AxGraves] Loading library commons-math3
-[20:23:15] [Server thread/INFO]: [AxGraves] Downloaded library https://repo1.maven.org/maven2/org/apache/commons/commons-math3/3.6.1/commons-math3-3.6.1.jar
-[20:23:15] [Server thread/INFO]: [AxGraves] Downloaded library https://repo1.maven.org/maven2/org/ow2/asm/asm-commons/9.2/asm-commons-9.2.jar
-[20:23:15] [Server thread/INFO]: [AxGraves] Downloaded library https://repo1.maven.org/maven2/org/ow2/asm/asm/9.2/asm-9.2.jar
-[20:23:15] [Server thread/INFO]: [AxGraves] Downloaded library https://repo1.maven.org/maven2/me/lucko/jar-relocator/1.7/jar-relocator-1.7.jar
-[20:23:16] [Server thread/INFO]: [AxGraves] Relocations applied to commons-math3-3.6.1.jar
-[20:23:16] [Server thread/INFO]: [AxGraves] Loading library caffeine
-[20:23:16] [Server thread/INFO]: [AxGraves] Downloaded library https://repo1.maven.org/maven2/com/github/ben-manes/caffeine/caffeine/3.1.8/caffeine-3.1.8.jar
-[20:23:16] [Server thread/INFO]: [AxGraves] Relocations applied to caffeine-3.1.8.jar
-[20:23:16] [Server thread/INFO]: [ArmorQualities] Loading server plugin ArmorQualities v1.3.3
-[20:23:16] [Server thread/INFO]: [Veinminer] Loading server plugin Veinminer v2.2.2
-[20:23:17] [Server thread/INFO]: [MoreOres] Loading server plugin MoreOres v1.13.10
-[20:23:17] [Server thread/INFO]: [Geyser-Spigot] Loading server plugin Geyser-Spigot v2.6.0-SNAPSHOT
-[20:23:17] [Server thread/INFO]: [Geyser-Spigot] Loading extensions...
-[20:23:17] [Server thread/INFO]: [Geyser-Spigot] Loaded 0 extension(s)
-[20:23:17] [Server thread/INFO]: [squaremap] Loading server plugin squaremap v1.3.3
-[20:23:17] [Server thread/INFO]: [ViaBackwards] Loading server plugin ViaBackwards v5.2.0
-[20:23:17] [Server thread/INFO]: [TheNewEconomy] Loading server plugin TheNewEconomy v0.1.3.4
-[20:23:17] [Server thread/INFO]: [TheNewEconomy] Checking for VaultUnlocked
-[20:23:17] [Server thread/WARN]: [TheNewEconomy] Unable to connect to VaultUnlocked!
-[20:23:17] [Server thread/INFO]: [TheNewEconomy] Checking for Vault
-[20:23:17] [Server thread/WARN]: [TheNewEconomy] Unable to connect to vault!
-[20:23:17] [Server thread/INFO]: [XPHearts] Loading server plugin XPHearts v1.1.0
-[20:23:17] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[20:23:17] [Server thread/INFO]: [Veinminer] Enabling Veinminer v2.2.2
-[20:23:17] [Server thread/INFO]: [squaremap] Enabling squaremap v1.3.3
-[20:23:18] [DefaultDispatcher-worker-1/INFO]: [VeinminerUpdater] veinminer is up to date
-[20:23:18] [Server thread/INFO]: [io.undertow] starting server: Undertow - 2.3.18.Final
-[20:23:18] [Server thread/INFO]: [org.xnio] XNIO version 3.8.16.Final
-[20:23:18] [Server thread/INFO]: [org.xnio.nio] XNIO NIO Implementation Version 3.8.16.Final
-[20:23:18] [Server thread/INFO]: [org.jboss.threads] JBoss Threads version 3.5.0.Final
-[20:23:19] [Server thread/INFO]: [squaremap] Internal webserver running on 0.0.0.0:8080
-[20:23:19] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[20:23:19] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[20:23:19] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[20:23:19] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[20:23:19] [Server thread/INFO]: Preparing level "world"
-[20:23:19] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[20:23:19] [Paper Common Worker #0/INFO]: [MCTypeRegistry] Initialising converters for DataConverter...
-[20:23:20] [Paper Common Worker #0/INFO]: [MCTypeRegistry] Finished initialising converters for DataConverter in 413.5ms
-[20:23:20] [Server thread/INFO]: Preparing spawn area: 0%
-[20:23:20] [Server thread/INFO]: Preparing spawn area: 0%
-[20:23:20] [Server thread/INFO]: Preparing spawn area: 0%
-[20:23:20] [Server thread/INFO]: Time elapsed: 1313 ms
-[20:23:20] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[20:23:20] [Server thread/INFO]: Preparing spawn area: 0%
-[20:23:21] [Server thread/INFO]: Time elapsed: 194 ms
-[20:23:21] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[20:23:21] [Server thread/INFO]: Preparing spawn area: 0%
-[20:23:21] [Server thread/INFO]: Time elapsed: 138 ms
-[20:23:21] [Server thread/INFO]: [MythicMobs] Enabling MythicMobs v5.7.2-${CI_COMMIT_SHORT_SHA}
-[20:23:21] [Server thread/INFO]: [MythicMobs] Loading MythicMobs for Paper (MC: 1.21.3)...
-[20:23:21] [Server thread/INFO]: [MythicMobs] The server is running Paper; enabled Paper exclusive functionality
-[20:23:21] [Server thread/ERROR]: Error occurred while enabling MythicMobs v5.7.2-${CI_COMMIT_SHORT_SHA} (Is it up to date?)
+[20:53:32] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[20:53:35] [ServerMain/INFO]: Loaded 1337 recipes
+[20:53:35] [ServerMain/INFO]: Loaded 1448 advancements
+[20:53:35] [Server thread/INFO]: Starting minecraft server version 1.21.3
+[20:53:35] [Server thread/INFO]: Loading properties
+[20:53:35] [Server thread/INFO]: This server is running Paper version 1.21.3-63-master@4190ee7 (2024-11-25T18:59:19Z) (Implementing API version 1.21.3-R0.1-SNAPSHOT)
+[20:53:36] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[20:53:36] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[20:53:36] [Server thread/INFO]: Using 4 threads for Netty based IO
+[20:53:37] [Server thread/INFO]: [MoonriseCommon] Paper is using 1 worker threads, 1 I/O threads
+[20:53:37] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using population gen parallelism: true
+[20:53:37] [Server thread/INFO]: Default game type: SURVIVAL
+[20:53:37] [Server thread/INFO]: Generating keypair
+[20:53:37] [Server thread/INFO]: Starting Minecraft server on *:25565
+[20:53:37] [Server thread/INFO]: Using epoll channel type
+[20:53:37] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[20:53:37] [Server thread/INFO]: Paper: Using OpenSSL 1.1.x (Linux x86_64) cipher from Velocity.
+[20:53:38] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loading 4 libraries... please wait
+[20:53:39] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/msx/servidor_minecraft/libraries/net/kyori/adventure-api/4.16.0/adventure-api-4.16.0.jar
+[20:53:39] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/msx/servidor_minecraft/libraries/net/kyori/adventure-key/4.16.0/adventure-key-4.16.0.jar
+[20:53:39] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/msx/servidor_minecraft/libraries/net/kyori/examination-api/1.3.0/examination-api-1.3.0.jar
+[20:53:39] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/msx/servidor_minecraft/libraries/net/kyori/examination-string/1.3.0/examination-string-1.3.0.jar
+[20:53:39] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/msx/servidor_minecraft/libraries/org/jetbrains/annotations/24.1.0/annotations-24.1.0.jar
+[20:53:39] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/msx/servidor_minecraft/libraries/net/kyori/adventure-platform-bukkit/4.3.2/adventure-platform-bukkit-4.3.2.jar
+[20:53:39] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/msx/servidor_minecraft/libraries/net/kyori/adventure-platform-api/4.3.2/adventure-platform-api-4.3.2.jar
+[20:53:39] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/msx/servidor_minecraft/libraries/net/kyori/adventure-text-serializer-bungeecord/4.3.2/adventure-text-serializer-bungeecord-4.3.2.jar
+[20:53:39] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/msx/servidor_minecraft/libraries/net/kyori/adventure-text-serializer-legacy/4.13.1/adventure-text-serializer-legacy-4.13.1.jar
+[20:53:39] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/msx/servidor_minecraft/libraries/net/kyori/adventure-nbt/4.13.1/adventure-nbt-4.13.1.jar
+[20:53:39] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/msx/servidor_minecraft/libraries/net/kyori/adventure-text-serializer-gson-legacy-impl/4.13.1/adventure-text-serializer-gson-legacy-impl-4.13.1.jar
+[20:53:39] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/msx/servidor_minecraft/libraries/net/kyori/adventure-platform-facet/4.3.2/adventure-platform-facet-4.3.2.jar
+[20:53:39] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/msx/servidor_minecraft/libraries/net/kyori/adventure-platform-viaversion/4.3.2/adventure-platform-viaversion-4.3.2.jar
+[20:53:39] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/msx/servidor_minecraft/libraries/net/kyori/adventure-text-minimessage/4.16.0/adventure-text-minimessage-4.16.0.jar
+[20:53:39] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/msx/servidor_minecraft/libraries/net/kyori/adventure-text-serializer-gson/4.16.0/adventure-text-serializer-gson-4.16.0.jar
+[20:53:39] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/msx/servidor_minecraft/libraries/net/kyori/adventure-text-serializer-json/4.16.0/adventure-text-serializer-json-4.16.0.jar
+[20:53:39] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/msx/servidor_minecraft/libraries/net/kyori/option/1.0.0/option-1.0.0.jar
+[20:53:39] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/msx/servidor_minecraft/libraries/com/google/code/gson/gson/2.8.0/gson-2.8.0.jar
+[20:53:40] [Server thread/INFO]: [SpigotLibraryLoader] [Veinminer] Loading 4 libraries... please wait
+[20:53:41] [Server thread/INFO]: [SpigotLibraryLoader] [Veinminer] Loaded library /workspaces/msx/servidor_minecraft/libraries/org/jetbrains/kotlin/kotlin-stdlib/2.1.0/kotlin-stdlib-2.1.0.jar
+[20:53:41] [Server thread/INFO]: [SpigotLibraryLoader] [Veinminer] Loaded library /workspaces/msx/servidor_minecraft/libraries/org/jetbrains/annotations/13.0/annotations-13.0.jar
+[20:53:41] [Server thread/INFO]: [SpigotLibraryLoader] [Veinminer] Loaded library /workspaces/msx/servidor_minecraft/libraries/org/jetbrains/kotlinx/kotlinx-serialization-json/1.7.3/kotlinx-serialization-json-1.7.3.jar
+[20:53:41] [Server thread/INFO]: [SpigotLibraryLoader] [Veinminer] Loaded library /workspaces/msx/servidor_minecraft/libraries/org/jetbrains/kotlinx/kotlinx-serialization-json-jvm/1.7.3/kotlinx-serialization-json-jvm-1.7.3.jar
+[20:53:41] [Server thread/INFO]: [SpigotLibraryLoader] [Veinminer] Loaded library /workspaces/msx/servidor_minecraft/libraries/org/jetbrains/kotlinx/kotlinx-serialization-core-jvm/1.7.3/kotlinx-serialization-core-jvm-1.7.3.jar
+[20:53:41] [Server thread/INFO]: [SpigotLibraryLoader] [Veinminer] Loaded library /workspaces/msx/servidor_minecraft/libraries/org/jetbrains/kotlinx/kotlinx-coroutines-core/1.9.0/kotlinx-coroutines-core-1.9.0.jar
+[20:53:41] [Server thread/INFO]: [SpigotLibraryLoader] [Veinminer] Loaded library /workspaces/msx/servidor_minecraft/libraries/org/jetbrains/kotlinx/kotlinx-coroutines-core-jvm/1.9.0/kotlinx-coroutines-core-jvm-1.9.0.jar
+[20:53:41] [Server thread/INFO]: [SpigotLibraryLoader] [Veinminer] Loaded library /workspaces/msx/servidor_minecraft/libraries/de/miraculixx/kpaper/1.2.1/kpaper-1.2.1.jar
+[20:53:41] [Server thread/INFO]: [SpigotLibraryLoader] [Veinminer] Loaded library /workspaces/msx/servidor_minecraft/libraries/org/jetbrains/kotlinx/kotlinx-coroutines-jdk8/1.7.1/kotlinx-coroutines-jdk8-1.7.1.jar
+[20:53:41] [Server thread/INFO]: [SpigotLibraryLoader] [Veinminer] Loaded library /workspaces/msx/servidor_minecraft/libraries/org/jetbrains/kotlin/kotlin-stdlib-jdk8/1.8.22/kotlin-stdlib-jdk8-1.8.22.jar
+[20:53:41] [Server thread/INFO]: [SpigotLibraryLoader] [Veinminer] Loaded library /workspaces/msx/servidor_minecraft/libraries/org/jetbrains/kotlin/kotlin-stdlib-jdk7/1.8.22/kotlin-stdlib-jdk7-1.8.22.jar
+[20:53:41] [Server thread/INFO]: [MythicMobs] Loading server plugin MythicMobs v5.7.2-${CI_COMMIT_SHORT_SHA}
+[20:53:41] [Server thread/INFO]: [LumineUtils] (io.lumine.mythic.bukkit.utils.) is bound to plugin MythicMobs - io.lumine.mythic.bukkit.MythicBukkit
+[20:53:41] [Server thread/INFO]: [MythicMobs] §x§f§f§0§0§0§0M§x§f§f§6§6§0§0y§x§f§f§c§c§0§0t§x§c§b§f§f§0§0h§x§6§5§f§f§0§0i§x§0§0§f§f§0§0c§x§0§0§f§f§6§6 §x§0§0§f§f§c§bE§x§0§0§c§b§f§fn§x§0§0§6§5§f§fa§x§0§0§0§0§f§fb§x§6§6§0§0§f§fl§x§c§c§0§0§f§fe§x§f§f§0§0§c§cd§x§f§f§0§0§6§6!
+[20:53:41] [Server thread/INFO]: [floodgate] Loading server plugin floodgate v2.2.3-SNAPSHOT (b114-83fbd6e)
+[20:53:42] [Server thread/WARN]: [floodgate] en_ is not a supported Floodgate language.
+[20:53:42] [Server thread/INFO]: [floodgate] Took 1,293ms to boot Floodgate
+[20:53:42] [Server thread/INFO]: [ViaVersion] Loading server plugin ViaVersion v5.2.0
+[20:53:42] [Server thread/INFO]: [ViaVersion] ViaVersion 5.2.0 is now loaded. Registering protocol transformers and injecting...
+[20:53:43] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
+[20:53:43] [Via-Mappingloader-0/INFO]: [ViaVersion] Using FastUtil Long2ObjectOpenHashMap for block connections
+[20:53:43] [Server thread/INFO]: [ViaBackwards] Loading translations...
+[20:53:43] [Server thread/INFO]: [ViaBackwards] Registering protocols...
+[20:53:44] [Server thread/INFO]: [HealthBar-Reloaded] Loading server plugin HealthBar-Reloaded v2.0.4.1
+[20:53:44] [Server thread/INFO]: [CrazyEnchantments] Loading server plugin CrazyEnchantments v2.5.1
+[20:53:44] [Server thread/INFO]: [AutoTreeChop] Loading server plugin AutoTreeChop v1.5.5
+[20:53:44] [Server thread/INFO]: [MagicItems] Loading server plugin MagicItems v1.2
+[20:53:44] [Server thread/INFO]: [ArmorUp] Loading server plugin ArmorUp v1.0-SNAPSHOT
+[20:53:44] [Server thread/INFO]: [AxGraves] Loading server plugin AxGraves v1.17.0
+[20:53:44] [Server thread/INFO]: [AxGraves] Loading library commons-math3
+[20:53:44] [Server thread/INFO]: [AxGraves] Loading library caffeine
+[20:53:44] [Server thread/INFO]: [ArmorQualities] Loading server plugin ArmorQualities v1.3.3
+[20:53:44] [Server thread/INFO]: [Veinminer] Loading server plugin Veinminer v2.2.2
+[20:53:45] [Server thread/INFO]: [MoreOres] Loading server plugin MoreOres v1.13.10
+[20:53:45] [Server thread/INFO]: [Geyser-Spigot] Loading server plugin Geyser-Spigot v2.6.0-SNAPSHOT
+[20:53:46] [Server thread/INFO]: [Geyser-Spigot] Loading extensions...
+[20:53:46] [Server thread/INFO]: [Geyser-Spigot] Loaded 0 extension(s)
+[20:53:46] [Server thread/INFO]: [squaremap] Loading server plugin squaremap v1.3.3
+[20:53:46] [Server thread/INFO]: [ViaBackwards] Loading server plugin ViaBackwards v5.2.0
+[20:53:46] [Server thread/INFO]: [TheNewEconomy] Loading server plugin TheNewEconomy v0.1.3.4
+[20:53:46] [Server thread/INFO]: [TheNewEconomy] Checking for VaultUnlocked
+[20:53:46] [Server thread/WARN]: [TheNewEconomy] Unable to connect to VaultUnlocked!
+[20:53:46] [Server thread/INFO]: [TheNewEconomy] Checking for Vault
+[20:53:46] [Server thread/WARN]: [TheNewEconomy] Unable to connect to vault!
+[20:53:46] [Server thread/INFO]: [XPHearts] Loading server plugin XPHearts v1.1.0
+[20:53:46] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[20:53:46] [Server thread/INFO]: [Veinminer] Enabling Veinminer v2.2.2
+[20:53:46] [Server thread/INFO]: [squaremap] Enabling squaremap v1.3.3
+[20:53:46] [DefaultDispatcher-worker-1/INFO]: [VeinminerUpdater] veinminer is up to date
+[20:53:48] [Server thread/INFO]: [io.undertow] starting server: Undertow - 2.3.18.Final
+[20:53:48] [Server thread/INFO]: [org.xnio] XNIO version 3.8.16.Final
+[20:53:48] [Server thread/INFO]: [org.xnio.nio] XNIO NIO Implementation Version 3.8.16.Final
+[20:53:48] [Server thread/INFO]: [org.jboss.threads] JBoss Threads version 3.5.0.Final
+[20:53:48] [Server thread/INFO]: [squaremap] Internal webserver running on 0.0.0.0:8080
+[20:53:48] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[20:53:48] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[20:53:48] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[20:53:48] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[20:53:48] [Server thread/INFO]: Preparing level "world"
+[20:53:49] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[20:53:50] [Paper Common Worker #0/INFO]: [MCTypeRegistry] Initialising converters for DataConverter...
+[20:53:51] [Paper Common Worker #0/INFO]: [MCTypeRegistry] Finished initialising converters for DataConverter in 1,477.1ms
+[20:53:52] [Server thread/INFO]: Preparing spawn area: 0%
+[20:53:52] [Server thread/INFO]: Preparing spawn area: 0%
+[20:53:52] [Server thread/INFO]: Preparing spawn area: 0%
+[20:53:52] [Server thread/INFO]: Preparing spawn area: 0%
+[20:53:52] [Server thread/INFO]: Preparing spawn area: 0%
+[20:53:52] [Server thread/INFO]: Preparing spawn area: 0%
+[20:53:52] [Server thread/INFO]: Preparing spawn area: 0%
+[20:53:52] [Server thread/INFO]: Time elapsed: 3057 ms
+[20:53:52] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[20:53:53] [Server thread/INFO]: Preparing spawn area: 0%
+[20:53:53] [Server thread/INFO]: Time elapsed: 491 ms
+[20:53:53] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[20:53:53] [Server thread/INFO]: Preparing spawn area: 0%
+[20:53:53] [Server thread/INFO]: Time elapsed: 320 ms
+[20:53:53] [Server thread/INFO]: [MythicMobs] Enabling MythicMobs v5.7.2-${CI_COMMIT_SHORT_SHA}
+[20:53:54] [Server thread/INFO]: [MythicMobs] Loading MythicMobs for Paper (MC: 1.21.3)...
+[20:53:54] [Server thread/INFO]: [MythicMobs] The server is running Paper; enabled Paper exclusive functionality
+[20:53:54] [Server thread/ERROR]: Error occurred while enabling MythicMobs v5.7.2-${CI_COMMIT_SHORT_SHA} (Is it up to date?)
 java.lang.NullPointerException: Cannot invoke "io.lumine.mythic.bukkit.utils.version.NMSVersion.toString()" because the return value of "io.lumine.mythic.bukkit.utils.version.ServerVersion.getNMS()" is null
 	at MythicMobs-5.7.2.jar/io.lumine.mythic.bukkit.MythicBukkit.getVolatileCodeHandler(MythicBukkit.java:306) ~[MythicMobs-5.7.2.jar:?]
 	at MythicMobs-5.7.2.jar/io.lumine.mythic.bukkit.MythicBukkit.enable(MythicBukkit.java:162) ~[MythicMobs-5.7.2.jar:?]
@@ -196,164 +137,176 @@ java.lang.NullPointerException: Cannot invoke "io.lumine.mythic.bukkit.utils.ver
 	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1234) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
 	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:340) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
 	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
-[20:23:21] [Server thread/INFO]: [MythicMobs] Disabling MythicMobs v5.7.2-${CI_COMMIT_SHORT_SHA}
-[20:23:21] [Server thread/INFO]: [MythicMobs] ------------------------------------------------------------
-[20:23:21] [Server thread/INFO]: [MythicMobs] - 
-[20:23:21] [Server thread/INFO]: [MythicMobs] - Unloading Mythic...
-[20:23:21] [Server thread/INFO]: [MythicMobs] - 
-[20:23:21] [Server thread/INFO]: [MythicMobs] ------------------------------------------------------------
-[20:23:21] [Server thread/WARN]: java.lang.NullPointerException: Cannot invoke "io.lumine.mythic.core.mobs.MobExecutor.despawnAllMobs()" because the return value of "io.lumine.mythic.bukkit.MythicBukkit.getMobManager()" is null
-[20:23:21] [Server thread/WARN]: 	at MythicMobs-5.7.2.jar//io.lumine.mythic.bukkit.MythicBukkit.disable(MythicBukkit.java:254)
-[20:23:21] [Server thread/WARN]: 	at MythicMobs-5.7.2.jar//io.lumine.mythic.bukkit.utils.plugin.LuminePlugin.onDisable(LuminePlugin.java:91)
-[20:23:21] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:291)
-[20:23:21] [Server thread/WARN]: 	at io.papermc.paper.plugin.manager.PaperPluginInstanceManager.disablePlugin(PaperPluginInstanceManager.java:237)
-[20:23:21] [Server thread/WARN]: 	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.disablePlugin(PaperPluginManagerImpl.java:114)
-[20:23:21] [Server thread/WARN]: 	at org.bukkit.plugin.SimplePluginManager.disablePlugin(SimplePluginManager.java:550)
-[20:23:21] [Server thread/WARN]: 	at io.papermc.paper.plugin.manager.PaperPluginInstanceManager.enablePlugin(PaperPluginInstanceManager.java:206)
-[20:23:21] [Server thread/WARN]: 	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.enablePlugin(PaperPluginManagerImpl.java:109)
-[20:23:21] [Server thread/WARN]: 	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:520)
-[20:23:21] [Server thread/WARN]: 	at org.bukkit.craftbukkit.CraftServer.enablePlugin(CraftServer.java:655)
-[20:23:21] [Server thread/WARN]: 	at org.bukkit.craftbukkit.CraftServer.enablePlugins(CraftServer.java:604)
-[20:23:21] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.loadWorld0(MinecraftServer.java:768)
-[20:23:21] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.loadLevel(MinecraftServer.java:530)
-[20:23:21] [Server thread/WARN]: 	at net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:326)
-[20:23:21] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1234)
-[20:23:21] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:340)
-[20:23:21] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
-[20:23:21] [Server thread/INFO]: [MythicMobs] Saving plugin data...
-[20:23:21] [Server thread/INFO]: [MythicMobs] ✗An error occurred while saving data
-[20:23:21] [Server thread/WARN]: java.lang.NullPointerException: Cannot invoke "io.lumine.mythic.core.mobs.MobExecutor.saveCachedActiveMobs()" because the return value of "io.lumine.mythic.bukkit.MythicBukkit.getMobManager()" is null
-[20:23:21] [Server thread/WARN]: 	at MythicMobs-5.7.2.jar//io.lumine.mythic.core.config.ConfigExecutor.save(ConfigExecutor.java:460)
-[20:23:21] [Server thread/WARN]: 	at MythicMobs-5.7.2.jar//io.lumine.mythic.core.config.ConfigExecutor.unload(ConfigExecutor.java:489)
-[20:23:21] [Server thread/WARN]: 	at MythicMobs-5.7.2.jar//io.lumine.mythic.bukkit.utils.plugin.PluginModule.close(PluginModule.java:50)
-[20:23:21] [Server thread/WARN]: 	at MythicMobs-5.7.2.jar//io.lumine.mythic.bukkit.utils.terminable.composite.AbstractCompositeTerminable.close(AbstractCompositeTerminable.java:31)
-[20:23:21] [Server thread/WARN]: 	at MythicMobs-5.7.2.jar//io.lumine.mythic.bukkit.utils.terminable.composite.CompositeTerminable.closeAndReportException(CompositeTerminable.java:63)
-[20:23:21] [Server thread/WARN]: 	at MythicMobs-5.7.2.jar//io.lumine.mythic.bukkit.utils.plugin.LuminePlugin.close(LuminePlugin.java:100)
-[20:23:21] [Server thread/WARN]: 	at MythicMobs-5.7.2.jar//io.lumine.mythic.bukkit.utils.plugin.LuminePlugin.onDisable(LuminePlugin.java:95)
-[20:23:21] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:291)
-[20:23:21] [Server thread/WARN]: 	at io.papermc.paper.plugin.manager.PaperPluginInstanceManager.disablePlugin(PaperPluginInstanceManager.java:237)
-[20:23:21] [Server thread/WARN]: 	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.disablePlugin(PaperPluginManagerImpl.java:114)
-[20:23:21] [Server thread/WARN]: 	at org.bukkit.plugin.SimplePluginManager.disablePlugin(SimplePluginManager.java:550)
-[20:23:21] [Server thread/WARN]: 	at io.papermc.paper.plugin.manager.PaperPluginInstanceManager.enablePlugin(PaperPluginInstanceManager.java:206)
-[20:23:21] [Server thread/WARN]: 	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.enablePlugin(PaperPluginManagerImpl.java:109)
-[20:23:21] [Server thread/WARN]: 	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:520)
-[20:23:21] [Server thread/WARN]: 	at org.bukkit.craftbukkit.CraftServer.enablePlugin(CraftServer.java:655)
-[20:23:21] [Server thread/WARN]: 	at org.bukkit.craftbukkit.CraftServer.enablePlugins(CraftServer.java:604)
-[20:23:21] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.loadWorld0(MinecraftServer.java:768)
-[20:23:21] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.loadLevel(MinecraftServer.java:530)
-[20:23:21] [Server thread/WARN]: 	at net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:326)
-[20:23:21] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1234)
-[20:23:21] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:340)
-[20:23:21] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
-[20:23:21] [Server thread/WARN]: io.lumine.mythic.bukkit.utils.terminable.composite.CompositeClosingException: Exception(s) occurred whilst closing: [java.lang.NullPointerException: Cannot invoke "io.lumine.mythic.core.drops.DropExecutor.unload()" because the return value of "io.lumine.mythic.bukkit.MythicBukkit.getDropManager()" is null]
-[20:23:21] [Server thread/WARN]: 	at MythicMobs-5.7.2.jar//io.lumine.mythic.bukkit.utils.terminable.composite.AbstractCompositeTerminable.close(AbstractCompositeTerminable.java:38)
-[20:23:21] [Server thread/WARN]: 	at MythicMobs-5.7.2.jar//io.lumine.mythic.bukkit.utils.terminable.composite.CompositeTerminable.closeAndReportException(CompositeTerminable.java:63)
-[20:23:21] [Server thread/WARN]: 	at MythicMobs-5.7.2.jar//io.lumine.mythic.bukkit.utils.plugin.LuminePlugin.close(LuminePlugin.java:100)
-[20:23:21] [Server thread/WARN]: 	at MythicMobs-5.7.2.jar//io.lumine.mythic.bukkit.utils.plugin.LuminePlugin.onDisable(LuminePlugin.java:95)
-[20:23:21] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:291)
-[20:23:21] [Server thread/WARN]: 	at io.papermc.paper.plugin.manager.PaperPluginInstanceManager.disablePlugin(PaperPluginInstanceManager.java:237)
-[20:23:21] [Server thread/WARN]: 	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.disablePlugin(PaperPluginManagerImpl.java:114)
-[20:23:21] [Server thread/WARN]: 	at org.bukkit.plugin.SimplePluginManager.disablePlugin(SimplePluginManager.java:550)
-[20:23:21] [Server thread/WARN]: 	at io.papermc.paper.plugin.manager.PaperPluginInstanceManager.enablePlugin(PaperPluginInstanceManager.java:206)
-[20:23:21] [Server thread/WARN]: 	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.enablePlugin(PaperPluginManagerImpl.java:109)
-[20:23:21] [Server thread/WARN]: 	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:520)
-[20:23:21] [Server thread/WARN]: 	at org.bukkit.craftbukkit.CraftServer.enablePlugin(CraftServer.java:655)
-[20:23:21] [Server thread/WARN]: 	at org.bukkit.craftbukkit.CraftServer.enablePlugins(CraftServer.java:604)
-[20:23:21] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.loadWorld0(MinecraftServer.java:768)
-[20:23:21] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.loadLevel(MinecraftServer.java:530)
-[20:23:21] [Server thread/WARN]: 	at net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:326)
-[20:23:21] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1234)
-[20:23:21] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:340)
-[20:23:21] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
-[20:23:21] [Server thread/WARN]: java.lang.NullPointerException: Cannot invoke "io.lumine.mythic.core.drops.DropExecutor.unload()" because the return value of "io.lumine.mythic.bukkit.MythicBukkit.getDropManager()" is null
-[20:23:21] [Server thread/WARN]: 	at MythicMobs-5.7.2.jar//io.lumine.mythic.core.config.ConfigExecutor.unload(ConfigExecutor.java:491)
-[20:23:21] [Server thread/WARN]: 	at MythicMobs-5.7.2.jar//io.lumine.mythic.bukkit.utils.plugin.PluginModule.close(PluginModule.java:50)
-[20:23:21] [Server thread/WARN]: 	at MythicMobs-5.7.2.jar//io.lumine.mythic.bukkit.utils.terminable.composite.AbstractCompositeTerminable.close(AbstractCompositeTerminable.java:31)
-[20:23:21] [Server thread/WARN]: 	at MythicMobs-5.7.2.jar//io.lumine.mythic.bukkit.utils.terminable.composite.CompositeTerminable.closeAndReportException(CompositeTerminable.java:63)
-[20:23:21] [Server thread/WARN]: 	at MythicMobs-5.7.2.jar//io.lumine.mythic.bukkit.utils.plugin.LuminePlugin.close(LuminePlugin.java:100)
-[20:23:21] [Server thread/WARN]: 	at MythicMobs-5.7.2.jar//io.lumine.mythic.bukkit.utils.plugin.LuminePlugin.onDisable(LuminePlugin.java:95)
-[20:23:21] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:291)
-[20:23:21] [Server thread/WARN]: 	at io.papermc.paper.plugin.manager.PaperPluginInstanceManager.disablePlugin(PaperPluginInstanceManager.java:237)
-[20:23:21] [Server thread/WARN]: 	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.disablePlugin(PaperPluginManagerImpl.java:114)
-[20:23:21] [Server thread/WARN]: 	at org.bukkit.plugin.SimplePluginManager.disablePlugin(SimplePluginManager.java:550)
-[20:23:21] [Server thread/WARN]: 	at io.papermc.paper.plugin.manager.PaperPluginInstanceManager.enablePlugin(PaperPluginInstanceManager.java:206)
-[20:23:21] [Server thread/WARN]: 	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.enablePlugin(PaperPluginManagerImpl.java:109)
-[20:23:21] [Server thread/WARN]: 	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:520)
-[20:23:21] [Server thread/WARN]: 	at org.bukkit.craftbukkit.CraftServer.enablePlugin(CraftServer.java:655)
-[20:23:21] [Server thread/WARN]: 	at org.bukkit.craftbukkit.CraftServer.enablePlugins(CraftServer.java:604)
-[20:23:21] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.loadWorld0(MinecraftServer.java:768)
-[20:23:21] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.loadLevel(MinecraftServer.java:530)
-[20:23:21] [Server thread/WARN]: 	at net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:326)
-[20:23:21] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1234)
-[20:23:21] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:340)
-[20:23:21] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
-[20:23:21] [Server thread/INFO]: [floodgate] Enabling floodgate v2.2.3-SNAPSHOT (b114-83fbd6e)
-[20:23:22] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v5.2.0
-[20:23:22] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.21.2-1.21.3 (768)
-[20:23:22] [Server thread/INFO]: [HealthBar-Reloaded] Enabling HealthBar-Reloaded v2.0.4.1
-[20:23:22] [Server thread/INFO]: [CrazyEnchantments] Enabling CrazyEnchantments v2.5.1
-[20:23:22] [Server thread/INFO]: [CrazyEnchantments] Loading the config.yml
-[20:23:22] [Server thread/INFO]: [CrazyEnchantments] Successfully loaded config.yml
-[20:23:22] [Server thread/INFO]: [CrazyEnchantments] Loading the BlockList.yml
-[20:23:22] [Server thread/INFO]: [CrazyEnchantments] Successfully loaded BlockList.yml
-[20:23:22] [Server thread/INFO]: [CrazyEnchantments] Loading the HeadMap.yml
-[20:23:22] [Server thread/INFO]: [CrazyEnchantments] Successfully loaded HeadMap.yml
-[20:23:22] [Server thread/INFO]: [CrazyEnchantments] Loading the Data.yml
-[20:23:22] [Server thread/INFO]: [CrazyEnchantments] Successfully loaded Data.yml
-[20:23:22] [Server thread/INFO]: [CrazyEnchantments] Loading the Enchantments.yml
-[20:23:22] [Server thread/INFO]: [CrazyEnchantments] Successfully loaded Enchantments.yml
-[20:23:22] [Server thread/INFO]: [CrazyEnchantments] Loading the GKitz.yml
-[20:23:22] [Server thread/INFO]: [CrazyEnchantments] Successfully loaded GKitz.yml
-[20:23:22] [Server thread/INFO]: [CrazyEnchantments] Loading the Messages.yml
-[20:23:22] [Server thread/INFO]: [CrazyEnchantments] Successfully loaded Messages.yml
-[20:23:22] [Server thread/INFO]: [CrazyEnchantments] Loading the Enchantment-Types.yml
-[20:23:22] [Server thread/INFO]: [CrazyEnchantments] Successfully loaded Enchantment-Types.yml
-[20:23:22] [Server thread/INFO]: [CrazyEnchantments] Loading the Tinker.yml
-[20:23:22] [Server thread/INFO]: [CrazyEnchantments] Successfully loaded Tinker.yml
-[20:23:22] [Server thread/WARN]: [CrazyEnchantments] No eco plugin found or the eco plugin didn't enable. Any economy based feature will not work.
-[20:23:22] [Server thread/INFO]: [CrazyEnchantments]: === CrazyEnchantment Hook Status ===
-[20:23:22] [Server thread/INFO]: [CrazyEnchantments]: PLOT_SQUARED NOT FOUND
-[20:23:22] [Server thread/INFO]: [CrazyEnchantments]: VAULT NOT FOUND
-[20:23:22] [Server thread/INFO]: [CrazyEnchantments]: NO_CHEAT_PLUS NOT FOUND
-[20:23:22] [Server thread/INFO]: [CrazyEnchantments]: TOWNYADVANCED NOT FOUND
-[20:23:22] [Server thread/INFO]: [CrazyEnchantments]: LANDS NOT FOUND
-[20:23:22] [Server thread/INFO]: [CrazyEnchantments]: ORAXEN NOT FOUND
-[20:23:22] [Server thread/INFO]: [CrazyEnchantments]: WORLDGUARD NOT FOUND
-[20:23:22] [Server thread/INFO]: [CrazyEnchantments]: GRIEF_PREVENTION NOT FOUND
-[20:23:22] [Server thread/INFO]: [CrazyEnchantments]: MCMMO NOT FOUND
-[20:23:22] [Server thread/INFO]: [CrazyEnchantments]: WORLDEDIT NOT FOUND
-[20:23:22] [Server thread/INFO]: [CrazyEnchantments]: SUPERIORSKYBLOCK NOT FOUND
-[20:23:22] [Server thread/INFO]: [CrazyEnchantments]: FACTIONS_UUID NOT FOUND
-[20:23:23] [Server thread/INFO]: [CrazyEnchantments] G-Kitz support is now enabled.
-[20:23:23] [Server thread/INFO]: [AutoTreeChop] Enabling AutoTreeChop v1.5.5
-[20:23:23] [Server thread/WARN]: [AutoTreeChop] PlaceholderAPI not found. Placeholder expansion for AutoTreeChop will not work.
-[20:23:23] [Server thread/INFO]: [MagicItems] Enabling MagicItems v1.2
-[20:23:23] [Server thread/INFO]: [MagicItems] All names loaded!
-[20:23:23] [Server thread/INFO]: [MagicItems] If any warnings showed up, you could try to delete the config.yml file so new one could generate.
-[20:23:23] [Server thread/INFO]: [MagicItems] Hello from magic items!
-[20:23:23] [Server thread/INFO]: [ArmorUp] Enabling ArmorUp v1.0-SNAPSHOT
-[20:23:23] [Server thread/INFO]: [AxGraves] Enabling AxGraves v1.17.0
-[20:23:23] [Server thread/INFO]: [ArmorQualities] Enabling ArmorQualities v1.3.3
-[20:23:23] [Server thread/INFO]: [ArmorQualities] Reforge plugin enabled
-[20:23:23] [Server thread/INFO]: [MoreOres] Enabling MoreOres v1.13.10
-[20:23:23] [Server thread/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[20:23:24] [Server thread/INFO]: More Ores Loaded Successfully! :-D
-[20:23:24] [Server thread/INFO]: [Geyser-Spigot] Enabling Geyser-Spigot v2.6.0-SNAPSHOT
-[20:23:24] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v5.2.0
-[20:23:24] [Server thread/INFO]: [TheNewEconomy] Enabling TheNewEconomy v0.1.3.4
-[20:23:24] [Server thread/INFO]: [TheNewEconomy] Loading configurations!
-[20:23:25] [Server thread/INFO]: [TheNewEconomy] The New Economy has been enabled!
-[20:23:25] [Server thread/INFO]: [XPHearts] Enabling XPHearts v1.1.0
-[20:23:25] [Server thread/INFO]: [spark] Starting background profiler...
-[20:23:26] [Server thread/INFO]: [Geyser-Spigot] ******************************************
-[20:23:26] [Server thread/INFO]: [Geyser-Spigot] 
-[20:23:26] [Server thread/INFO]: [Geyser-Spigot] Loading Geyser version 2.6.0-b734 (git-master-64c7adc)
-[20:23:26] [Server thread/INFO]: [Geyser-Spigot] 
-[20:23:26] [Server thread/INFO]: [Geyser-Spigot] ******************************************
-[20:23:29] [epollEventLoopGroup-3-2/INFO]: [Geyser-Spigot] Started Geyser on UDP port 19132
-[20:23:29] [Server thread/INFO]: [Geyser-Spigot] Done (3.168s)! Run /geyser help for help!
-[20:23:29] [Server thread/INFO]: Done preparing level "world" (10.192s)
-[20:23:29] [Server thread/INFO]: Running delayed init tasks
-[20:23:29] [Craft Scheduler Thread - 2 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor.
-[20:23:29] [ForkJoinPool.commonPool-worker-1/INFO]: [squaremap] Fetching version information...
-[20:23:29] [Server thread/INFO]: Done (34.768s)! For help, type "help"
+[20:53:54] [Server thread/INFO]: [MythicMobs] Disabling MythicMobs v5.7.2-${CI_COMMIT_SHORT_SHA}
+[20:53:54] [Server thread/INFO]: [MythicMobs] ------------------------------------------------------------
+[20:53:54] [Server thread/INFO]: [MythicMobs] - 
+[20:53:54] [Server thread/INFO]: [MythicMobs] - Unloading Mythic...
+[20:53:54] [Server thread/INFO]: [MythicMobs] - 
+[20:53:54] [Server thread/INFO]: [MythicMobs] ------------------------------------------------------------
+[20:53:54] [Server thread/WARN]: java.lang.NullPointerException: Cannot invoke "io.lumine.mythic.core.mobs.MobExecutor.despawnAllMobs()" because the return value of "io.lumine.mythic.bukkit.MythicBukkit.getMobManager()" is null
+[20:53:54] [Server thread/WARN]: 	at MythicMobs-5.7.2.jar//io.lumine.mythic.bukkit.MythicBukkit.disable(MythicBukkit.java:254)
+[20:53:54] [Server thread/WARN]: 	at MythicMobs-5.7.2.jar//io.lumine.mythic.bukkit.utils.plugin.LuminePlugin.onDisable(LuminePlugin.java:91)
+[20:53:54] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:291)
+[20:53:54] [Server thread/WARN]: 	at io.papermc.paper.plugin.manager.PaperPluginInstanceManager.disablePlugin(PaperPluginInstanceManager.java:237)
+[20:53:54] [Server thread/WARN]: 	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.disablePlugin(PaperPluginManagerImpl.java:114)
+[20:53:54] [Server thread/WARN]: 	at org.bukkit.plugin.SimplePluginManager.disablePlugin(SimplePluginManager.java:550)
+[20:53:54] [Server thread/WARN]: 	at io.papermc.paper.plugin.manager.PaperPluginInstanceManager.enablePlugin(PaperPluginInstanceManager.java:206)
+[20:53:54] [Server thread/WARN]: 	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.enablePlugin(PaperPluginManagerImpl.java:109)
+[20:53:54] [Server thread/WARN]: 	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:520)
+[20:53:54] [Server thread/WARN]: 	at org.bukkit.craftbukkit.CraftServer.enablePlugin(CraftServer.java:655)
+[20:53:54] [Server thread/WARN]: 	at org.bukkit.craftbukkit.CraftServer.enablePlugins(CraftServer.java:604)
+[20:53:54] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.loadWorld0(MinecraftServer.java:768)
+[20:53:54] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.loadLevel(MinecraftServer.java:530)
+[20:53:54] [Server thread/WARN]: 	at net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:326)
+[20:53:54] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1234)
+[20:53:54] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:340)
+[20:53:54] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
+[20:53:54] [Server thread/INFO]: [MythicMobs] Saving plugin data...
+[20:53:54] [Server thread/INFO]: [MythicMobs] ✗An error occurred while saving data
+[20:53:54] [Server thread/WARN]: java.lang.NullPointerException: Cannot invoke "io.lumine.mythic.core.mobs.MobExecutor.saveCachedActiveMobs()" because the return value of "io.lumine.mythic.bukkit.MythicBukkit.getMobManager()" is null
+[20:53:54] [Server thread/WARN]: 	at MythicMobs-5.7.2.jar//io.lumine.mythic.core.config.ConfigExecutor.save(ConfigExecutor.java:460)
+[20:53:54] [Server thread/WARN]: 	at MythicMobs-5.7.2.jar//io.lumine.mythic.core.config.ConfigExecutor.unload(ConfigExecutor.java:489)
+[20:53:54] [Server thread/WARN]: 	at MythicMobs-5.7.2.jar//io.lumine.mythic.bukkit.utils.plugin.PluginModule.close(PluginModule.java:50)
+[20:53:54] [Server thread/WARN]: 	at MythicMobs-5.7.2.jar//io.lumine.mythic.bukkit.utils.terminable.composite.AbstractCompositeTerminable.close(AbstractCompositeTerminable.java:31)
+[20:53:54] [Server thread/WARN]: 	at MythicMobs-5.7.2.jar//io.lumine.mythic.bukkit.utils.terminable.composite.CompositeTerminable.closeAndReportException(CompositeTerminable.java:63)
+[20:53:54] [Server thread/WARN]: 	at MythicMobs-5.7.2.jar//io.lumine.mythic.bukkit.utils.plugin.LuminePlugin.close(LuminePlugin.java:100)
+[20:53:54] [Server thread/WARN]: 	at MythicMobs-5.7.2.jar//io.lumine.mythic.bukkit.utils.plugin.LuminePlugin.onDisable(LuminePlugin.java:95)
+[20:53:54] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:291)
+[20:53:54] [Server thread/WARN]: 	at io.papermc.paper.plugin.manager.PaperPluginInstanceManager.disablePlugin(PaperPluginInstanceManager.java:237)
+[20:53:54] [Server thread/WARN]: 	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.disablePlugin(PaperPluginManagerImpl.java:114)
+[20:53:54] [Server thread/WARN]: 	at org.bukkit.plugin.SimplePluginManager.disablePlugin(SimplePluginManager.java:550)
+[20:53:54] [Server thread/WARN]: 	at io.papermc.paper.plugin.manager.PaperPluginInstanceManager.enablePlugin(PaperPluginInstanceManager.java:206)
+[20:53:54] [Server thread/WARN]: 	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.enablePlugin(PaperPluginManagerImpl.java:109)
+[20:53:54] [Server thread/WARN]: 	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:520)
+[20:53:54] [Server thread/WARN]: 	at org.bukkit.craftbukkit.CraftServer.enablePlugin(CraftServer.java:655)
+[20:53:54] [Server thread/WARN]: 	at org.bukkit.craftbukkit.CraftServer.enablePlugins(CraftServer.java:604)
+[20:53:54] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.loadWorld0(MinecraftServer.java:768)
+[20:53:54] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.loadLevel(MinecraftServer.java:530)
+[20:53:54] [Server thread/WARN]: 	at net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:326)
+[20:53:54] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1234)
+[20:53:54] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:340)
+[20:53:54] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
+[20:53:54] [Server thread/WARN]: io.lumine.mythic.bukkit.utils.terminable.composite.CompositeClosingException: Exception(s) occurred whilst closing: [java.lang.NullPointerException: Cannot invoke "io.lumine.mythic.core.drops.DropExecutor.unload()" because the return value of "io.lumine.mythic.bukkit.MythicBukkit.getDropManager()" is null]
+[20:53:54] [Server thread/WARN]: 	at MythicMobs-5.7.2.jar//io.lumine.mythic.bukkit.utils.terminable.composite.AbstractCompositeTerminable.close(AbstractCompositeTerminable.java:38)
+[20:53:54] [Server thread/WARN]: 	at MythicMobs-5.7.2.jar//io.lumine.mythic.bukkit.utils.terminable.composite.CompositeTerminable.closeAndReportException(CompositeTerminable.java:63)
+[20:53:54] [Server thread/WARN]: 	at MythicMobs-5.7.2.jar//io.lumine.mythic.bukkit.utils.plugin.LuminePlugin.close(LuminePlugin.java:100)
+[20:53:54] [Server thread/WARN]: 	at MythicMobs-5.7.2.jar//io.lumine.mythic.bukkit.utils.plugin.LuminePlugin.onDisable(LuminePlugin.java:95)
+[20:53:54] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:291)
+[20:53:54] [Server thread/WARN]: 	at io.papermc.paper.plugin.manager.PaperPluginInstanceManager.disablePlugin(PaperPluginInstanceManager.java:237)
+[20:53:54] [Server thread/WARN]: 	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.disablePlugin(PaperPluginManagerImpl.java:114)
+[20:53:54] [Server thread/WARN]: 	at org.bukkit.plugin.SimplePluginManager.disablePlugin(SimplePluginManager.java:550)
+[20:53:54] [Server thread/WARN]: 	at io.papermc.paper.plugin.manager.PaperPluginInstanceManager.enablePlugin(PaperPluginInstanceManager.java:206)
+[20:53:54] [Server thread/WARN]: 	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.enablePlugin(PaperPluginManagerImpl.java:109)
+[20:53:54] [Server thread/WARN]: 	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:520)
+[20:53:54] [Server thread/WARN]: 	at org.bukkit.craftbukkit.CraftServer.enablePlugin(CraftServer.java:655)
+[20:53:54] [Server thread/WARN]: 	at org.bukkit.craftbukkit.CraftServer.enablePlugins(CraftServer.java:604)
+[20:53:54] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.loadWorld0(MinecraftServer.java:768)
+[20:53:54] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.loadLevel(MinecraftServer.java:530)
+[20:53:54] [Server thread/WARN]: 	at net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:326)
+[20:53:54] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1234)
+[20:53:54] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:340)
+[20:53:54] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
+[20:53:54] [Server thread/WARN]: java.lang.NullPointerException: Cannot invoke "io.lumine.mythic.core.drops.DropExecutor.unload()" because the return value of "io.lumine.mythic.bukkit.MythicBukkit.getDropManager()" is null
+[20:53:54] [Server thread/WARN]: 	at MythicMobs-5.7.2.jar//io.lumine.mythic.core.config.ConfigExecutor.unload(ConfigExecutor.java:491)
+[20:53:54] [Server thread/WARN]: 	at MythicMobs-5.7.2.jar//io.lumine.mythic.bukkit.utils.plugin.PluginModule.close(PluginModule.java:50)
+[20:53:54] [Server thread/WARN]: 	at MythicMobs-5.7.2.jar//io.lumine.mythic.bukkit.utils.terminable.composite.AbstractCompositeTerminable.close(AbstractCompositeTerminable.java:31)
+[20:53:54] [Server thread/WARN]: 	at MythicMobs-5.7.2.jar//io.lumine.mythic.bukkit.utils.terminable.composite.CompositeTerminable.closeAndReportException(CompositeTerminable.java:63)
+[20:53:54] [Server thread/WARN]: 	at MythicMobs-5.7.2.jar//io.lumine.mythic.bukkit.utils.plugin.LuminePlugin.close(LuminePlugin.java:100)
+[20:53:54] [Server thread/WARN]: 	at MythicMobs-5.7.2.jar//io.lumine.mythic.bukkit.utils.plugin.LuminePlugin.onDisable(LuminePlugin.java:95)
+[20:53:54] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:291)
+[20:53:54] [Server thread/WARN]: 	at io.papermc.paper.plugin.manager.PaperPluginInstanceManager.disablePlugin(PaperPluginInstanceManager.java:237)
+[20:53:54] [Server thread/WARN]: 	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.disablePlugin(PaperPluginManagerImpl.java:114)
+[20:53:54] [Server thread/WARN]: 	at org.bukkit.plugin.SimplePluginManager.disablePlugin(SimplePluginManager.java:550)
+[20:53:54] [Server thread/WARN]: 	at io.papermc.paper.plugin.manager.PaperPluginInstanceManager.enablePlugin(PaperPluginInstanceManager.java:206)
+[20:53:54] [Server thread/WARN]: 	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.enablePlugin(PaperPluginManagerImpl.java:109)
+[20:53:54] [Server thread/WARN]: 	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:520)
+[20:53:54] [Server thread/WARN]: 	at org.bukkit.craftbukkit.CraftServer.enablePlugin(CraftServer.java:655)
+[20:53:54] [Server thread/WARN]: 	at org.bukkit.craftbukkit.CraftServer.enablePlugins(CraftServer.java:604)
+[20:53:54] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.loadWorld0(MinecraftServer.java:768)
+[20:53:54] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.loadLevel(MinecraftServer.java:530)
+[20:53:54] [Server thread/WARN]: 	at net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:326)
+[20:53:54] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1234)
+[20:53:54] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:340)
+[20:53:54] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
+[20:53:54] [Server thread/INFO]: [floodgate] Enabling floodgate v2.2.3-SNAPSHOT (b114-83fbd6e)
+[20:53:55] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v5.2.0
+[20:53:55] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.21.2-1.21.3 (768)
+[20:53:55] [Server thread/INFO]: [HealthBar-Reloaded] Enabling HealthBar-Reloaded v2.0.4.1
+[20:53:55] [Server thread/INFO]: [CrazyEnchantments] Enabling CrazyEnchantments v2.5.1
+[20:53:55] [Server thread/INFO]: [CrazyEnchantments] Loading the config.yml
+[20:53:55] [Server thread/INFO]: [CrazyEnchantments] Successfully loaded config.yml
+[20:53:55] [Server thread/INFO]: [CrazyEnchantments] Loading the BlockList.yml
+[20:53:55] [Server thread/INFO]: [CrazyEnchantments] Successfully loaded BlockList.yml
+[20:53:55] [Server thread/INFO]: [CrazyEnchantments] Loading the HeadMap.yml
+[20:53:55] [Server thread/INFO]: [CrazyEnchantments] Successfully loaded HeadMap.yml
+[20:53:55] [Server thread/INFO]: [CrazyEnchantments] Loading the Data.yml
+[20:53:55] [Server thread/INFO]: [CrazyEnchantments] Successfully loaded Data.yml
+[20:53:55] [Server thread/INFO]: [CrazyEnchantments] Loading the Enchantments.yml
+[20:53:55] [Server thread/INFO]: [CrazyEnchantments] Successfully loaded Enchantments.yml
+[20:53:55] [Server thread/INFO]: [CrazyEnchantments] Loading the GKitz.yml
+[20:53:55] [Server thread/INFO]: [CrazyEnchantments] Successfully loaded GKitz.yml
+[20:53:55] [Server thread/INFO]: [CrazyEnchantments] Loading the Messages.yml
+[20:53:55] [Server thread/INFO]: [CrazyEnchantments] Successfully loaded Messages.yml
+[20:53:55] [Server thread/INFO]: [CrazyEnchantments] Loading the Enchantment-Types.yml
+[20:53:55] [Server thread/INFO]: [CrazyEnchantments] Successfully loaded Enchantment-Types.yml
+[20:53:55] [Server thread/INFO]: [CrazyEnchantments] Loading the Tinker.yml
+[20:53:55] [Server thread/INFO]: [CrazyEnchantments] Successfully loaded Tinker.yml
+[20:53:55] [Server thread/WARN]: [CrazyEnchantments] No eco plugin found or the eco plugin didn't enable. Any economy based feature will not work.
+[20:53:56] [Server thread/INFO]: [CrazyEnchantments]: === CrazyEnchantment Hook Status ===
+[20:53:56] [Server thread/INFO]: [CrazyEnchantments]: SUPERIORSKYBLOCK NOT FOUND
+[20:53:56] [Server thread/INFO]: [CrazyEnchantments]: NO_CHEAT_PLUS NOT FOUND
+[20:53:56] [Server thread/INFO]: [CrazyEnchantments]: TOWNYADVANCED NOT FOUND
+[20:53:56] [Server thread/INFO]: [CrazyEnchantments]: ORAXEN NOT FOUND
+[20:53:56] [Server thread/INFO]: [CrazyEnchantments]: PLOT_SQUARED NOT FOUND
+[20:53:56] [Server thread/INFO]: [CrazyEnchantments]: WORLDGUARD NOT FOUND
+[20:53:56] [Server thread/INFO]: [CrazyEnchantments]: MCMMO NOT FOUND
+[20:53:56] [Server thread/INFO]: [CrazyEnchantments]: FACTIONS_UUID NOT FOUND
+[20:53:56] [Server thread/INFO]: [CrazyEnchantments]: GRIEF_PREVENTION NOT FOUND
+[20:53:56] [Server thread/INFO]: [CrazyEnchantments]: LANDS NOT FOUND
+[20:53:56] [Server thread/INFO]: [CrazyEnchantments]: WORLDEDIT NOT FOUND
+[20:53:56] [Server thread/INFO]: [CrazyEnchantments]: VAULT NOT FOUND
+[20:53:56] [Server thread/INFO]: [CrazyEnchantments] G-Kitz support is now enabled.
+[20:53:56] [Server thread/INFO]: [AutoTreeChop] Enabling AutoTreeChop v1.5.5
+[20:53:57] [Server thread/WARN]: [AutoTreeChop] PlaceholderAPI not found. Placeholder expansion for AutoTreeChop will not work.
+[20:53:57] [Server thread/INFO]: [MagicItems] Enabling MagicItems v1.2
+[20:53:57] [Server thread/INFO]: [MagicItems] All names loaded!
+[20:53:57] [Server thread/INFO]: [MagicItems] If any warnings showed up, you could try to delete the config.yml file so new one could generate.
+[20:53:57] [Server thread/INFO]: [MagicItems] Hello from magic items!
+[20:53:57] [Server thread/INFO]: [ArmorUp] Enabling ArmorUp v1.0-SNAPSHOT
+[20:53:57] [Server thread/INFO]: [AxGraves] Enabling AxGraves v1.17.0
+[20:53:58] [Server thread/INFO]: [ArmorQualities] Enabling ArmorQualities v1.3.3
+[20:53:58] [Server thread/INFO]: [ArmorQualities] Reforge plugin enabled
+[20:53:58] [Server thread/INFO]: [MoreOres] Enabling MoreOres v1.13.10
+[20:53:58] [Server thread/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[20:53:58] [Server thread/INFO]: More Ores Loaded Successfully! :-D
+[20:53:58] [Server thread/INFO]: [Geyser-Spigot] Enabling Geyser-Spigot v2.6.0-SNAPSHOT
+[20:53:58] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v5.2.0
+[20:53:58] [Server thread/INFO]: [TheNewEconomy] Enabling TheNewEconomy v0.1.3.4
+[20:53:58] [Server thread/INFO]: [TheNewEconomy] Loading configurations!
+[20:54:00] [Server thread/INFO]: [TheNewEconomy] The New Economy has been enabled!
+[20:54:00] [Server thread/INFO]: [XPHearts] Enabling XPHearts v1.1.0
+[20:54:00] [Server thread/INFO]: [spark] Starting background profiler...
+[20:54:00] [Server thread/INFO]: [Geyser-Spigot] ******************************************
+[20:54:00] [Server thread/INFO]: [Geyser-Spigot] 
+[20:54:00] [Server thread/INFO]: [Geyser-Spigot] Loading Geyser version 2.6.0-b734 (git-master-64c7adc)
+[20:54:00] [Server thread/INFO]: [Geyser-Spigot] 
+[20:54:00] [Server thread/INFO]: [Geyser-Spigot] ******************************************
+[20:54:04] [epollEventLoopGroup-3-1/INFO]: [Geyser-Spigot] Started Geyser on UDP port 19132
+[20:54:04] [Server thread/INFO]: [Geyser-Spigot] Done (3.585s)! Run /geyser help for help!
+[20:54:04] [Server thread/INFO]: Done preparing level "world" (15.720s)
+[20:54:04] [Server thread/INFO]: Running delayed init tasks
+[20:54:04] [Craft Scheduler Thread - 2 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor.
+[20:54:04] [ForkJoinPool.commonPool-worker-2/INFO]: [squaremap] Fetching version information...
+[20:54:04] [Server thread/INFO]: Done (44.686s)! For help, type "help"
+[20:57:17] [User Authenticator #0/INFO]: UUID of player enzokuoshu2 is 72ef933b-ad04-30d9-ba8e-7d3fff18ebdc
+[20:57:22] [Server thread/INFO]: enzokuoshu2 joined the game
+[20:57:22] [Server thread/INFO]: enzokuoshu2[/100.95.11.115:59385] logged in with entity id 65 at ([world]41.86021274193886, 70.0, 5.581851185399593)
+[20:57:57] [Async Chat Thread - #0/INFO]: [Not Secure] <enzokuoshu2> .
+[20:58:04] [Server thread/INFO]: enzokuoshu2 issued server command: /tps
+[20:58:59] [Server thread/INFO]: enzokuoshu2 issued server command: /tps
+[20:59:26] [Server thread/INFO]: enzokuoshu2 issued server command: /bukkit:plugins
+[20:59:49] [Server thread/INFO]: enzokuoshu2 issued server command: /moreores
+[21:00:15] [Server thread/INFO]: enzokuoshu2 issued server command: /moreores generate world
+[21:00:51] [Server thread/INFO]: enzokuoshu2 issued server command: /moreores generate world confirm
+[21:01:15] [Server thread/INFO]: [org.milkteamc.autotreechop.libs.hikari.HikariDataSource] HikariPool-1 - Starting...
+[21:01:15] [Server thread/INFO]: [org.milkteamc.autotreechop.libs.hikari.HikariDataSource] HikariPool-1 - Start completed.

@@ -1,3 +1,5 @@
+# Use � for color codes (e. g. �3)
+
 Incorrect Command Syntax: Incorrect command syntax. Use [command]
 No Permission: You do not have permission to run this command!
 Storage Warning: Couldn't save Storage.yml. This could cause problems when the server
@@ -118,3 +120,9 @@ Corrupted Leggings: Corrupted Leggings
 Corrupted Boots: Corrupted Boots
 Ice Boots: Ice Boots
 Ice Helmet: Ice Helmet
+Pregen Warning 1: Make sure you are not trying to use /mo generate, which is much
+  safer!
+Pregen Warning 2: This Command may cause some servers to crash!
+Pregen Warning 3: '[chunks] Chunks will be loaded in [time] minutes'
+Worldborder: Your world border needs to be smaller than [size]
+/moreores pregenerate <world>: Pregenerates ores in a world (experimental)
