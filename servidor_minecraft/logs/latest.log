@@ -191,3 +191,108 @@ java.lang.NullPointerException: Cannot invoke "dev.pluginz.graveplugin.manager.G
 [02:46:13] [Async Chat Thread - #3/INFO]: [Not Secure] <.Enzokuoshu_pro> prueba esta espada
 [02:46:27] [Server thread/INFO]: .Enzokuoshu_pro issued server command: /tp .Enzokuoshu_pro .Lienx10146465
 [02:46:27] [Server thread/INFO]: [.Enzokuoshu_pro: Teleported .Enzokuoshu_pro to .Lienx10146465]
+[02:46:40] [epollEventLoopGroup-4-2/INFO]: [Geyser-Spigot] Player connected with username RichardGODDD
+[02:46:40] [localSession-7-2/INFO]: [Geyser-Spigot] RichardGODDD (logged in as: RichardGODDD) has connected to the Java server
+[02:46:41] [Server thread/INFO]: [floodgate] Floodgate player logged in as .RichardGODDD joined (UUID: 00000000-0000-0000-0009-01fb5923dbef)
+[02:46:41] [Server thread/INFO]: .RichardGODDD joined the game
+[02:46:41] [Server thread/INFO]: .RichardGODDD[/100.95.201.21:0] logged in with entity id 1898 at ([world]22.636839, 66.34159999847412, 12.138752)
+[02:47:08] [Async Chat Thread - #3/INFO]: [Not Secure] <.Enzokuoshu_pro> toca la cruz como para interactuar con un objeto con la espada en la mano
+[02:47:43] [localSession-7-2/INFO]: [Geyser-Spigot] RichardGODDD has disconnected from the Java server because of Bedrock client timed out
+[02:47:43] [Geyser Spigot connection thread-6-3/INFO]: [floodgate] Floodgate player logged in as .RichardGODDD disconnected
+[02:47:43] [Server thread/INFO]: .RichardGODDD lost connection: Disconnected
+[02:47:43] [Server thread/INFO]: .RichardGODDD left the game
+[02:47:52] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
+[02:47:55] [Async Chat Thread - #3/INFO]: [Not Secure] <.Lienx10146465> se supone que lo lanza a donde estoy parado?
+[02:48:02] [Server thread/WARN]: .Lienx10146465 moved wrongly!
+[02:48:42] [Async Chat Thread - #3/INFO]: [Not Secure] <.Enzokuoshu_pro> si
+[02:49:02] [Async Chat Thread - #3/INFO]: [Not Secure] <.Lienx10146465> lo veo poco útil
+[02:49:06] [Async Chat Thread - #3/INFO]: [Not Secure] <.Lienx10146465> que mas hay?
+[02:49:59] [Async Chat Thread - #3/INFO]: [Not Secure] <.Enzokuoshu_pro> mira
+[02:50:48] [Async Chat Thread - #3/INFO]: [Not Secure] <.Lienx10146465> hambre
+[02:51:12] [Async Chat Thread - #3/INFO]: [Not Secure] <.Enzokuoshu_pro> esa espada tiene un knockback enorme
+[02:51:19] [Async Chat Thread - #3/INFO]: [Not Secure] <.Lienx10146465> no vale
+[02:51:28] [Server thread/INFO]: .Lienx10146465 was slain by Zombie
+[02:51:41] [Async Chat Thread - #3/INFO]: [Not Secure] <.Lienx10146465> tp a ti
+[02:51:45] [Async Chat Thread - #3/INFO]: [Not Secure] <.Lienx10146465> xD
+[02:51:47] [Async Chat Thread - #3/INFO]: [Not Secure] <.Enzokuoshu_pro> voy
+[02:51:52] [Server thread/INFO]: .Enzokuoshu_pro issued server command: /tp .Lienx10146465 .Enzokuoshu_pro
+[02:51:52] [Server thread/INFO]: [.Enzokuoshu_pro: Teleported .Lienx10146465 to .Enzokuoshu_pro]
+[02:52:09] [Server thread/INFO]: .Lienx10146465 has made the advancement [Monster Hunter]
+[02:52:52] [Server thread/INFO]: .Lienx10146465 was slain by Zombie
+[02:53:06] [Async Chat Thread - #5/INFO]: [Not Secure] <.Lienx10146465> ba suuuura
+[02:53:30] [Server thread/INFO]: .Enzokuoshu_pro issued server command: /tp .Lienx10146465 .Enzokuoshu_pro
+[02:53:30] [Server thread/INFO]: [.Enzokuoshu_pro: Teleported .Lienx10146465 to .Enzokuoshu_pro]
+[02:54:16] [Async Chat Thread - #7/INFO]: [Not Secure] <.Lienx10146465> donde se encuentran los libros o q
+[02:54:22] [localSession-7-4/INFO]: [Geyser-Spigot] Enzokuoshu pro has disconnected from the Java server because of Bedrock client timed out
+[02:54:22] [Geyser Spigot connection thread-6-1/INFO]: [floodgate] Floodgate player logged in as .Enzokuoshu_pro disconnected
+[02:54:22] [Server thread/INFO]: .Enzokuoshu_pro lost connection: Disconnected
+[02:54:22] [Server thread/INFO]: .Enzokuoshu_pro left the game
+[02:54:33] [Server thread/INFO]: .Lienx10146465 went up in flames
+[02:56:05] [epollEventLoopGroup-4-3/INFO]: [Geyser-Spigot] Player connected with username Enzokuoshu pro
+[02:56:05] [localSession-7-3/INFO]: [Geyser-Spigot] Enzokuoshu pro (logged in as: Enzokuoshu_pro) has connected to the Java server
+[02:56:05] [Server thread/INFO]: [floodgate] Floodgate player logged in as .Enzokuoshu_pro joined (UUID: 00000000-0000-0000-0009-01fa4004e92b)
+[02:56:05] [Server thread/INFO]: .Enzokuoshu_pro joined the game
+[02:56:05] [Server thread/INFO]: .Enzokuoshu_pro[/100.115.34.65:0] logged in with entity id 3768 at ([world]532.5047, 66.0, 33.243042)
+[02:56:05] [Server thread/WARN]: .Lienx10146465 moved too quickly! 12.148440000000022,0.38036000000000314,5.031535000000005
+[02:56:05] [Server thread/WARN]: .Lienx10146465 moved too quickly! 11.90658000000002,0.38036000000000314,4.889666000000005
+[02:56:05] [Server thread/WARN]: .Lienx10146465 moved too quickly! 11.90658000000002,0.38036000000000314,4.889666000000005
+[02:56:05] [Server thread/WARN]: .Lienx10146465 moved too quickly! 11.90658000000002,0.38036000000000314,4.889666000000005
+[02:56:05] [Server thread/WARN]: .Lienx10146465 moved too quickly! 11.90658000000002,0.38036000000000314,4.889666000000005
+[02:56:05] [Server thread/WARN]: .Lienx10146465 moved too quickly! 11.90658000000002,0.38036000000000314,4.889666000000005
+[02:56:05] [Server thread/WARN]: .Lienx10146465 moved too quickly! 11.90658000000002,0.38036000000000314,4.889666000000005
+[02:56:05] [Server thread/WARN]: .Lienx10146465 moved too quickly! 11.90658000000002,0.38036000000000314,4.889666000000005
+[02:56:05] [Server thread/WARN]: .Lienx10146465 moved too quickly! 11.90658000000002,0.38036000000000314,4.889666000000005
+[02:56:05] [Server thread/WARN]: .Lienx10146465 moved too quickly! 11.90658000000002,0.38036000000000314,4.889666000000005
+[02:56:05] [Server thread/WARN]: .Lienx10146465 moved too quickly! 11.90658000000002,0.38036000000000314,4.889666000000005
+[02:56:05] [Server thread/WARN]: .Lienx10146465 moved too quickly! 11.90658000000002,0.38036000000000314,4.889666000000005
+[02:56:05] [Server thread/WARN]: .Lienx10146465 moved too quickly! 11.90658000000002,0.38036000000000314,4.889666000000005
+[02:56:05] [Server thread/WARN]: .Lienx10146465 moved too quickly! 11.90658000000002,0.38036000000000314,4.889666000000005
+[02:56:05] [Server thread/WARN]: .Lienx10146465 moved too quickly! 11.90658000000002,0.38036000000000314,4.889666000000005
+[02:56:05] [Server thread/WARN]: .Lienx10146465 moved too quickly! 11.90658000000002,0.38036000000000314,4.889666000000005
+[02:56:05] [Server thread/WARN]: .Lienx10146465 moved too quickly! 11.90658000000002,0.38036000000000314,4.889666000000005
+[02:56:05] [Server thread/WARN]: .Lienx10146465 moved too quickly! 11.90658000000002,0.38036000000000314,4.889666000000005
+[02:56:15] [Async Chat Thread - #9/INFO]: [Not Secure] <.Lienx10146465> tp
+[02:58:16] [Server thread/INFO]: .Enzokuoshu_pro issued server command: /tp .Lienx10146465 .Enzokuoshu_pro
+[02:58:16] [Server thread/INFO]: [.Enzokuoshu_pro: Teleported .Lienx10146465 to .Enzokuoshu_pro]
+[02:58:28] [Async Chat Thread - #11/INFO]: [Not Secure] <.Lienx10146465> tremendo lag
+[02:58:37] [Async Chat Thread - #11/INFO]: [Not Secure] <.Lienx10146465> Marco: Cabron
+[02:58:57] [Async Chat Thread - #11/INFO]: [Not Secure] <.Lienx10146465> y esto que w
+[02:59:47] [Async Chat Thread - #11/INFO]: [Not Secure] <.Lienx10146465> se supone que depende del color que lo tiña i q w
+[03:00:14] [User Authenticator #0/INFO]: UUID of player helltheo is 2c903719-8179-3d38-a070-d230e97d6965
+[03:00:16] [Server thread/INFO]: helltheo joined the game
+[03:00:16] [Server thread/INFO]: helltheo[/100.75.143.108:53610] logged in with entity id 4668 at ([world]14.5, 63.0, 3.5)
+[03:00:26] [Async Chat Thread - #11/INFO]: [Not Secure] <helltheo> hola pamnas
+[03:00:29] [Server thread/INFO]: .Enzokuoshu_pro issued server command: /armorup @s cluster_bow
+[03:01:18] [Async Chat Thread - #11/INFO]: [Not Secure] <.Lienx10146465> hol
+[03:01:35] [Async Chat Thread - #11/INFO]: [Not Secure] <helltheo> perfecto
+[03:01:37] [Async Chat Thread - #11/INFO]: [Not Secure] <helltheo> sisisi
+[03:01:41] [Async Chat Thread - #11/INFO]: [Not Secure] <helltheo> hola
+[03:02:30] [Server thread/INFO]: .Enzokuoshu_pro issued server command: /tp .Lienx10146465 helltheo
+[03:02:30] [Server thread/INFO]: [.Enzokuoshu_pro: Teleported .Lienx10146465 to helltheo]
+[03:02:41] [Server thread/INFO]: .Enzokuoshu_pro issued server command: /tp .Lienx10146465 .Enzokuoshu_pro
+[03:02:41] [Server thread/INFO]: [.Enzokuoshu_pro: Teleported .Lienx10146465 to .Enzokuoshu_pro]
+[03:02:46] [Async Chat Thread - #13/INFO]: [Not Secure] <helltheo> ok
+[03:02:50] [Server thread/INFO]: .Enzokuoshu_pro issued server command: /tp .Enzokuoshu_pro helltheo
+[03:02:50] [Server thread/INFO]: [.Enzokuoshu_pro: Teleported .Enzokuoshu_pro to helltheo]
+[03:03:16] [Async Chat Thread - #13/INFO]: [Not Secure] <helltheo> manzana sabor pene
+[03:03:31] [Async Chat Thread - #13/INFO]: [Not Secure] <.Enzokuoshu_pro> disparalo
+[03:03:38] [Async Chat Thread - #13/INFO]: [Not Secure] <.Lienx10146465> compartiras
+[03:03:45] [Async Chat Thread - #13/INFO]: [Not Secure] <helltheo> ya tengo la sensibilidad perfecta
+[03:03:47] [Server thread/INFO]: helltheo blew up
+[03:03:52] [Async Chat Thread - #13/INFO]: [Not Secure] <helltheo> perfecto tambien
+[03:03:54] [Async Chat Thread - #13/INFO]: [Not Secure] <.Lienx10146465> wbon
+[03:03:54] [Async Chat Thread - #13/INFO]: [Not Secure] <.Enzokuoshu_pro> Ay cabrón
+[03:04:14] [Async Chat Thread - #13/INFO]: [Not Secure] <helltheo> jaja se fue el arbol
+[03:04:29] [Async Chat Thread - #13/INFO]: [Not Secure] <.Enzokuoshu_pro> hiroshima
+[03:04:42] [Async Chat Thread - #13/INFO]: [Not Secure] <helltheo> pero
+[03:04:46] [Async Chat Thread - #13/INFO]: [Not Secure] <helltheo> a escalas inferiores
+[03:04:54] [Async Chat Thread - #13/INFO]: [Not Secure] <helltheo> por que tiene cooldown esta mierda
+[03:04:55] [Async Chat Thread - #13/INFO]: [Not Secure] <.Lienx10146465> que mierda es esta generación
+[03:05:11] [Async Chat Thread - #13/INFO]: [Not Secure] <.Lienx10146465> mirate wsta enzo
+[03:05:17] [Server thread/INFO]: .Enzokuoshu_pro issued server command: /au
+[03:05:17] [Async Chat Thread - #13/INFO]: [Not Secure] <helltheo> jaja rebotan
+[03:05:52] [Server thread/INFO]: helltheo was blown up by helltheo using [TNT Bow]
+[03:06:13] [Async Chat Thread - #13/INFO]: [Not Secure] <.Lienx10146465> vete alv
+[03:06:14] [Server thread/INFO]: helltheo has made the advancement [Stone Age]
+[03:06:21] [Async Chat Thread - #13/INFO]: [Not Secure] <.Lienx10146465> si pico un mineral se rompee todo
+[03:06:27] [Async Chat Thread - #13/INFO]: [Not Secure] <.Lienx10146465> buena ahi enzo

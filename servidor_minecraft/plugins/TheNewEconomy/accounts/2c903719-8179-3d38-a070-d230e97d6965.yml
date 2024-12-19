@@ -1,0 +1,13 @@
+Info:
+  ID: 2c903719-8179-3d38-a070-d230e97d6965
+  Name: helltheo
+  Type: player
+  Status: normal
+  CreationDate: 1734577216663
+  Pin: ''
+  LastOnline: 1734577216663
+Holdings:
+  Main Server:
+    world:
+      fe4dd0fa-37f6-4432-9332-35e00bf7fdac:
+        tne:VIRTUAL_HOLDINGS: '200.0'
