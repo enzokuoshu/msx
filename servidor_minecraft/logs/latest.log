@@ -249,3 +249,218 @@ Checkout the release here: https://github.com/Sytm/waypoints/releases/tag/v4.5.5
 [18:54:07] [Server thread/INFO]: enzokuoshu2 issued server command: /goditems:getitem dragon_fang
 [18:54:13] [Server thread/INFO]: .robert190206 has made the advancement [Stone Age]
 [18:54:31] [Server thread/INFO]: enzokuoshu2 issued server command: /getitem dragon_fang fullset
+[18:54:57] [Server thread/INFO]: enzokuoshu2 issued server command: /getitem master_katana 1
+[18:56:34] [Server thread/INFO]: enzokuoshu2 issued server command: /tp enzokuoshu2 .robert190206
+[18:56:34] [Server thread/INFO]: [enzokuoshu2: Teleported enzokuoshu2 to .robert190206]
+[18:56:44] [Server thread/INFO]: .Lienx10146465 has made the advancement [Take Aim]
+[18:57:14] [Async Chat Thread - #4/INFO]: [Not Secure] <enzokuoshu2> si te agachas y tocas interactuar haces un dash
+[18:57:26] [Server thread/ERROR]: Could not pass event PlayerMoveEvent to GodItems v3.0.1
+java.lang.NullPointerException: Cannot invoke "java.util.HashSet.add(Object)" because the return value of "java.util.HashMap.get(Object)" is null
+	at GodItems-3.0.1.jar/GodItems.abilities.weapons.MasterKatana.passiveAbility(MasterKatana.java:111) ~[GodItems-3.0.1.jar:?]
+	at GodItems-3.0.1.jar/GodItems.utils.PlayerChecker.weaponChecker(PlayerChecker.java:117) ~[GodItems-3.0.1.jar:?]
+	at GodItems-3.0.1.jar/GodItems.listeners.MoveEvents.onMove(MoveEvents.java:26) ~[GodItems-3.0.1.jar:?]
+	at com.destroystokyo.paper.event.executor.asm.generated.GeneratedEventExecutor132.execute(Unknown Source) ~[?:?]
+	at org.bukkit.plugin.EventExecutor$2.execute(EventExecutor.java:77) ~[paper-api-1.21.3-R0.1-SNAPSHOT.jar:?]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:80) ~[paper-api-1.21.3-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70) ~[paper-api-1.21.3-R0.1-SNAPSHOT.jar:?]
+	at io.papermc.paper.plugin.manager.PaperEventManager.callEvent(PaperEventManager.java:54) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.callEvent(PaperPluginManagerImpl.java:131) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:628) ~[paper-api-1.21.3-R0.1-SNAPSHOT.jar:?]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.handleMovePlayer(ServerGamePacketListenerImpl.java:1573) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.network.protocol.game.ServerboundMovePlayerPacket.handle(ServerboundMovePlayerPacket.java:61) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.network.protocol.game.ServerboundMovePlayerPacket$PosRot.handle(ServerboundMovePlayerPacket.java:138) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.network.protocol.PacketUtils.lambda$ensureRunningOnSameThread$0(PacketUtils.java:55) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.server.TickTask.run(TickTask.java:18) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:154) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:24) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:1577) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:207) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:128) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.server.MinecraftServer.pollTaskInternal(MinecraftServer.java:1554) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.server.MinecraftServer.pollTask(MinecraftServer.java:1547) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.util.thread.BlockableEventLoop.managedBlock(BlockableEventLoop.java:138) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.server.MinecraftServer.managedBlock(MinecraftServer.java:1498) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.server.MinecraftServer.waitUntilNextTick(MinecraftServer.java:1508) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1344) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:340) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[18:57:26] [Server thread/ERROR]: Could not pass event PlayerMoveEvent to GodItems v3.0.1
+java.lang.NullPointerException: Cannot invoke "java.util.HashSet.add(Object)" because the return value of "java.util.HashMap.get(Object)" is null
+	at GodItems-3.0.1.jar/GodItems.abilities.weapons.MasterKatana.passiveAbility(MasterKatana.java:111) ~[GodItems-3.0.1.jar:?]
+	at GodItems-3.0.1.jar/GodItems.utils.PlayerChecker.weaponChecker(PlayerChecker.java:117) ~[GodItems-3.0.1.jar:?]
+	at GodItems-3.0.1.jar/GodItems.listeners.MoveEvents.onMove(MoveEvents.java:26) ~[GodItems-3.0.1.jar:?]
+	at com.destroystokyo.paper.event.executor.asm.generated.GeneratedEventExecutor132.execute(Unknown Source) ~[?:?]
+	at org.bukkit.plugin.EventExecutor$2.execute(EventExecutor.java:77) ~[paper-api-1.21.3-R0.1-SNAPSHOT.jar:?]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:80) ~[paper-api-1.21.3-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70) ~[paper-api-1.21.3-R0.1-SNAPSHOT.jar:?]
+	at io.papermc.paper.plugin.manager.PaperEventManager.callEvent(PaperEventManager.java:54) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.callEvent(PaperPluginManagerImpl.java:131) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:628) ~[paper-api-1.21.3-R0.1-SNAPSHOT.jar:?]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.handleMovePlayer(ServerGamePacketListenerImpl.java:1573) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.network.protocol.game.ServerboundMovePlayerPacket.handle(ServerboundMovePlayerPacket.java:61) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.network.protocol.game.ServerboundMovePlayerPacket$Pos.handle(ServerboundMovePlayerPacket.java:106) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.network.protocol.PacketUtils.lambda$ensureRunningOnSameThread$0(PacketUtils.java:55) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.server.TickTask.run(TickTask.java:18) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:154) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:24) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:1577) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:207) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:128) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.server.MinecraftServer.pollTaskInternal(MinecraftServer.java:1554) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.server.MinecraftServer.pollTask(MinecraftServer.java:1547) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.util.thread.BlockableEventLoop.managedBlock(BlockableEventLoop.java:138) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.server.MinecraftServer.managedBlock(MinecraftServer.java:1498) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.server.MinecraftServer.waitUntilNextTick(MinecraftServer.java:1508) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1344) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:340) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[18:57:26] [Server thread/ERROR]: Could not pass event PlayerMoveEvent to GodItems v3.0.1
+java.lang.NullPointerException: Cannot invoke "java.util.HashSet.add(Object)" because the return value of "java.util.HashMap.get(Object)" is null
+	at GodItems-3.0.1.jar/GodItems.abilities.weapons.MasterKatana.passiveAbility(MasterKatana.java:111) ~[GodItems-3.0.1.jar:?]
+	at GodItems-3.0.1.jar/GodItems.utils.PlayerChecker.weaponChecker(PlayerChecker.java:117) ~[GodItems-3.0.1.jar:?]
+	at GodItems-3.0.1.jar/GodItems.listeners.MoveEvents.onMove(MoveEvents.java:26) ~[GodItems-3.0.1.jar:?]
+	at com.destroystokyo.paper.event.executor.asm.generated.GeneratedEventExecutor132.execute(Unknown Source) ~[?:?]
+	at org.bukkit.plugin.EventExecutor$2.execute(EventExecutor.java:77) ~[paper-api-1.21.3-R0.1-SNAPSHOT.jar:?]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:80) ~[paper-api-1.21.3-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70) ~[paper-api-1.21.3-R0.1-SNAPSHOT.jar:?]
+	at io.papermc.paper.plugin.manager.PaperEventManager.callEvent(PaperEventManager.java:54) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.callEvent(PaperPluginManagerImpl.java:131) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:628) ~[paper-api-1.21.3-R0.1-SNAPSHOT.jar:?]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.handleMovePlayer(ServerGamePacketListenerImpl.java:1573) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.network.protocol.game.ServerboundMovePlayerPacket.handle(ServerboundMovePlayerPacket.java:61) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.network.protocol.game.ServerboundMovePlayerPacket$Pos.handle(ServerboundMovePlayerPacket.java:106) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.network.protocol.PacketUtils.lambda$ensureRunningOnSameThread$0(PacketUtils.java:55) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.server.TickTask.run(TickTask.java:18) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:154) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:24) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:1577) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:207) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:128) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.server.MinecraftServer.pollTaskInternal(MinecraftServer.java:1554) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.server.MinecraftServer.pollTask(MinecraftServer.java:1547) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.util.thread.BlockableEventLoop.managedBlock(BlockableEventLoop.java:138) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.server.MinecraftServer.managedBlock(MinecraftServer.java:1498) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.server.MinecraftServer.waitUntilNextTick(MinecraftServer.java:1508) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1344) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:340) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[18:57:26] [Server thread/ERROR]: Could not pass event PlayerMoveEvent to GodItems v3.0.1
+java.lang.NullPointerException: Cannot invoke "java.util.HashSet.add(Object)" because the return value of "java.util.HashMap.get(Object)" is null
+	at GodItems-3.0.1.jar/GodItems.abilities.weapons.MasterKatana.passiveAbility(MasterKatana.java:111) ~[GodItems-3.0.1.jar:?]
+	at GodItems-3.0.1.jar/GodItems.utils.PlayerChecker.weaponChecker(PlayerChecker.java:117) ~[GodItems-3.0.1.jar:?]
+	at GodItems-3.0.1.jar/GodItems.listeners.MoveEvents.onMove(MoveEvents.java:26) ~[GodItems-3.0.1.jar:?]
+	at com.destroystokyo.paper.event.executor.asm.generated.GeneratedEventExecutor132.execute(Unknown Source) ~[?:?]
+	at org.bukkit.plugin.EventExecutor$2.execute(EventExecutor.java:77) ~[paper-api-1.21.3-R0.1-SNAPSHOT.jar:?]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:80) ~[paper-api-1.21.3-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70) ~[paper-api-1.21.3-R0.1-SNAPSHOT.jar:?]
+	at io.papermc.paper.plugin.manager.PaperEventManager.callEvent(PaperEventManager.java:54) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.callEvent(PaperPluginManagerImpl.java:131) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:628) ~[paper-api-1.21.3-R0.1-SNAPSHOT.jar:?]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.handleMovePlayer(ServerGamePacketListenerImpl.java:1573) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.network.protocol.game.ServerboundMovePlayerPacket.handle(ServerboundMovePlayerPacket.java:61) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.network.protocol.game.ServerboundMovePlayerPacket$Pos.handle(ServerboundMovePlayerPacket.java:106) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.network.protocol.PacketUtils.lambda$ensureRunningOnSameThread$0(PacketUtils.java:55) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.server.TickTask.run(TickTask.java:18) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:154) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:24) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:1577) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:207) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:128) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.server.MinecraftServer.pollTaskInternal(MinecraftServer.java:1554) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.server.MinecraftServer.pollTask(MinecraftServer.java:1547) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.util.thread.BlockableEventLoop.managedBlock(BlockableEventLoop.java:138) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.server.MinecraftServer.managedBlock(MinecraftServer.java:1498) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.server.MinecraftServer.waitUntilNextTick(MinecraftServer.java:1508) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1344) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:340) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[18:57:26] [Server thread/ERROR]: Could not pass event PlayerMoveEvent to GodItems v3.0.1
+java.lang.NullPointerException: Cannot invoke "java.util.HashSet.add(Object)" because the return value of "java.util.HashMap.get(Object)" is null
+	at GodItems-3.0.1.jar/GodItems.abilities.weapons.MasterKatana.passiveAbility(MasterKatana.java:111) ~[GodItems-3.0.1.jar:?]
+	at GodItems-3.0.1.jar/GodItems.utils.PlayerChecker.weaponChecker(PlayerChecker.java:117) ~[GodItems-3.0.1.jar:?]
+	at GodItems-3.0.1.jar/GodItems.listeners.MoveEvents.onMove(MoveEvents.java:26) ~[GodItems-3.0.1.jar:?]
+	at com.destroystokyo.paper.event.executor.asm.generated.GeneratedEventExecutor132.execute(Unknown Source) ~[?:?]
+	at org.bukkit.plugin.EventExecutor$2.execute(EventExecutor.java:77) ~[paper-api-1.21.3-R0.1-SNAPSHOT.jar:?]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:80) ~[paper-api-1.21.3-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70) ~[paper-api-1.21.3-R0.1-SNAPSHOT.jar:?]
+	at io.papermc.paper.plugin.manager.PaperEventManager.callEvent(PaperEventManager.java:54) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.callEvent(PaperPluginManagerImpl.java:131) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:628) ~[paper-api-1.21.3-R0.1-SNAPSHOT.jar:?]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.handleMovePlayer(ServerGamePacketListenerImpl.java:1573) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.network.protocol.game.ServerboundMovePlayerPacket.handle(ServerboundMovePlayerPacket.java:61) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.network.protocol.game.ServerboundMovePlayerPacket$Pos.handle(ServerboundMovePlayerPacket.java:106) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.network.protocol.PacketUtils.lambda$ensureRunningOnSameThread$0(PacketUtils.java:55) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.server.TickTask.run(TickTask.java:18) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:154) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:24) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:1577) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:207) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:128) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.server.MinecraftServer.pollTaskInternal(MinecraftServer.java:1554) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.server.MinecraftServer.pollTask(MinecraftServer.java:1547) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.util.thread.BlockableEventLoop.managedBlock(BlockableEventLoop.java:138) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.server.MinecraftServer.managedBlock(MinecraftServer.java:1498) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.server.MinecraftServer.waitUntilNextTick(MinecraftServer.java:1508) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1344) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:340) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[18:58:07] [Server thread/WARN]: enzokuoshu2 moved too quickly! -5.006954676872059,-1.0,8.720736303318656
+[18:58:20] [Server thread/INFO]: .robert190206 has made the advancement [Getting an Upgrade]
+[18:58:25] [Async Chat Thread - #6/INFO]: [Not Secure] <.Lienx10146465> agregaste estructuras?
+[18:58:45] [Async Chat Thread - #6/INFO]: [Not Secure] <.robert190206> oye enzo
+[18:58:47] [Async Chat Thread - #6/INFO]: [Not Secure] <enzokuoshu2> no encontre ningun plugin de eso
+[18:58:59] [Async Chat Thread - #6/INFO]: [Not Secure] <enzokuoshu2> ques
+[18:59:02] [Async Chat Thread - #6/INFO]: [Not Secure] <.robert190206> todas las herramientas tienen los rasgos en terrible xdddd
+[18:59:37] [Async Chat Thread - #6/INFO]: [Not Secure] <enzokuoshu2> pepepe
+[18:59:51] [Async Chat Thread - #6/INFO]: [Not Secure] <enzokuoshu2> usen /skills
+[19:00:16] [Server thread/INFO]: .robert190206 issued server command: /skills
+[19:00:29] [Server thread/INFO]: [org.milkteamc.autotreechop.libs.hikari.HikariDataSource] HikariPool-3 - Starting...
+[19:00:29] [Server thread/INFO]: [org.milkteamc.autotreechop.libs.hikari.HikariDataSource] HikariPool-3 - Start completed.
+[19:02:15] [Server thread/INFO]: enzokuoshu2 issued server command: /magicitems:roll scroll
+[19:02:24] [Server thread/INFO]: enzokuoshu2 issued server command: /magicitems:roll
+[19:03:04] [Server thread/INFO]: enzokuoshu2 issued server command: /magicitems:roll
+[19:03:27] [Server thread/INFO]: enzokuoshu2 issued server command: /magicitems:roll
+[19:05:30] [Async Chat Thread - #8/INFO]: [Not Secure] <.robert190206> tp a lienx
+[19:05:43] [Async Chat Thread - #8/INFO]: [Not Secure] <.Lienx10146465> nooooo
+[19:05:44] [Server thread/INFO]: enzokuoshu2 issued server command: /tp .robert190206 .Lienx10146465
+[19:05:44] [Server thread/INFO]: [enzokuoshu2: Teleported .robert190206 to .Lienx10146465]
+[19:06:43] [Async Chat Thread - #10/INFO]: [Not Secure] <.Lienx10146465> abajo
+[19:07:20] [Server thread/INFO]: .Lienx10146465 was slain by .robert190206 using Samurai Katana
+[19:07:35] [Async Chat Thread - #10/INFO]: [Not Secure] <.Lienx10146465> oye idiota te metes en la flecha
+[19:07:45] [Async Chat Thread - #10/INFO]: [Not Secure] <.Lienx10146465> si quisiera matarte hace rato era
+[19:08:21] [Async Chat Thread - #10/INFO]: [Not Secure] <.robert190206> apura vem
+[19:08:52] [Server thread/INFO]: enzokuoshu2 issued server command: /magicitems:roll scroll
+[19:09:21] [Async Chat Thread - #12/INFO]: [Not Secure] <.Lienx10146465> andate a la puta
+[19:09:42] [Async Chat Thread - #12/INFO]: [Not Secure] <.robert190206> salvo tus cosas
+[19:09:50] [Async Chat Thread - #12/INFO]: [Not Secure] <.Lienx10146465> dejalas basura
+[19:09:57] [Async Chat Thread - #12/INFO]: [Not Secure] <.Lienx10146465> largate
+[19:10:06] [Async Chat Thread - #12/INFO]: [Not Secure] <.robert190206> 20 segundo mrd
+[19:10:14] [Async Chat Thread - #12/INFO]: [Not Secure] <.robert190206> vienesy tr doy
+[19:10:15] [Async Chat Thread - #12/INFO]: [Not Secure] <.Lienx10146465> no llego p gil
+[19:10:22] [Server thread/INFO]: enzokuoshu2 issued server command: /tp enzokuoshu2 .Lienx10146465
+[19:10:22] [Server thread/INFO]: [enzokuoshu2: Teleported enzokuoshu2 to .Lienx10146465]
+[19:10:37] [Server thread/INFO]: enzokuoshu2 issued server command: /tp .Lienx10146465 .robert190206
+[19:10:37] [Server thread/INFO]: [enzokuoshu2: Teleported .Lienx10146465 to .robert190206]
+[19:10:39] [Async Chat Thread - #12/INFO]: [Not Secure] <.robert190206> ya tr los llevo
+[19:10:48] [Server thread/INFO]: enzokuoshu2 issued server command: /tp enzokuoshu2 .robert190206
+[19:10:48] [Server thread/INFO]: [enzokuoshu2: Teleported enzokuoshu2 to .robert190206]
+[19:11:04] [Async Chat Thread - #13/INFO]: [Not Secure] <enzokuoshu2> pruebenla
+[19:11:42] [Async Chat Thread - #13/INFO]: [Not Secure] <enzokuoshu2> te di una espada p robert
+[19:11:49] [Async Chat Thread - #13/INFO]: [Not Secure] <enzokuoshu2> testeala
+[19:11:51] [Async Chat Thread - #13/INFO]: [Not Secure] <.Lienx10146465> esta
+[19:11:58] [Async Chat Thread - #13/INFO]: [Not Secure] <enzokuoshu2> la de diamante
+[19:12:07] [Async Chat Thread - #13/INFO]: [Not Secure] <.Lienx10146465> esta riene nombre raro
+[19:12:26] [Async Chat Thread - #13/INFO]: [Not Secure] <enzokuoshu2> tiene cooldown de 25 segundos
+[19:12:33] [Async Chat Thread - #13/INFO]: [Not Secure] <enzokuoshu2> pero tira un rayo a donde apuntes
+[19:12:34] [Server thread/INFO]: .robert190206 was shot by .Lienx10146465 using Fire Bow
+[19:12:40] [Server thread/INFO]: .Lienx10146465 tried to swim in lava
+[19:12:52] [Async Chat Thread - #13/INFO]: [Not Secure] <.Lienx10146465> xD
+[19:12:55] [Async Chat Thread - #13/INFO]: [Not Secure] <enzokuoshu2> los 2 son igual de estupidos
+[19:13:23] [Server thread/INFO]: enzokuoshu2 issued server command: /tp enzokuoshu2
+[19:13:23] [Server thread/INFO]: [enzokuoshu2: Teleported enzokuoshu2 to enzokuoshu2]
+[19:13:33] [Server thread/INFO]: enzokuoshu2 issued server command: /tp .Lienx10146465 enzokuoshu2
+[19:13:33] [Server thread/INFO]: [enzokuoshu2: Teleported .Lienx10146465 to enzokuoshu2]
+[19:13:42] [Server thread/INFO]: enzokuoshu2 issued server command: /tp .robert190206 enzokuoshu2
+[19:13:42] [Server thread/INFO]: [enzokuoshu2: Teleported .robert190206 to enzokuoshu2]
+[19:14:21] [Async Chat Thread - #14/INFO]: [Not Secure] <.Lienx10146465> dame mi madera petrificada
+[19:14:28] [Async Chat Thread - #14/INFO]: [Not Secure] <.Lienx10146465> lo que te pusiste en la cabeza
