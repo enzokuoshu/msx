@@ -1,0 +1,188 @@
+armor:
+  offhand:
+    ==: org.bukkit.inventory.ItemStack
+    v: 4082
+    type: AIR
+    amount: 0
+charms: {}
+contents:
+  slot_0:
+    ==: org.bukkit.inventory.ItemStack
+    v: 4082
+    type: ROTTEN_FLESH
+    amount: 18
+  slot_1:
+    ==: org.bukkit.inventory.ItemStack
+    v: 4082
+    type: HUSK_SPAWN_EGG
+    amount: 38
+  slot_2:
+    ==: org.bukkit.inventory.ItemStack
+    v: 4082
+    type: DIRT
+    amount: 3
+  slot_3:
+    ==: org.bukkit.inventory.ItemStack
+    v: 4082
+    type: NETHERITE_CHESTPLATE
+    meta:
+      ==: ItemMeta
+      meta-type: ARMOR
+      PublicBukkitValues: |-
+        {
+            "magicitems:magic-items": "rolled"
+        }
+  slot_4:
+    ==: org.bukkit.inventory.ItemStack
+    v: 4082
+    type: SMITHING_TABLE
+  slot_5:
+    ==: org.bukkit.inventory.ItemStack
+    v: 4082
+    type: STICK
+    amount: 64
+  slot_6:
+    ==: org.bukkit.inventory.ItemStack
+    v: 4082
+    type: DIAMOND_SWORD
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"text":"Electric Sword","italic":false,"color":"#11AFD6"}'
+      lore:
+      - '{"text":"Generates an electric shock when","italic":false,"color":"gold"}'
+      - '{"text":"attacking, which is transferred","italic":false,"color":"gold"}'
+      - '{"text":"to adjacent opponents.","italic":false,"color":"gold"}'
+      enchants:
+        minecraft:projectile_protection: 1
+      ItemFlags:
+      - HIDE_ENCHANTS
+      Damage: 38
+      PublicBukkitValues: |-
+        {
+            "armorup:electricsword": 1b,
+            "magicitems:magic-items": "rolled"
+        }
+  slot_7:
+    ==: org.bukkit.inventory.ItemStack
+    v: 4082
+    type: DIAMOND_SWORD
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      PublicBukkitValues: |-
+        {
+            "magicitems:magic-items": "rolled"
+        }
+  slot_8:
+    ==: org.bukkit.inventory.ItemStack
+    v: 4082
+    type: BOW
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"text":"Ice Bow","italic":false,"color":"#0DD4CA"}'
+      lore:
+      - '{"text":"Freezes the ground on contact with blocks.","italic":false,"color":"dark_purple"}'
+      - '{"text":"Slows down other players and creatures for 2 seconds.","italic":false,"color":"dark_purple"}'
+      enchants:
+        minecraft:projectile_protection: 1
+      ItemFlags:
+      - HIDE_ENCHANTS
+      PublicBukkitValues: |-
+        {
+            "armorup:icebow": 1b
+        }
+  slot_17:
+    ==: org.bukkit.inventory.ItemStack
+    v: 4082
+    type: NETHERITE_CHESTPLATE
+    meta:
+      ==: ItemMeta
+      meta-type: ARMOR
+      Damage: 26
+      PublicBukkitValues: |-
+        {
+            "magicitems:magic-items": "rolled"
+        }
+  slot_22:
+    ==: org.bukkit.inventory.ItemStack
+    v: 4082
+    type: BOW
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"text":"Fire Bow","italic":false,"color":"#F56C1D"}'
+      lore:
+      - '{"text":"Creates an area with fire and lava.","italic":false,"color":"dark_purple"}'
+      - '{"text":"Sets other players and creatures on fire for 3 seconds.","italic":false,"color":"dark_purple"}'
+      enchants:
+        minecraft:projectile_protection: 1
+      ItemFlags:
+      - HIDE_ENCHANTS
+      PublicBukkitValues: |-
+        {
+            "armorup:firebow": 1b
+        }
+  slot_23:
+    ==: org.bukkit.inventory.ItemStack
+    v: 4082
+    type: CANDLE
+    amount: 2
+  slot_24:
+    ==: org.bukkit.inventory.ItemStack
+    v: 4082
+    type: REDSTONE
+    amount: 64
+  slot_25:
+    ==: org.bukkit.inventory.ItemStack
+    v: 4082
+    type: COMPASS
+  slot_26:
+    ==: org.bukkit.inventory.ItemStack
+    v: 4082
+    type: SOUL_TORCH
+    amount: 8
+  slot_27:
+    ==: org.bukkit.inventory.ItemStack
+    v: 4082
+    type: DISC_FRAGMENT_5
+    amount: 3
+  slot_28:
+    ==: org.bukkit.inventory.ItemStack
+    v: 4082
+    type: COAL
+    amount: 12
+  slot_29:
+    ==: org.bukkit.inventory.ItemStack
+    v: 4082
+    type: DIAMOND
+    amount: 64
+  slot_30:
+    ==: org.bukkit.inventory.ItemStack
+    v: 4082
+    type: STRING
+  slot_31:
+    ==: org.bukkit.inventory.ItemStack
+    v: 4082
+    type: MUTTON
+    amount: 2
+  slot_32:
+    ==: org.bukkit.inventory.ItemStack
+    v: 4082
+    type: GUNPOWDER
+    amount: 3
+  slot_33:
+    ==: org.bukkit.inventory.ItemStack
+    v: 4082
+    type: WHITE_WOOL
+  slot_34:
+    ==: org.bukkit.inventory.ItemStack
+    v: 4082
+    type: PORKCHOP
+    amount: 10
+  slot_35:
+    ==: org.bukkit.inventory.ItemStack
+    v: 4082
+    type: GOLDEN_APPLE
+    amount: 60
