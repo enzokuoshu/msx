@@ -1,8 +1,8 @@
-[18:44:57] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.5+11-Ubuntu-1ubuntu120.04; Ubuntu null) on Linux 6.5.0-1025-azure (amd64)
-[18:44:57] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.3-63-master@4190ee7 (2024-11-25T18:59:19Z) for Minecraft 1.21.3
-[18:44:57] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
-[18:45:00] [Paper Plugin Remapper Thread - 0/INFO]: [PluginRemapper] Remapping plugin 'plugins/MoreArmors-3.8.1-all.jar'...
-[18:45:01] [ServerMain/ERROR]: [PluginRemapper] Encountered exception remapping plugins
+[00:37:50] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.5+11-Ubuntu-1ubuntu120.04; Ubuntu null) on Linux 6.5.0-1025-azure (amd64)
+[00:37:50] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.3-63-master@4190ee7 (2024-11-25T18:59:19Z) for Minecraft 1.21.3
+[00:37:50] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
+[00:37:51] [Paper Plugin Remapper Thread - 0/INFO]: [PluginRemapper] Remapping plugin 'plugins/MoreArmors-3.8.1-all.jar'...
+[00:37:51] [ServerMain/ERROR]: [PluginRemapper] Encountered exception remapping plugins
 java.util.concurrent.CompletionException: java.lang.RuntimeException: Failed to remap plugin jar 'plugins/MoreArmors-3.8.1-all.jar'
 	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:315) ~[?:?]
 	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:320) ~[?:?]
@@ -21,446 +21,248 @@ Caused by: java.lang.IllegalStateException: Duplicate entries detected: plugin.y
 	at io.papermc.paper.pluginremap.PluginRemapper.lambda$remap$7(PluginRemapper.java:355) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
 	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:646) ~[?:?]
 	... 4 more
-[18:45:02] [ServerMain/INFO]: [PluginInitializerManager] Initialized 20 plugins
-[18:45:02] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (20):
- - ArmorQualities (1.3.3), ArmorUp (1.0-SNAPSHOT), AutoTreeChop (1.5.5), AxGraves (1.17.0), CrazyEnchantments (2.5.1), Geyser-Spigot (2.6.0-SNAPSHOT), GodItems (3.0.1), HealthBar-Reloaded (2.0.4.1), MagicItems (1.2), MoreOres (1.13.10), ProtocolLib (5.3.0), TheNewEconomy (0.1.3.4), ValhallaMMO (1.2.7), Veinminer (2.2.2), ViaBackwards (5.2.0), ViaVersion (5.2.0), Waypoints (4.5.3), XPHearts (1.1.0), YamipaPlugin (1.3.2), floodgate (2.2.3-SNAPSHOT (b114-83fbd6e))
-[18:45:07] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[18:45:09] [ServerMain/INFO]: Loaded 1337 recipes
-[18:45:09] [ServerMain/INFO]: Loaded 1448 advancements
-[18:45:09] [Server thread/INFO]: Starting minecraft server version 1.21.3
-[18:45:09] [Server thread/INFO]: Loading properties
-[18:45:09] [Server thread/INFO]: This server is running Paper version 1.21.3-63-master@4190ee7 (2024-11-25T18:59:19Z) (Implementing API version 1.21.3-R0.1-SNAPSHOT)
-[18:45:10] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
-[18:45:11] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[18:45:11] [Server thread/INFO]: Using 4 threads for Netty based IO
-[18:45:12] [Server thread/INFO]: [MoonriseCommon] Paper is using 1 worker threads, 1 I/O threads
-[18:45:12] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using population gen parallelism: true
-[18:45:12] [Server thread/INFO]: Default game type: SURVIVAL
-[18:45:12] [Server thread/INFO]: Generating keypair
-[18:45:12] [Server thread/INFO]: Starting Minecraft server on *:25565
-[18:45:12] [Server thread/INFO]: Using epoll channel type
-[18:45:12] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
-[18:45:12] [Server thread/INFO]: Paper: Using OpenSSL 1.1.x (Linux x86_64) cipher from Velocity.
-[18:45:13] [Server thread/INFO]: [SpigotLibraryLoader] [Veinminer] Loading 4 libraries... please wait
-[18:45:13] [Server thread/INFO]: [SpigotLibraryLoader] [Veinminer] Loaded library /workspaces/msx/servidor_minecraft/libraries/org/jetbrains/kotlin/kotlin-stdlib/2.1.0/kotlin-stdlib-2.1.0.jar
-[18:45:13] [Server thread/INFO]: [SpigotLibraryLoader] [Veinminer] Loaded library /workspaces/msx/servidor_minecraft/libraries/org/jetbrains/annotations/13.0/annotations-13.0.jar
-[18:45:13] [Server thread/INFO]: [SpigotLibraryLoader] [Veinminer] Loaded library /workspaces/msx/servidor_minecraft/libraries/org/jetbrains/kotlinx/kotlinx-serialization-json/1.7.3/kotlinx-serialization-json-1.7.3.jar
-[18:45:13] [Server thread/INFO]: [SpigotLibraryLoader] [Veinminer] Loaded library /workspaces/msx/servidor_minecraft/libraries/org/jetbrains/kotlinx/kotlinx-serialization-json-jvm/1.7.3/kotlinx-serialization-json-jvm-1.7.3.jar
-[18:45:13] [Server thread/INFO]: [SpigotLibraryLoader] [Veinminer] Loaded library /workspaces/msx/servidor_minecraft/libraries/org/jetbrains/kotlinx/kotlinx-serialization-core-jvm/1.7.3/kotlinx-serialization-core-jvm-1.7.3.jar
-[18:45:13] [Server thread/INFO]: [SpigotLibraryLoader] [Veinminer] Loaded library /workspaces/msx/servidor_minecraft/libraries/org/jetbrains/kotlinx/kotlinx-coroutines-core/1.9.0/kotlinx-coroutines-core-1.9.0.jar
-[18:45:13] [Server thread/INFO]: [SpigotLibraryLoader] [Veinminer] Loaded library /workspaces/msx/servidor_minecraft/libraries/org/jetbrains/kotlinx/kotlinx-coroutines-core-jvm/1.9.0/kotlinx-coroutines-core-jvm-1.9.0.jar
-[18:45:13] [Server thread/INFO]: [SpigotLibraryLoader] [Veinminer] Loaded library /workspaces/msx/servidor_minecraft/libraries/de/miraculixx/kpaper/1.2.1/kpaper-1.2.1.jar
-[18:45:13] [Server thread/INFO]: [SpigotLibraryLoader] [Veinminer] Loaded library /workspaces/msx/servidor_minecraft/libraries/org/jetbrains/kotlinx/kotlinx-coroutines-jdk8/1.7.1/kotlinx-coroutines-jdk8-1.7.1.jar
-[18:45:13] [Server thread/INFO]: [SpigotLibraryLoader] [Veinminer] Loaded library /workspaces/msx/servidor_minecraft/libraries/org/jetbrains/kotlin/kotlin-stdlib-jdk8/1.8.22/kotlin-stdlib-jdk8-1.8.22.jar
-[18:45:13] [Server thread/INFO]: [SpigotLibraryLoader] [Veinminer] Loaded library /workspaces/msx/servidor_minecraft/libraries/org/jetbrains/kotlin/kotlin-stdlib-jdk7/1.8.22/kotlin-stdlib-jdk7-1.8.22.jar
-[18:45:13] [Server thread/INFO]: [SpigotLibraryLoader] [Waypoints] Loading 3 libraries... please wait
-[18:45:13] [Server thread/INFO]: [SpigotLibraryLoader] [Waypoints] Loaded library /workspaces/msx/servidor_minecraft/libraries/org/jetbrains/kotlin/kotlin-stdlib/2.0.0/kotlin-stdlib-2.0.0.jar
-[18:45:13] [Server thread/INFO]: [SpigotLibraryLoader] [Waypoints] Loaded library /workspaces/msx/servidor_minecraft/libraries/org/jetbrains/annotations/13.0/annotations-13.0.jar
-[18:45:13] [Server thread/INFO]: [SpigotLibraryLoader] [Waypoints] Loaded library /workspaces/msx/servidor_minecraft/libraries/org/jetbrains/kotlin/kotlin-reflect/2.0.0/kotlin-reflect-2.0.0.jar
-[18:45:13] [Server thread/INFO]: [SpigotLibraryLoader] [Waypoints] Loaded library /workspaces/msx/servidor_minecraft/libraries/org/jetbrains/kotlinx/kotlinx-coroutines-core-jvm/1.8.1/kotlinx-coroutines-core-jvm-1.8.1.jar
-[18:45:14] [Server thread/INFO]: [ViaVersion] Loading server plugin ViaVersion v5.2.0
-[18:45:14] [Server thread/INFO]: [ViaVersion] ViaVersion 5.2.0 is now loaded. Registering protocol transformers and injecting...
-[18:45:15] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
-[18:45:15] [Via-Mappingloader-0/INFO]: [ViaVersion] Using FastUtil Long2ObjectOpenHashMap for block connections
-[18:45:15] [Server thread/INFO]: [ViaBackwards] Loading translations...
-[18:45:15] [Server thread/INFO]: [ViaBackwards] Registering protocols...
-[18:45:16] [Server thread/INFO]: [floodgate] Loading server plugin floodgate v2.2.3-SNAPSHOT (b114-83fbd6e)
-[18:45:17] [Server thread/WARN]: [floodgate] en_ is not a supported Floodgate language.
-[18:45:17] [Server thread/INFO]: [floodgate] Took 985ms to boot Floodgate
-[18:45:17] [Server thread/INFO]: [ProtocolLib] Loading server plugin ProtocolLib v5.3.0
-[18:45:17] [Server thread/WARN]: [ProtocolLib] Version (MC: 1.21.3) has not yet been tested! Proceed with caution.
-[18:45:17] [Server thread/INFO]: [HealthBar-Reloaded] Loading server plugin HealthBar-Reloaded v2.0.4.1
-[18:45:17] [Server thread/INFO]: [CrazyEnchantments] Loading server plugin CrazyEnchantments v2.5.1
-[18:45:17] [Server thread/INFO]: [AutoTreeChop] Loading server plugin AutoTreeChop v1.5.5
-[18:45:17] [Server thread/INFO]: [MagicItems] Loading server plugin MagicItems v1.2
-[18:45:17] [Server thread/INFO]: [ArmorUp] Loading server plugin ArmorUp v1.0-SNAPSHOT
-[18:45:17] [Server thread/INFO]: [AxGraves] Loading server plugin AxGraves v1.17.0
-[18:45:17] [Server thread/INFO]: [AxGraves] Loading library commons-math3
-[18:45:17] [Server thread/INFO]: [AxGraves] Loading library caffeine
-[18:45:17] [Server thread/INFO]: [ArmorQualities] Loading server plugin ArmorQualities v1.3.3
-[18:45:17] [Server thread/INFO]: [Veinminer] Loading server plugin Veinminer v2.2.2
-[18:45:18] [Server thread/INFO]: [GodItems] Loading server plugin GodItems v3.0.1
-[18:45:18] [Server thread/INFO]: [GodItems] Optional dependency WorldGuard not found. WorldGuard related features will not work.
-[18:45:18] [Server thread/INFO]: [ValhallaMMO] Loading server plugin ValhallaMMO v1.2.7
-[18:45:18] [Server thread/INFO]: [ValhallaMMO] Loading ValhallaMMO config with language en-us selected
-[18:45:18] [Server thread/INFO]: [MoreOres] Loading server plugin MoreOres v1.13.10
-[18:45:18] [Server thread/INFO]: [Geyser-Spigot] Loading server plugin Geyser-Spigot v2.6.0-SNAPSHOT
-[18:45:19] [Server thread/INFO]: [Geyser-Spigot] Loading extensions...
-[18:45:19] [Server thread/INFO]: [Geyser-Spigot] Loaded 0 extension(s)
-[18:45:19] [Server thread/INFO]: [ViaBackwards] Loading server plugin ViaBackwards v5.2.0
-[18:45:19] [Server thread/INFO]: [Waypoints] Loading server plugin Waypoints v4.5.3
-[18:45:20] [Server thread/INFO]: [YamipaPlugin] Loading server plugin YamipaPlugin v1.3.2
-[18:45:20] [Server thread/INFO]: [TheNewEconomy] Loading server plugin TheNewEconomy v0.1.3.4
-[18:45:20] [Server thread/INFO]: [TheNewEconomy] Checking for VaultUnlocked
-[18:45:20] [Server thread/WARN]: [TheNewEconomy] Unable to connect to VaultUnlocked!
-[18:45:20] [Server thread/INFO]: [TheNewEconomy] Checking for Vault
-[18:45:20] [Server thread/WARN]: [TheNewEconomy] Unable to connect to vault!
-[18:45:20] [Server thread/INFO]: [XPHearts] Loading server plugin XPHearts v1.1.0
-[18:45:20] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[18:45:20] [Server thread/INFO]: [ProtocolLib] Enabling ProtocolLib v5.3.0
-[18:45:20] [Server thread/INFO]: [Veinminer] Enabling Veinminer v2.2.2
-[18:45:20] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[18:45:20] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[18:45:20] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[18:45:20] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[18:45:20] [Server thread/INFO]: Preparing level "world"
-[18:45:20] [DefaultDispatcher-worker-1/INFO]: [VeinminerUpdater] veinminer is up to date
-[18:45:20] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[18:45:20] [Paper Common Worker #0/INFO]: [MCTypeRegistry] Initialising converters for DataConverter...
-[18:45:21] [Paper Common Worker #0/INFO]: [MCTypeRegistry] Finished initialising converters for DataConverter in 294.0ms
-[18:45:21] [Server thread/INFO]: Preparing spawn area: 0%
-[18:45:21] [Server thread/INFO]: Preparing spawn area: 2%
-[18:45:21] [Server thread/INFO]: Preparing spawn area: 16%
-[18:45:21] [Server thread/INFO]: Time elapsed: 1160 ms
-[18:45:21] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[18:45:21] [Server thread/INFO]: Preparing spawn area: 0%
-[18:45:22] [Server thread/INFO]: Time elapsed: 202 ms
-[18:45:22] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[18:45:22] [Server thread/INFO]: Preparing spawn area: 0%
-[18:45:22] [Server thread/INFO]: Time elapsed: 85 ms
-[18:45:22] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v5.2.0
-[18:45:22] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.21.2-1.21.3 (768)
-[18:45:22] [Server thread/INFO]: [floodgate] Enabling floodgate v2.2.3-SNAPSHOT (b114-83fbd6e)
-[18:45:22] [Server thread/INFO]: [HealthBar-Reloaded] Enabling HealthBar-Reloaded v2.0.4.1
-[18:45:22] [Server thread/INFO]: [CrazyEnchantments] Enabling CrazyEnchantments v2.5.1
-[18:45:22] [Server thread/INFO]: [CrazyEnchantments] Loading the config.yml
-[18:45:22] [Server thread/INFO]: [CrazyEnchantments] Successfully loaded config.yml
-[18:45:22] [Server thread/INFO]: [CrazyEnchantments] Loading the BlockList.yml
-[18:45:22] [Server thread/INFO]: [CrazyEnchantments] Successfully loaded BlockList.yml
-[18:45:22] [Server thread/INFO]: [CrazyEnchantments] Loading the HeadMap.yml
-[18:45:22] [Server thread/INFO]: [CrazyEnchantments] Successfully loaded HeadMap.yml
-[18:45:22] [Server thread/INFO]: [CrazyEnchantments] Loading the Data.yml
-[18:45:22] [Server thread/INFO]: [CrazyEnchantments] Successfully loaded Data.yml
-[18:45:22] [Server thread/INFO]: [CrazyEnchantments] Loading the Enchantments.yml
-[18:45:22] [Server thread/INFO]: [CrazyEnchantments] Successfully loaded Enchantments.yml
-[18:45:22] [Server thread/INFO]: [CrazyEnchantments] Loading the GKitz.yml
-[18:45:22] [Server thread/INFO]: [CrazyEnchantments] Successfully loaded GKitz.yml
-[18:45:22] [Server thread/INFO]: [CrazyEnchantments] Loading the Messages.yml
-[18:45:22] [Server thread/INFO]: [CrazyEnchantments] Successfully loaded Messages.yml
-[18:45:22] [Server thread/INFO]: [CrazyEnchantments] Loading the Enchantment-Types.yml
-[18:45:22] [Server thread/INFO]: [CrazyEnchantments] Successfully loaded Enchantment-Types.yml
-[18:45:22] [Server thread/INFO]: [CrazyEnchantments] Loading the Tinker.yml
-[18:45:22] [Server thread/INFO]: [CrazyEnchantments] Successfully loaded Tinker.yml
-[18:45:22] [Server thread/WARN]: [CrazyEnchantments] No eco plugin found or the eco plugin didn't enable. Any economy based feature will not work.
-[18:45:22] [Server thread/INFO]: [CrazyEnchantments]: === CrazyEnchantment Hook Status ===
-[18:45:22] [Server thread/INFO]: [CrazyEnchantments]: VAULT NOT FOUND
-[18:45:22] [Server thread/INFO]: [CrazyEnchantments]: WORLDEDIT NOT FOUND
-[18:45:22] [Server thread/INFO]: [CrazyEnchantments]: NO_CHEAT_PLUS NOT FOUND
-[18:45:22] [Server thread/INFO]: [CrazyEnchantments]: GRIEF_PREVENTION NOT FOUND
-[18:45:22] [Server thread/INFO]: [CrazyEnchantments]: ORAXEN NOT FOUND
-[18:45:22] [Server thread/INFO]: [CrazyEnchantments]: MCMMO NOT FOUND
-[18:45:22] [Server thread/INFO]: [CrazyEnchantments]: PLOT_SQUARED NOT FOUND
-[18:45:22] [Server thread/INFO]: [CrazyEnchantments]: LANDS NOT FOUND
-[18:45:22] [Server thread/INFO]: [CrazyEnchantments]: FACTIONS_UUID NOT FOUND
-[18:45:22] [Server thread/INFO]: [CrazyEnchantments]: WORLDGUARD NOT FOUND
-[18:45:22] [Server thread/INFO]: [CrazyEnchantments]: SUPERIORSKYBLOCK NOT FOUND
-[18:45:22] [Server thread/INFO]: [CrazyEnchantments]: TOWNYADVANCED NOT FOUND
-[18:45:23] [Server thread/INFO]: [CrazyEnchantments] G-Kitz support is now enabled.
-[18:45:23] [Server thread/INFO]: [AutoTreeChop] Enabling AutoTreeChop v1.5.5
-[18:45:23] [Server thread/WARN]: [AutoTreeChop] PlaceholderAPI not found. Placeholder expansion for AutoTreeChop will not work.
-[18:45:23] [Server thread/INFO]: [MagicItems] Enabling MagicItems v1.2
-[18:45:23] [Server thread/INFO]: [MagicItems] All names loaded!
-[18:45:23] [Server thread/INFO]: [MagicItems] If any warnings showed up, you could try to delete the config.yml file so new one could generate.
-[18:45:23] [Server thread/INFO]: [MagicItems] Hello from magic items!
-[18:45:23] [Server thread/INFO]: [ArmorUp] Enabling ArmorUp v1.0-SNAPSHOT
-[18:45:24] [Server thread/INFO]: [AxGraves] Enabling AxGraves v1.17.0
-[18:45:24] [Server thread/INFO]: [ArmorQualities] Enabling ArmorQualities v1.3.3
-[18:45:24] [Server thread/INFO]: [ArmorQualities] Reforge plugin enabled
-[18:45:24] [Server thread/INFO]: [GodItems] Enabling GodItems v3.0.1
-[18:45:24] [Server thread/INFO]: [GodItems] Made by MitromniZ and Cros_bow
-[18:45:24] [Server thread/INFO]: [GodItems] The texture pack is only available if you download the plugin from our patreon page
-[18:45:25] [Server thread/INFO]: [ValhallaMMO] Enabling ValhallaMMO v1.2.7
-[18:45:25] [Server thread/INFO]: [ValhallaMMO] NMS version NMS_v1_21_R2 registered!
-[18:45:25] [Server thread/INFO]: [ValhallaMMO] Resource pack hosting not established! Use /val resourcepack setup if you want ValhallaMMO's resource pack hosted for you
-[18:45:25] [Server thread/WARN]: [ValhallaMMO] No valid host for the resource pack configured! You may ignore this warning if you've not set up the resource pack.
-[18:45:25] [Server thread/INFO]: [ValhallaMMO] MiniMessage support initialized
-[18:45:25] [Server thread/WARN]: [ValhallaMMO] No translated value mapped for smithing-upgrade-disallowed-deepslate-mining
-[18:45:28] [Server thread/INFO]: [ValhallaMMO] Database connection failed, attempting SQLite for profile persistence
-[18:45:28] [Server thread/INFO]: [ValhallaMMO] SQLite connection created! Deleting this file will reset everyone's progress, so back this file up or ignore it in case you want to delete/reset the configs.
-[18:45:29] [Server thread/INFO]: [ValhallaMMO] Loading brewing recipes from plugins/ValhallaMMO/recipes/brewing_recipes.json
-[18:45:29] [Server thread/INFO]: [ValhallaMMO] Loading crafting grid recipes from plugins/ValhallaMMO/recipes/grid_recipes.json
-[18:45:29] [Server thread/INFO]: [ValhallaMMO] Loading smithing recipes from plugins/ValhallaMMO/recipes/smithing_recipes.json
-[18:45:29] [Server thread/INFO]: [ValhallaMMO] Loading immersive recipes from plugins/ValhallaMMO/recipes/immersive_recipes.json
-[18:45:29] [Server thread/INFO]: [ValhallaMMO] Loading cauldron recipes from plugins/ValhallaMMO/recipes/cauldron_recipes.json
-[18:45:29] [Server thread/INFO]: [ValhallaMMO] Loading cooking recipes from plugins/ValhallaMMO/recipes/cooking_recipes.json
-[18:45:29] [Server thread/INFO]: [ValhallaMMO] Loading brewing recipes from plugins/ValhallaMMO/recipes/brewing_recipes_1_20_6+.json
-[18:45:29] [Server thread/INFO]: [MoreOres] Enabling MoreOres v1.13.10
-[18:45:29] [Server thread/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[18:45:29] [Server thread/INFO]: More Ores Loaded Successfully! :-D
-[18:45:29] [Server thread/INFO]: [Geyser-Spigot] Enabling Geyser-Spigot v2.6.0-SNAPSHOT
-[18:45:29] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v5.2.0
-[18:45:29] [Server thread/INFO]: [Waypoints] Enabling Waypoints v4.5.3
-[18:45:30] [Server thread/INFO]: [YamipaPlugin] Enabling YamipaPlugin v1.3.2
-[18:45:30] [Server thread/INFO]: [YamipaPlugin] Enabled image animation support
-[18:45:30] [Server thread/INFO]: [YamipaPlugin] [ImageRenderer] No placed fake images configuration file found
-[18:45:30] [Thread-15/WARN]: [YamipaPlugin] [FileSystemWatcher] Device does not support inotify, detection of file changes will be slower
-[18:45:30] [Server thread/INFO]: [TheNewEconomy] Enabling TheNewEconomy v0.1.3.4
-[18:45:30] [Server thread/INFO]: [TheNewEconomy] Loading configurations!
-[18:45:31] [Server thread/INFO]: [TheNewEconomy] The New Economy has been enabled!
-[18:45:31] [Server thread/INFO]: [XPHearts] Enabling XPHearts v1.1.0
-[18:45:31] [Server thread/INFO]: [spark] Starting background profiler...
-[18:45:31] [Server thread/INFO]: [Geyser-Spigot] ******************************************
-[18:45:31] [Server thread/INFO]: [Geyser-Spigot] 
-[18:45:31] [Server thread/INFO]: [Geyser-Spigot] Loading Geyser version 2.6.0-b734 (git-master-64c7adc)
-[18:45:31] [Server thread/INFO]: [Geyser-Spigot] 
-[18:45:31] [Server thread/INFO]: [Geyser-Spigot] ******************************************
-[18:45:34] [epollEventLoopGroup-3-1/INFO]: [Geyser-Spigot] Started Geyser on UDP port 19132
-[18:45:34] [Server thread/INFO]: [Geyser-Spigot] Done (2.902s)! Run /geyser help for help!
-[18:45:34] [Server thread/INFO]: Done preparing level "world" (14.378s)
-[18:45:34] [Server thread/INFO]: Running delayed init tasks
-[18:45:34] [Craft Scheduler Thread - 2 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor.
-[18:45:34] [Server thread/INFO]: Done (39.285s)! For help, type "help"
-[18:45:35] [Craft Scheduler Thread - 8 - Waypoints/INFO]: [Waypoints] The version v4.5.5 for Waypoints is available.
+[00:37:52] [ServerMain/INFO]: [PluginInitializerManager] Initialized 21 plugins
+[00:37:52] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (21):
+ - ArmorQualities (1.3.3), ArmorUp (1.0-SNAPSHOT), AutoTreeChop (1.5.5), AxGraves (1.17.0), CrazyEnchantments (2.5.1), Geyser-Spigot (2.6.0-SNAPSHOT), GodItems (3.0.1), HealthBar-Reloaded (2.0.4.1), MagicItems (1.2), MoreOres (1.13.10), MythicDungeons (1.4.1F), ProtocolLib (5.3.0), TheNewEconomy (0.1.3.4), ValhallaMMO (1.2.7), Veinminer (2.2.2), ViaBackwards (5.2.0), ViaVersion (5.2.0), Waypoints (4.5.3), XPHearts (1.1.0), YamipaPlugin (1.3.2), floodgate (2.2.3-SNAPSHOT (b114-83fbd6e))
+[00:37:55] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[00:37:57] [ServerMain/INFO]: Loaded 1337 recipes
+[00:37:57] [ServerMain/INFO]: Loaded 1448 advancements
+[00:37:57] [Server thread/INFO]: Starting minecraft server version 1.21.3
+[00:37:57] [Server thread/INFO]: Loading properties
+[00:37:57] [Server thread/INFO]: This server is running Paper version 1.21.3-63-master@4190ee7 (2024-11-25T18:59:19Z) (Implementing API version 1.21.3-R0.1-SNAPSHOT)
+[00:37:58] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[00:37:58] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[00:37:58] [Server thread/INFO]: Using 4 threads for Netty based IO
+[00:37:58] [Server thread/INFO]: [MoonriseCommon] Paper is using 1 worker threads, 1 I/O threads
+[00:37:58] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using population gen parallelism: true
+[00:37:59] [Server thread/INFO]: Default game type: SURVIVAL
+[00:37:59] [Server thread/INFO]: Generating keypair
+[00:37:59] [Server thread/INFO]: Starting Minecraft server on *:25565
+[00:37:59] [Server thread/INFO]: Using epoll channel type
+[00:37:59] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[00:37:59] [Server thread/INFO]: Paper: Using OpenSSL 1.1.x (Linux x86_64) cipher from Velocity.
+[00:38:01] [Server thread/INFO]: [SpigotLibraryLoader] [Veinminer] Loading 4 libraries... please wait
+[00:38:01] [Server thread/INFO]: [SpigotLibraryLoader] [Veinminer] Loaded library /workspaces/msx/servidor_minecraft/libraries/org/jetbrains/kotlin/kotlin-stdlib/2.1.0/kotlin-stdlib-2.1.0.jar
+[00:38:01] [Server thread/INFO]: [SpigotLibraryLoader] [Veinminer] Loaded library /workspaces/msx/servidor_minecraft/libraries/org/jetbrains/annotations/13.0/annotations-13.0.jar
+[00:38:01] [Server thread/INFO]: [SpigotLibraryLoader] [Veinminer] Loaded library /workspaces/msx/servidor_minecraft/libraries/org/jetbrains/kotlinx/kotlinx-serialization-json/1.7.3/kotlinx-serialization-json-1.7.3.jar
+[00:38:01] [Server thread/INFO]: [SpigotLibraryLoader] [Veinminer] Loaded library /workspaces/msx/servidor_minecraft/libraries/org/jetbrains/kotlinx/kotlinx-serialization-json-jvm/1.7.3/kotlinx-serialization-json-jvm-1.7.3.jar
+[00:38:01] [Server thread/INFO]: [SpigotLibraryLoader] [Veinminer] Loaded library /workspaces/msx/servidor_minecraft/libraries/org/jetbrains/kotlinx/kotlinx-serialization-core-jvm/1.7.3/kotlinx-serialization-core-jvm-1.7.3.jar
+[00:38:01] [Server thread/INFO]: [SpigotLibraryLoader] [Veinminer] Loaded library /workspaces/msx/servidor_minecraft/libraries/org/jetbrains/kotlinx/kotlinx-coroutines-core/1.9.0/kotlinx-coroutines-core-1.9.0.jar
+[00:38:01] [Server thread/INFO]: [SpigotLibraryLoader] [Veinminer] Loaded library /workspaces/msx/servidor_minecraft/libraries/org/jetbrains/kotlinx/kotlinx-coroutines-core-jvm/1.9.0/kotlinx-coroutines-core-jvm-1.9.0.jar
+[00:38:01] [Server thread/INFO]: [SpigotLibraryLoader] [Veinminer] Loaded library /workspaces/msx/servidor_minecraft/libraries/de/miraculixx/kpaper/1.2.1/kpaper-1.2.1.jar
+[00:38:01] [Server thread/INFO]: [SpigotLibraryLoader] [Veinminer] Loaded library /workspaces/msx/servidor_minecraft/libraries/org/jetbrains/kotlinx/kotlinx-coroutines-jdk8/1.7.1/kotlinx-coroutines-jdk8-1.7.1.jar
+[00:38:01] [Server thread/INFO]: [SpigotLibraryLoader] [Veinminer] Loaded library /workspaces/msx/servidor_minecraft/libraries/org/jetbrains/kotlin/kotlin-stdlib-jdk8/1.8.22/kotlin-stdlib-jdk8-1.8.22.jar
+[00:38:01] [Server thread/INFO]: [SpigotLibraryLoader] [Veinminer] Loaded library /workspaces/msx/servidor_minecraft/libraries/org/jetbrains/kotlin/kotlin-stdlib-jdk7/1.8.22/kotlin-stdlib-jdk7-1.8.22.jar
+[00:38:01] [Server thread/INFO]: [SpigotLibraryLoader] [Waypoints] Loading 3 libraries... please wait
+[00:38:01] [Server thread/INFO]: [SpigotLibraryLoader] [Waypoints] Loaded library /workspaces/msx/servidor_minecraft/libraries/org/jetbrains/kotlin/kotlin-stdlib/2.0.0/kotlin-stdlib-2.0.0.jar
+[00:38:01] [Server thread/INFO]: [SpigotLibraryLoader] [Waypoints] Loaded library /workspaces/msx/servidor_minecraft/libraries/org/jetbrains/annotations/13.0/annotations-13.0.jar
+[00:38:01] [Server thread/INFO]: [SpigotLibraryLoader] [Waypoints] Loaded library /workspaces/msx/servidor_minecraft/libraries/org/jetbrains/kotlin/kotlin-reflect/2.0.0/kotlin-reflect-2.0.0.jar
+[00:38:01] [Server thread/INFO]: [SpigotLibraryLoader] [Waypoints] Loaded library /workspaces/msx/servidor_minecraft/libraries/org/jetbrains/kotlinx/kotlinx-coroutines-core-jvm/1.8.1/kotlinx-coroutines-core-jvm-1.8.1.jar
+[00:38:01] [Server thread/INFO]: [floodgate] Loading server plugin floodgate v2.2.3-SNAPSHOT (b114-83fbd6e)
+[00:38:02] [Server thread/WARN]: [floodgate] en_ is not a supported Floodgate language.
+[00:38:02] [Server thread/INFO]: [floodgate] Took 878ms to boot Floodgate
+[00:38:02] [Server thread/INFO]: [ViaVersion] Loading server plugin ViaVersion v5.2.0
+[00:38:02] [Server thread/INFO]: [ViaVersion] ViaVersion 5.2.0 is now loaded. Registering protocol transformers and injecting...
+[00:38:03] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
+[00:38:03] [Via-Mappingloader-0/INFO]: [ViaVersion] Using FastUtil Long2ObjectOpenHashMap for block connections
+[00:38:03] [Server thread/INFO]: [ViaBackwards] Loading translations...
+[00:38:03] [Server thread/INFO]: [ViaBackwards] Registering protocols...
+[00:38:04] [Server thread/INFO]: [Geyser-Spigot] Loading server plugin Geyser-Spigot v2.6.0-SNAPSHOT
+[00:38:04] [Server thread/INFO]: [Geyser-Spigot] Loading extensions...
+[00:38:04] [Server thread/INFO]: [Geyser-Spigot] Loaded 0 extension(s)
+[00:38:04] [Server thread/INFO]: [ProtocolLib] Loading server plugin ProtocolLib v5.3.0
+[00:38:04] [Server thread/WARN]: [ProtocolLib] Version (MC: 1.21.3) has not yet been tested! Proceed with caution.
+[00:38:04] [Server thread/INFO]: [ViaBackwards] Loading server plugin ViaBackwards v5.2.0
+[00:38:04] [Server thread/INFO]: [HealthBar-Reloaded] Loading server plugin HealthBar-Reloaded v2.0.4.1
+[00:38:04] [Server thread/INFO]: [CrazyEnchantments] Loading server plugin CrazyEnchantments v2.5.1
+[00:38:04] [Server thread/INFO]: [AutoTreeChop] Loading server plugin AutoTreeChop v1.5.5
+[00:38:04] [Server thread/INFO]: [MagicItems] Loading server plugin MagicItems v1.2
+[00:38:04] [Server thread/INFO]: [ArmorUp] Loading server plugin ArmorUp v1.0-SNAPSHOT
+[00:38:04] [Server thread/INFO]: [AxGraves] Loading server plugin AxGraves v1.17.0
+[00:38:04] [Server thread/INFO]: [AxGraves] Loading library commons-math3
+[00:38:04] [Server thread/INFO]: [AxGraves] Loading library caffeine
+[00:38:04] [Server thread/INFO]: [ArmorQualities] Loading server plugin ArmorQualities v1.3.3
+[00:38:04] [Server thread/INFO]: [Veinminer] Loading server plugin Veinminer v2.2.2
+[00:38:05] [Server thread/INFO]: [GodItems] Loading server plugin GodItems v3.0.1
+[00:38:05] [Server thread/INFO]: [GodItems] Optional dependency WorldGuard not found. WorldGuard related features will not work.
+[00:38:05] [Server thread/INFO]: [MythicDungeons] Loading server plugin MythicDungeons v1.4.1F
+[00:38:05] [Server thread/INFO]: [ValhallaMMO] Loading server plugin ValhallaMMO v1.2.7
+[00:38:05] [Server thread/INFO]: [ValhallaMMO] Loading ValhallaMMO config with language en-us selected
+[00:38:05] [Server thread/INFO]: [MoreOres] Loading server plugin MoreOres v1.13.10
+[00:38:05] [Server thread/INFO]: [Waypoints] Loading server plugin Waypoints v4.5.3
+[00:38:06] [Server thread/INFO]: [YamipaPlugin] Loading server plugin YamipaPlugin v1.3.2
+[00:38:06] [Server thread/INFO]: [TheNewEconomy] Loading server plugin TheNewEconomy v0.1.3.4
+[00:38:06] [Server thread/INFO]: [TheNewEconomy] Checking for VaultUnlocked
+[00:38:06] [Server thread/WARN]: [TheNewEconomy] Unable to connect to VaultUnlocked!
+[00:38:06] [Server thread/INFO]: [TheNewEconomy] Checking for Vault
+[00:38:06] [Server thread/WARN]: [TheNewEconomy] Unable to connect to vault!
+[00:38:06] [Server thread/INFO]: [XPHearts] Loading server plugin XPHearts v1.1.0
+[00:38:06] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[00:38:06] [Server thread/INFO]: [ProtocolLib] Enabling ProtocolLib v5.3.0
+[00:38:06] [Server thread/INFO]: [Veinminer] Enabling Veinminer v2.2.2
+[00:38:06] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[00:38:06] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[00:38:06] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[00:38:06] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[00:38:06] [Server thread/INFO]: Preparing level "world"
+[00:38:07] [DefaultDispatcher-worker-1/INFO]: [VeinminerUpdater] veinminer is up to date
+[00:38:07] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[00:38:07] [Paper Common Worker #0/INFO]: [MCTypeRegistry] Initialising converters for DataConverter...
+[00:38:07] [Paper Common Worker #0/INFO]: [MCTypeRegistry] Finished initialising converters for DataConverter in 379.9ms
+[00:38:07] [Server thread/INFO]: Preparing spawn area: 0%
+[00:38:08] [Server thread/INFO]: Preparing spawn area: 0%
+[00:38:08] [Server thread/INFO]: Preparing spawn area: 18%
+[00:38:08] [Server thread/INFO]: Time elapsed: 1444 ms
+[00:38:08] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[00:38:08] [Server thread/INFO]: Preparing spawn area: 0%
+[00:38:09] [Server thread/INFO]: Time elapsed: 253 ms
+[00:38:09] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[00:38:09] [Server thread/INFO]: Preparing spawn area: 0%
+[00:38:09] [Server thread/INFO]: Time elapsed: 97 ms
+[00:38:09] [Server thread/INFO]: [floodgate] Enabling floodgate v2.2.3-SNAPSHOT (b114-83fbd6e)
+[00:38:09] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v5.2.0
+[00:38:09] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.21.2-1.21.3 (768)
+[00:38:09] [Server thread/INFO]: [Geyser-Spigot] Enabling Geyser-Spigot v2.6.0-SNAPSHOT
+[00:38:09] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v5.2.0
+[00:38:09] [Server thread/INFO]: [HealthBar-Reloaded] Enabling HealthBar-Reloaded v2.0.4.1
+[00:38:10] [Server thread/INFO]: [CrazyEnchantments] Enabling CrazyEnchantments v2.5.1
+[00:38:10] [Server thread/INFO]: [CrazyEnchantments] Loading the config.yml
+[00:38:10] [Server thread/INFO]: [CrazyEnchantments] Successfully loaded config.yml
+[00:38:10] [Server thread/INFO]: [CrazyEnchantments] Loading the BlockList.yml
+[00:38:10] [Server thread/INFO]: [CrazyEnchantments] Successfully loaded BlockList.yml
+[00:38:10] [Server thread/INFO]: [CrazyEnchantments] Loading the HeadMap.yml
+[00:38:10] [Server thread/INFO]: [CrazyEnchantments] Successfully loaded HeadMap.yml
+[00:38:10] [Server thread/INFO]: [CrazyEnchantments] Loading the Data.yml
+[00:38:10] [Server thread/INFO]: [CrazyEnchantments] Successfully loaded Data.yml
+[00:38:10] [Server thread/INFO]: [CrazyEnchantments] Loading the Enchantments.yml
+[00:38:10] [Server thread/INFO]: [CrazyEnchantments] Successfully loaded Enchantments.yml
+[00:38:10] [Server thread/INFO]: [CrazyEnchantments] Loading the GKitz.yml
+[00:38:10] [Server thread/INFO]: [CrazyEnchantments] Successfully loaded GKitz.yml
+[00:38:10] [Server thread/INFO]: [CrazyEnchantments] Loading the Messages.yml
+[00:38:10] [Server thread/INFO]: [CrazyEnchantments] Successfully loaded Messages.yml
+[00:38:10] [Server thread/INFO]: [CrazyEnchantments] Loading the Enchantment-Types.yml
+[00:38:10] [Server thread/INFO]: [CrazyEnchantments] Successfully loaded Enchantment-Types.yml
+[00:38:10] [Server thread/INFO]: [CrazyEnchantments] Loading the Tinker.yml
+[00:38:10] [Server thread/INFO]: [CrazyEnchantments] Successfully loaded Tinker.yml
+[00:38:10] [Server thread/WARN]: [CrazyEnchantments] No eco plugin found or the eco plugin didn't enable. Any economy based feature will not work.
+[00:38:10] [Server thread/INFO]: [CrazyEnchantments]: === CrazyEnchantment Hook Status ===
+[00:38:10] [Server thread/INFO]: [CrazyEnchantments]: GRIEF_PREVENTION NOT FOUND
+[00:38:10] [Server thread/INFO]: [CrazyEnchantments]: MCMMO NOT FOUND
+[00:38:10] [Server thread/INFO]: [CrazyEnchantments]: PLOT_SQUARED NOT FOUND
+[00:38:10] [Server thread/INFO]: [CrazyEnchantments]: LANDS NOT FOUND
+[00:38:10] [Server thread/INFO]: [CrazyEnchantments]: TOWNYADVANCED NOT FOUND
+[00:38:10] [Server thread/INFO]: [CrazyEnchantments]: SUPERIORSKYBLOCK NOT FOUND
+[00:38:10] [Server thread/INFO]: [CrazyEnchantments]: WORLDEDIT NOT FOUND
+[00:38:10] [Server thread/INFO]: [CrazyEnchantments]: VAULT NOT FOUND
+[00:38:10] [Server thread/INFO]: [CrazyEnchantments]: WORLDGUARD NOT FOUND
+[00:38:10] [Server thread/INFO]: [CrazyEnchantments]: NO_CHEAT_PLUS NOT FOUND
+[00:38:10] [Server thread/INFO]: [CrazyEnchantments]: FACTIONS_UUID NOT FOUND
+[00:38:10] [Server thread/INFO]: [CrazyEnchantments]: ORAXEN NOT FOUND
+[00:38:10] [Server thread/INFO]: [CrazyEnchantments] G-Kitz support is now enabled.
+[00:38:10] [Server thread/INFO]: [AutoTreeChop] Enabling AutoTreeChop v1.5.5
+[00:38:11] [Server thread/WARN]: [AutoTreeChop] PlaceholderAPI not found. Placeholder expansion for AutoTreeChop will not work.
+[00:38:11] [Server thread/INFO]: [MagicItems] Enabling MagicItems v1.2
+[00:38:11] [Server thread/INFO]: [MagicItems] All names loaded!
+[00:38:11] [Server thread/INFO]: [MagicItems] If any warnings showed up, you could try to delete the config.yml file so new one could generate.
+[00:38:11] [Server thread/INFO]: [MagicItems] Hello from magic items!
+[00:38:11] [Server thread/INFO]: [ArmorUp] Enabling ArmorUp v1.0-SNAPSHOT
+[00:38:11] [Server thread/INFO]: [AxGraves] Enabling AxGraves v1.17.0
+[00:38:12] [Server thread/INFO]: [ArmorQualities] Enabling ArmorQualities v1.3.3
+[00:38:12] [Server thread/INFO]: [ArmorQualities] Reforge plugin enabled
+[00:38:12] [Server thread/INFO]: [GodItems] Enabling GodItems v3.0.1
+[00:38:12] [Server thread/INFO]: [GodItems] Made by MitromniZ and Cros_bow
+[00:38:12] [Server thread/INFO]: [GodItems] The texture pack is only available if you download the plugin from our patreon page
+[00:38:12] [Server thread/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[00:38:12] [Server thread/INFO]: [MythicDungeons] Enabling MythicDungeons v1.4.1F
+[00:38:12] [Server thread/WARN]: java.lang.NoSuchMethodException: org.bukkit.craftbukkit.inventory.CraftMetaSkull.setProfile(com.mojang.authlib.GameProfile)
+[00:38:12] [Server thread/WARN]: 	at java.base/java.lang.Class.getDeclaredMethod(Class.java:2848)
+[00:38:12] [Server thread/WARN]: 	at io.papermc.reflectionrewriter.runtime.AbstractDefaultRulesReflectionProxy.getDeclaredMethod(AbstractDefaultRulesReflectionProxy.java:95)
+[00:38:12] [Server thread/WARN]: 	at io.papermc.paper.pluginremap.reflect.PaperReflectionHolder.getDeclaredMethod(Unknown Source)
+[00:38:12] [Server thread/WARN]: 	at MythicDungeons-1.4.1.jar//net.playavalon.mythicdungeons.avngui.Utility.Util.createHeadByTextures(Util.java:32)
+[00:38:12] [Server thread/WARN]: 	at MythicDungeons-1.4.1.jar//net.playavalon.mythicdungeons.avngui.Utility.Util.getPreviousButton(Util.java:21)
+[00:38:12] [Server thread/WARN]: 	at MythicDungeons-1.4.1.jar//net.playavalon.mythicdungeons.avngui.GUI.Buttons.ButtonPrevious.<init>(ButtonPrevious.java:13)
+[00:38:12] [Server thread/WARN]: 	at MythicDungeons-1.4.1.jar//net.playavalon.mythicdungeons.avngui.AvnAPI.<init>(AvnAPI.java:19)
+[00:38:12] [Server thread/WARN]: 	at MythicDungeons-1.4.1.jar//net.playavalon.mythicdungeons.MythicDungeons.onEnable(MythicDungeons.java:186)
+[00:38:12] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:288)
+[00:38:12] [Server thread/WARN]: 	at io.papermc.paper.plugin.manager.PaperPluginInstanceManager.enablePlugin(PaperPluginInstanceManager.java:202)
+[00:38:12] [Server thread/WARN]: 	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.enablePlugin(PaperPluginManagerImpl.java:109)
+[00:38:12] [Server thread/WARN]: 	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:520)
+[00:38:12] [Server thread/WARN]: 	at org.bukkit.craftbukkit.CraftServer.enablePlugin(CraftServer.java:655)
+[00:38:12] [Server thread/WARN]: 	at org.bukkit.craftbukkit.CraftServer.enablePlugins(CraftServer.java:604)
+[00:38:12] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.loadWorld0(MinecraftServer.java:768)
+[00:38:12] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.loadLevel(MinecraftServer.java:530)
+[00:38:12] [Server thread/WARN]: 	at net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:326)
+[00:38:12] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1234)
+[00:38:12] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:340)
+[00:38:12] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
+[00:38:12] [Server thread/WARN]: java.lang.NoSuchMethodException: org.bukkit.craftbukkit.inventory.CraftMetaSkull.setProfile(com.mojang.authlib.GameProfile)
+[00:38:12] [Server thread/WARN]: 	at java.base/java.lang.Class.getDeclaredMethod(Class.java:2848)
+[00:38:12] [Server thread/WARN]: 	at io.papermc.reflectionrewriter.runtime.AbstractDefaultRulesReflectionProxy.getDeclaredMethod(AbstractDefaultRulesReflectionProxy.java:95)
+[00:38:12] [Server thread/WARN]: 	at io.papermc.paper.pluginremap.reflect.PaperReflectionHolder.getDeclaredMethod(Unknown Source)
+[00:38:12] [Server thread/WARN]: 	at MythicDungeons-1.4.1.jar//net.playavalon.mythicdungeons.avngui.Utility.Util.createHeadByTextures(Util.java:32)
+[00:38:12] [Server thread/WARN]: 	at MythicDungeons-1.4.1.jar//net.playavalon.mythicdungeons.avngui.Utility.Util.getNextButton(Util.java:16)
+[00:38:12] [Server thread/WARN]: 	at MythicDungeons-1.4.1.jar//net.playavalon.mythicdungeons.avngui.GUI.Buttons.ButtonNext.<init>(ButtonNext.java:13)
+[00:38:12] [Server thread/WARN]: 	at MythicDungeons-1.4.1.jar//net.playavalon.mythicdungeons.avngui.AvnAPI.<init>(AvnAPI.java:20)
+[00:38:12] [Server thread/WARN]: 	at MythicDungeons-1.4.1.jar//net.playavalon.mythicdungeons.MythicDungeons.onEnable(MythicDungeons.java:186)
+[00:38:12] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:288)
+[00:38:12] [Server thread/WARN]: 	at io.papermc.paper.plugin.manager.PaperPluginInstanceManager.enablePlugin(PaperPluginInstanceManager.java:202)
+[00:38:12] [Server thread/WARN]: 	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.enablePlugin(PaperPluginManagerImpl.java:109)
+[00:38:12] [Server thread/WARN]: 	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:520)
+[00:38:12] [Server thread/WARN]: 	at org.bukkit.craftbukkit.CraftServer.enablePlugin(CraftServer.java:655)
+[00:38:12] [Server thread/WARN]: 	at org.bukkit.craftbukkit.CraftServer.enablePlugins(CraftServer.java:604)
+[00:38:12] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.loadWorld0(MinecraftServer.java:768)
+[00:38:12] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.loadLevel(MinecraftServer.java:530)
+[00:38:12] [Server thread/WARN]: 	at net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:326)
+[00:38:12] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1234)
+[00:38:12] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:340)
+[00:38:12] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
+[00:38:12] [Server thread/INFO]: [MythicDungeons] [STDOUT] Using default parties! Enabled party support.
+[00:38:12] [Server thread/WARN]: Nag author(s): '[MarcatoSound, Aestrus]' of 'MythicDungeons v1.4.1F' about their usage of System.out/err.print. Please use your plugin's logger instead (JavaPlugin#getLogger).
+[00:38:12] [Server thread/INFO]: [org.reflections.Reflections] Reflections took 96 ms to scan 1 urls, producing 12 keys and 187 values
+[00:38:13] [Server thread/INFO]: [org.reflections.Reflections] Reflections took 12 ms to scan 1 urls, producing 8 keys and 64 values
+[00:38:13] [Server thread/INFO]: [org.reflections.Reflections] Reflections took 13 ms to scan 1 urls, producing 5 keys and 35 values
+[00:38:13] [Server thread/INFO]: [MythicDungeons] §d* Loaded §634 §dfunctions.
+[00:38:13] [Server thread/INFO]: [MythicDungeons] §d* Loaded §613 §dtriggers.
+[00:38:13] [Server thread/INFO]: [MythicDungeons] §d* Loaded §68 §dconditions.
+[00:38:13] [Server thread/INFO]: [MythicDungeons] §dGUI menus initialized!
+[00:38:13] [Server thread/INFO]: [MythicDungeons] §dMythic Dungeons v1.4.1F §ainitialized! Happy dungeon-ing!
+[00:38:13] [Server thread/INFO]: [ValhallaMMO] Enabling ValhallaMMO v1.2.7
+[00:38:13] [Server thread/INFO]: [ValhallaMMO] NMS version NMS_v1_21_R2 registered!
+[00:38:13] [Server thread/INFO]: [ValhallaMMO] Resource pack hosting not established! Use /val resourcepack setup if you want ValhallaMMO's resource pack hosted for you
+[00:38:13] [Server thread/WARN]: [ValhallaMMO] No valid host for the resource pack configured! You may ignore this warning if you've not set up the resource pack.
+[00:38:13] [Server thread/INFO]: [ValhallaMMO] MiniMessage support initialized
+[00:38:13] [Server thread/WARN]: [ValhallaMMO] No translated value mapped for smithing-upgrade-disallowed-deepslate-mining
+[00:38:16] [Server thread/INFO]: [ValhallaMMO] Database connection failed, attempting SQLite for profile persistence
+[00:38:16] [Server thread/INFO]: [ValhallaMMO] SQLite connection created! Deleting this file will reset everyone's progress, so back this file up or ignore it in case you want to delete/reset the configs.
+[00:38:16] [Server thread/INFO]: [ValhallaMMO] Loading brewing recipes from plugins/ValhallaMMO/recipes/brewing_recipes.json
+[00:38:16] [Server thread/INFO]: [ValhallaMMO] Loading crafting grid recipes from plugins/ValhallaMMO/recipes/grid_recipes.json
+[00:38:16] [Server thread/INFO]: [ValhallaMMO] Loading smithing recipes from plugins/ValhallaMMO/recipes/smithing_recipes.json
+[00:38:16] [Server thread/INFO]: [ValhallaMMO] Loading immersive recipes from plugins/ValhallaMMO/recipes/immersive_recipes.json
+[00:38:16] [Server thread/INFO]: [ValhallaMMO] Loading cauldron recipes from plugins/ValhallaMMO/recipes/cauldron_recipes.json
+[00:38:16] [Server thread/INFO]: [ValhallaMMO] Loading cooking recipes from plugins/ValhallaMMO/recipes/cooking_recipes.json
+[00:38:16] [Server thread/INFO]: [ValhallaMMO] Loading brewing recipes from plugins/ValhallaMMO/recipes/brewing_recipes_1_20_6+.json
+[00:38:17] [Server thread/INFO]: [MoreOres] Enabling MoreOres v1.13.10
+[00:38:17] [Server thread/INFO]: More Ores Loaded Successfully! :-D
+[00:38:17] [Server thread/INFO]: [Waypoints] Enabling Waypoints v4.5.3
+[00:38:17] [Server thread/INFO]: [YamipaPlugin] Enabling YamipaPlugin v1.3.2
+[00:38:17] [Server thread/INFO]: [YamipaPlugin] Enabled image animation support
+[00:38:17] [Server thread/INFO]: [YamipaPlugin] [ImageRenderer] No placed fake images configuration file found
+[00:38:17] [Thread-15/WARN]: [YamipaPlugin] [FileSystemWatcher] Device does not support inotify, detection of file changes will be slower
+[00:38:17] [Server thread/INFO]: [TheNewEconomy] Enabling TheNewEconomy v0.1.3.4
+[00:38:17] [Server thread/INFO]: [TheNewEconomy] Loading configurations!
+[00:38:18] [Server thread/INFO]: [TheNewEconomy] The New Economy has been enabled!
+[00:38:18] [Server thread/INFO]: [XPHearts] Enabling XPHearts v1.1.0
+[00:38:18] [Server thread/INFO]: [spark] Starting background profiler...
+[00:38:19] [Server thread/INFO]: [Geyser-Spigot] ******************************************
+[00:38:19] [Server thread/INFO]: [Geyser-Spigot] 
+[00:38:19] [Server thread/INFO]: [Geyser-Spigot] Loading Geyser version 2.6.0-b734 (git-master-64c7adc)
+[00:38:19] [Server thread/INFO]: [Geyser-Spigot] 
+[00:38:19] [Server thread/INFO]: [Geyser-Spigot] ******************************************
+[00:38:21] [epollEventLoopGroup-3-1/INFO]: [Geyser-Spigot] Started Geyser on UDP port 19132
+[00:38:21] [Server thread/INFO]: [Geyser-Spigot] Done (2.915s)! Run /geyser help for help!
+[00:38:22] [Server thread/INFO]: Done preparing level "world" (15.226s)
+[00:38:22] [Server thread/INFO]: Running delayed init tasks
+[00:38:22] [Craft Scheduler Thread - 2 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor.
+[00:38:22] [Server thread/INFO]: Done (32.854s)! For help, type "help"
+[00:38:22] [Craft Scheduler Thread - 8 - Waypoints/INFO]: [Waypoints] The version v4.5.5 for Waypoints is available.
 Checkout the release here: https://github.com/Sytm/waypoints/releases/tag/v4.5.5
-[18:47:08] [epollEventLoopGroup-4-1/INFO]: [Geyser-Spigot] Player connected with username Lienx10146465
-[18:47:08] [localSession-7-2/INFO]: [Geyser-Spigot] Lienx10146465 (logged in as: Lienx10146465) has connected to the Java server
-[18:47:09] [Server thread/INFO]: [floodgate] Floodgate player logged in as .Lienx10146465 joined (UUID: 00000000-0000-0000-0009-01f6b61fc3fb)
-[18:47:09] [Server thread/INFO]: .Lienx10146465 joined the game
-[18:47:10] [Server thread/INFO]: .Lienx10146465[/100.113.150.102:0] logged in with entity id 8 at ([world]760.30001, 26.07999618561136, -140.49266)
-[18:47:11] [epollEventLoopGroup-4-2/INFO]: [Geyser-Spigot] Player connected with username robert190206
-[18:47:11] [localSession-7-3/INFO]: [Geyser-Spigot] robert190206 (logged in as: robert190206) has connected to the Java server
-[18:47:12] [Server thread/INFO]: [floodgate] Floodgate player logged in as .robert190206 joined (UUID: 00000000-0000-0000-0009-01ffdd150c28)
-[18:47:12] [Server thread/INFO]: .robert190206 joined the game
-[18:47:12] [Server thread/INFO]: .robert190206[/100.118.246.110:0] logged in with entity id 136 at ([world]25.72836, 73.0, 6.1282973)
-[18:47:45] [Server thread/INFO]: [org.milkteamc.autotreechop.libs.hikari.HikariDataSource] HikariPool-1 - Starting...
-[18:47:45] [Server thread/INFO]: [org.milkteamc.autotreechop.libs.hikari.HikariDataSource] HikariPool-1 - Start completed.
-[18:47:46] [Async Chat Thread - #0/INFO]: [Not Secure] <.Lienx10146465> yo
-[18:47:51] [Server thread/INFO]: [org.milkteamc.autotreechop.libs.hikari.HikariDataSource] HikariPool-2 - Starting...
-[18:47:51] [Server thread/INFO]: [org.milkteamc.autotreechop.libs.hikari.HikariDataSource] HikariPool-2 - Start completed.
-[18:48:13] [Async Chat Thread - #0/INFO]: [Not Secure] <.Lienx10146465> estoy atrapado ayudaa
-[18:49:14] [Server thread/INFO]: .robert190206 was slain by Zombie
-[18:50:29] [User Authenticator #0/INFO]: UUID of player enzokuoshu2 is 72ef933b-ad04-30d9-ba8e-7d3fff18ebdc
-[18:50:31] [Async Chat Thread - #2/INFO]: [Not Secure] <.robert190206> dondee
-[18:50:32] [Server thread/INFO]: enzokuoshu2 joined the game
-[18:50:32] [Server thread/INFO]: enzokuoshu2[/100.95.11.115:63768] logged in with entity id 1207 at ([world]-10.348774433544635, 75.59535610952899, -1881.3893459748974)
-[18:50:48] [Server thread/WARN]: enzokuoshu2 moved too quickly! 25.430357616818718,0.0,11.865634194408358
-[18:50:57] [Async Chat Thread - #2/INFO]: [Not Secure] <enzokuoshu2> ola papus
-[18:51:07] [Server thread/INFO]: enzokuoshu2 issued server command: /tps
-[18:51:32] [Server thread/INFO]: enzokuoshu2 issued server command: /tp enzokuoshu2 .Lienx10146465
-[18:51:32] [Server thread/INFO]: [enzokuoshu2: Teleported enzokuoshu2 to .Lienx10146465]
-[18:51:33] [Async Chat Thread - #2/INFO]: [Not Secure] <.robert190206> no me deja poner la mesa de trabajo
-[18:51:46] [Async Chat Thread - #3/INFO]: [Not Secure] <.Lienx10146465> dame un solo bloque de madera
-[18:52:00] [Async Chat Thread - #3/INFO]: [Not Secure] <.Lienx10146465> quesesto
-[18:52:13] [Async Chat Thread - #3/INFO]: [Not Secure] <.robert190206> cabron desapareció mi mesa
-[18:52:47] [Async Chat Thread - #3/INFO]: [Not Secure] <enzokuoshu2> ni idea
-[18:52:50] [Async Chat Thread - #3/INFO]: [Not Secure] <enzokuoshu2> fundilo
-[18:53:01] [Async Chat Thread - #3/INFO]: [Not Secure] <.Lienx10146465> dame un solo bloque de madera
-[18:53:02] [Server thread/INFO]: .robert190206 was shot by Skeleton
-[18:54:07] [Server thread/INFO]: enzokuoshu2 issued server command: /goditems:getitem dragon_fang
-[18:54:13] [Server thread/INFO]: .robert190206 has made the advancement [Stone Age]
-[18:54:31] [Server thread/INFO]: enzokuoshu2 issued server command: /getitem dragon_fang fullset
-[18:54:57] [Server thread/INFO]: enzokuoshu2 issued server command: /getitem master_katana 1
-[18:56:34] [Server thread/INFO]: enzokuoshu2 issued server command: /tp enzokuoshu2 .robert190206
-[18:56:34] [Server thread/INFO]: [enzokuoshu2: Teleported enzokuoshu2 to .robert190206]
-[18:56:44] [Server thread/INFO]: .Lienx10146465 has made the advancement [Take Aim]
-[18:57:14] [Async Chat Thread - #4/INFO]: [Not Secure] <enzokuoshu2> si te agachas y tocas interactuar haces un dash
-[18:57:26] [Server thread/ERROR]: Could not pass event PlayerMoveEvent to GodItems v3.0.1
-java.lang.NullPointerException: Cannot invoke "java.util.HashSet.add(Object)" because the return value of "java.util.HashMap.get(Object)" is null
-	at GodItems-3.0.1.jar/GodItems.abilities.weapons.MasterKatana.passiveAbility(MasterKatana.java:111) ~[GodItems-3.0.1.jar:?]
-	at GodItems-3.0.1.jar/GodItems.utils.PlayerChecker.weaponChecker(PlayerChecker.java:117) ~[GodItems-3.0.1.jar:?]
-	at GodItems-3.0.1.jar/GodItems.listeners.MoveEvents.onMove(MoveEvents.java:26) ~[GodItems-3.0.1.jar:?]
-	at com.destroystokyo.paper.event.executor.asm.generated.GeneratedEventExecutor132.execute(Unknown Source) ~[?:?]
-	at org.bukkit.plugin.EventExecutor$2.execute(EventExecutor.java:77) ~[paper-api-1.21.3-R0.1-SNAPSHOT.jar:?]
-	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:80) ~[paper-api-1.21.3-R0.1-SNAPSHOT.jar:?]
-	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70) ~[paper-api-1.21.3-R0.1-SNAPSHOT.jar:?]
-	at io.papermc.paper.plugin.manager.PaperEventManager.callEvent(PaperEventManager.java:54) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
-	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.callEvent(PaperPluginManagerImpl.java:131) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
-	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:628) ~[paper-api-1.21.3-R0.1-SNAPSHOT.jar:?]
-	at net.minecraft.server.network.ServerGamePacketListenerImpl.handleMovePlayer(ServerGamePacketListenerImpl.java:1573) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
-	at net.minecraft.network.protocol.game.ServerboundMovePlayerPacket.handle(ServerboundMovePlayerPacket.java:61) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
-	at net.minecraft.network.protocol.game.ServerboundMovePlayerPacket$PosRot.handle(ServerboundMovePlayerPacket.java:138) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
-	at net.minecraft.network.protocol.PacketUtils.lambda$ensureRunningOnSameThread$0(PacketUtils.java:55) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
-	at net.minecraft.server.TickTask.run(TickTask.java:18) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
-	at net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:154) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
-	at net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:24) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
-	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:1577) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
-	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:207) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
-	at net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:128) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
-	at net.minecraft.server.MinecraftServer.pollTaskInternal(MinecraftServer.java:1554) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
-	at net.minecraft.server.MinecraftServer.pollTask(MinecraftServer.java:1547) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
-	at net.minecraft.util.thread.BlockableEventLoop.managedBlock(BlockableEventLoop.java:138) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
-	at net.minecraft.server.MinecraftServer.managedBlock(MinecraftServer.java:1498) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
-	at net.minecraft.server.MinecraftServer.waitUntilNextTick(MinecraftServer.java:1508) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
-	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1344) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
-	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:340) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
-	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
-[18:57:26] [Server thread/ERROR]: Could not pass event PlayerMoveEvent to GodItems v3.0.1
-java.lang.NullPointerException: Cannot invoke "java.util.HashSet.add(Object)" because the return value of "java.util.HashMap.get(Object)" is null
-	at GodItems-3.0.1.jar/GodItems.abilities.weapons.MasterKatana.passiveAbility(MasterKatana.java:111) ~[GodItems-3.0.1.jar:?]
-	at GodItems-3.0.1.jar/GodItems.utils.PlayerChecker.weaponChecker(PlayerChecker.java:117) ~[GodItems-3.0.1.jar:?]
-	at GodItems-3.0.1.jar/GodItems.listeners.MoveEvents.onMove(MoveEvents.java:26) ~[GodItems-3.0.1.jar:?]
-	at com.destroystokyo.paper.event.executor.asm.generated.GeneratedEventExecutor132.execute(Unknown Source) ~[?:?]
-	at org.bukkit.plugin.EventExecutor$2.execute(EventExecutor.java:77) ~[paper-api-1.21.3-R0.1-SNAPSHOT.jar:?]
-	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:80) ~[paper-api-1.21.3-R0.1-SNAPSHOT.jar:?]
-	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70) ~[paper-api-1.21.3-R0.1-SNAPSHOT.jar:?]
-	at io.papermc.paper.plugin.manager.PaperEventManager.callEvent(PaperEventManager.java:54) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
-	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.callEvent(PaperPluginManagerImpl.java:131) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
-	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:628) ~[paper-api-1.21.3-R0.1-SNAPSHOT.jar:?]
-	at net.minecraft.server.network.ServerGamePacketListenerImpl.handleMovePlayer(ServerGamePacketListenerImpl.java:1573) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
-	at net.minecraft.network.protocol.game.ServerboundMovePlayerPacket.handle(ServerboundMovePlayerPacket.java:61) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
-	at net.minecraft.network.protocol.game.ServerboundMovePlayerPacket$Pos.handle(ServerboundMovePlayerPacket.java:106) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
-	at net.minecraft.network.protocol.PacketUtils.lambda$ensureRunningOnSameThread$0(PacketUtils.java:55) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
-	at net.minecraft.server.TickTask.run(TickTask.java:18) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
-	at net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:154) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
-	at net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:24) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
-	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:1577) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
-	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:207) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
-	at net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:128) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
-	at net.minecraft.server.MinecraftServer.pollTaskInternal(MinecraftServer.java:1554) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
-	at net.minecraft.server.MinecraftServer.pollTask(MinecraftServer.java:1547) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
-	at net.minecraft.util.thread.BlockableEventLoop.managedBlock(BlockableEventLoop.java:138) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
-	at net.minecraft.server.MinecraftServer.managedBlock(MinecraftServer.java:1498) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
-	at net.minecraft.server.MinecraftServer.waitUntilNextTick(MinecraftServer.java:1508) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
-	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1344) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
-	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:340) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
-	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
-[18:57:26] [Server thread/ERROR]: Could not pass event PlayerMoveEvent to GodItems v3.0.1
-java.lang.NullPointerException: Cannot invoke "java.util.HashSet.add(Object)" because the return value of "java.util.HashMap.get(Object)" is null
-	at GodItems-3.0.1.jar/GodItems.abilities.weapons.MasterKatana.passiveAbility(MasterKatana.java:111) ~[GodItems-3.0.1.jar:?]
-	at GodItems-3.0.1.jar/GodItems.utils.PlayerChecker.weaponChecker(PlayerChecker.java:117) ~[GodItems-3.0.1.jar:?]
-	at GodItems-3.0.1.jar/GodItems.listeners.MoveEvents.onMove(MoveEvents.java:26) ~[GodItems-3.0.1.jar:?]
-	at com.destroystokyo.paper.event.executor.asm.generated.GeneratedEventExecutor132.execute(Unknown Source) ~[?:?]
-	at org.bukkit.plugin.EventExecutor$2.execute(EventExecutor.java:77) ~[paper-api-1.21.3-R0.1-SNAPSHOT.jar:?]
-	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:80) ~[paper-api-1.21.3-R0.1-SNAPSHOT.jar:?]
-	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70) ~[paper-api-1.21.3-R0.1-SNAPSHOT.jar:?]
-	at io.papermc.paper.plugin.manager.PaperEventManager.callEvent(PaperEventManager.java:54) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
-	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.callEvent(PaperPluginManagerImpl.java:131) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
-	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:628) ~[paper-api-1.21.3-R0.1-SNAPSHOT.jar:?]
-	at net.minecraft.server.network.ServerGamePacketListenerImpl.handleMovePlayer(ServerGamePacketListenerImpl.java:1573) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
-	at net.minecraft.network.protocol.game.ServerboundMovePlayerPacket.handle(ServerboundMovePlayerPacket.java:61) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
-	at net.minecraft.network.protocol.game.ServerboundMovePlayerPacket$Pos.handle(ServerboundMovePlayerPacket.java:106) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
-	at net.minecraft.network.protocol.PacketUtils.lambda$ensureRunningOnSameThread$0(PacketUtils.java:55) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
-	at net.minecraft.server.TickTask.run(TickTask.java:18) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
-	at net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:154) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
-	at net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:24) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
-	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:1577) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
-	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:207) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
-	at net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:128) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
-	at net.minecraft.server.MinecraftServer.pollTaskInternal(MinecraftServer.java:1554) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
-	at net.minecraft.server.MinecraftServer.pollTask(MinecraftServer.java:1547) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
-	at net.minecraft.util.thread.BlockableEventLoop.managedBlock(BlockableEventLoop.java:138) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
-	at net.minecraft.server.MinecraftServer.managedBlock(MinecraftServer.java:1498) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
-	at net.minecraft.server.MinecraftServer.waitUntilNextTick(MinecraftServer.java:1508) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
-	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1344) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
-	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:340) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
-	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
-[18:57:26] [Server thread/ERROR]: Could not pass event PlayerMoveEvent to GodItems v3.0.1
-java.lang.NullPointerException: Cannot invoke "java.util.HashSet.add(Object)" because the return value of "java.util.HashMap.get(Object)" is null
-	at GodItems-3.0.1.jar/GodItems.abilities.weapons.MasterKatana.passiveAbility(MasterKatana.java:111) ~[GodItems-3.0.1.jar:?]
-	at GodItems-3.0.1.jar/GodItems.utils.PlayerChecker.weaponChecker(PlayerChecker.java:117) ~[GodItems-3.0.1.jar:?]
-	at GodItems-3.0.1.jar/GodItems.listeners.MoveEvents.onMove(MoveEvents.java:26) ~[GodItems-3.0.1.jar:?]
-	at com.destroystokyo.paper.event.executor.asm.generated.GeneratedEventExecutor132.execute(Unknown Source) ~[?:?]
-	at org.bukkit.plugin.EventExecutor$2.execute(EventExecutor.java:77) ~[paper-api-1.21.3-R0.1-SNAPSHOT.jar:?]
-	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:80) ~[paper-api-1.21.3-R0.1-SNAPSHOT.jar:?]
-	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70) ~[paper-api-1.21.3-R0.1-SNAPSHOT.jar:?]
-	at io.papermc.paper.plugin.manager.PaperEventManager.callEvent(PaperEventManager.java:54) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
-	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.callEvent(PaperPluginManagerImpl.java:131) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
-	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:628) ~[paper-api-1.21.3-R0.1-SNAPSHOT.jar:?]
-	at net.minecraft.server.network.ServerGamePacketListenerImpl.handleMovePlayer(ServerGamePacketListenerImpl.java:1573) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
-	at net.minecraft.network.protocol.game.ServerboundMovePlayerPacket.handle(ServerboundMovePlayerPacket.java:61) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
-	at net.minecraft.network.protocol.game.ServerboundMovePlayerPacket$Pos.handle(ServerboundMovePlayerPacket.java:106) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
-	at net.minecraft.network.protocol.PacketUtils.lambda$ensureRunningOnSameThread$0(PacketUtils.java:55) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
-	at net.minecraft.server.TickTask.run(TickTask.java:18) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
-	at net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:154) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
-	at net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:24) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
-	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:1577) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
-	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:207) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
-	at net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:128) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
-	at net.minecraft.server.MinecraftServer.pollTaskInternal(MinecraftServer.java:1554) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
-	at net.minecraft.server.MinecraftServer.pollTask(MinecraftServer.java:1547) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
-	at net.minecraft.util.thread.BlockableEventLoop.managedBlock(BlockableEventLoop.java:138) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
-	at net.minecraft.server.MinecraftServer.managedBlock(MinecraftServer.java:1498) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
-	at net.minecraft.server.MinecraftServer.waitUntilNextTick(MinecraftServer.java:1508) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
-	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1344) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
-	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:340) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
-	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
-[18:57:26] [Server thread/ERROR]: Could not pass event PlayerMoveEvent to GodItems v3.0.1
-java.lang.NullPointerException: Cannot invoke "java.util.HashSet.add(Object)" because the return value of "java.util.HashMap.get(Object)" is null
-	at GodItems-3.0.1.jar/GodItems.abilities.weapons.MasterKatana.passiveAbility(MasterKatana.java:111) ~[GodItems-3.0.1.jar:?]
-	at GodItems-3.0.1.jar/GodItems.utils.PlayerChecker.weaponChecker(PlayerChecker.java:117) ~[GodItems-3.0.1.jar:?]
-	at GodItems-3.0.1.jar/GodItems.listeners.MoveEvents.onMove(MoveEvents.java:26) ~[GodItems-3.0.1.jar:?]
-	at com.destroystokyo.paper.event.executor.asm.generated.GeneratedEventExecutor132.execute(Unknown Source) ~[?:?]
-	at org.bukkit.plugin.EventExecutor$2.execute(EventExecutor.java:77) ~[paper-api-1.21.3-R0.1-SNAPSHOT.jar:?]
-	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:80) ~[paper-api-1.21.3-R0.1-SNAPSHOT.jar:?]
-	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70) ~[paper-api-1.21.3-R0.1-SNAPSHOT.jar:?]
-	at io.papermc.paper.plugin.manager.PaperEventManager.callEvent(PaperEventManager.java:54) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
-	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.callEvent(PaperPluginManagerImpl.java:131) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
-	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:628) ~[paper-api-1.21.3-R0.1-SNAPSHOT.jar:?]
-	at net.minecraft.server.network.ServerGamePacketListenerImpl.handleMovePlayer(ServerGamePacketListenerImpl.java:1573) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
-	at net.minecraft.network.protocol.game.ServerboundMovePlayerPacket.handle(ServerboundMovePlayerPacket.java:61) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
-	at net.minecraft.network.protocol.game.ServerboundMovePlayerPacket$Pos.handle(ServerboundMovePlayerPacket.java:106) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
-	at net.minecraft.network.protocol.PacketUtils.lambda$ensureRunningOnSameThread$0(PacketUtils.java:55) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
-	at net.minecraft.server.TickTask.run(TickTask.java:18) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
-	at net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:154) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
-	at net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:24) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
-	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:1577) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
-	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:207) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
-	at net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:128) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
-	at net.minecraft.server.MinecraftServer.pollTaskInternal(MinecraftServer.java:1554) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
-	at net.minecraft.server.MinecraftServer.pollTask(MinecraftServer.java:1547) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
-	at net.minecraft.util.thread.BlockableEventLoop.managedBlock(BlockableEventLoop.java:138) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
-	at net.minecraft.server.MinecraftServer.managedBlock(MinecraftServer.java:1498) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
-	at net.minecraft.server.MinecraftServer.waitUntilNextTick(MinecraftServer.java:1508) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
-	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1344) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
-	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:340) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
-	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
-[18:58:07] [Server thread/WARN]: enzokuoshu2 moved too quickly! -5.006954676872059,-1.0,8.720736303318656
-[18:58:20] [Server thread/INFO]: .robert190206 has made the advancement [Getting an Upgrade]
-[18:58:25] [Async Chat Thread - #6/INFO]: [Not Secure] <.Lienx10146465> agregaste estructuras?
-[18:58:45] [Async Chat Thread - #6/INFO]: [Not Secure] <.robert190206> oye enzo
-[18:58:47] [Async Chat Thread - #6/INFO]: [Not Secure] <enzokuoshu2> no encontre ningun plugin de eso
-[18:58:59] [Async Chat Thread - #6/INFO]: [Not Secure] <enzokuoshu2> ques
-[18:59:02] [Async Chat Thread - #6/INFO]: [Not Secure] <.robert190206> todas las herramientas tienen los rasgos en terrible xdddd
-[18:59:37] [Async Chat Thread - #6/INFO]: [Not Secure] <enzokuoshu2> pepepe
-[18:59:51] [Async Chat Thread - #6/INFO]: [Not Secure] <enzokuoshu2> usen /skills
-[19:00:16] [Server thread/INFO]: .robert190206 issued server command: /skills
-[19:00:29] [Server thread/INFO]: [org.milkteamc.autotreechop.libs.hikari.HikariDataSource] HikariPool-3 - Starting...
-[19:00:29] [Server thread/INFO]: [org.milkteamc.autotreechop.libs.hikari.HikariDataSource] HikariPool-3 - Start completed.
-[19:02:15] [Server thread/INFO]: enzokuoshu2 issued server command: /magicitems:roll scroll
-[19:02:24] [Server thread/INFO]: enzokuoshu2 issued server command: /magicitems:roll
-[19:03:04] [Server thread/INFO]: enzokuoshu2 issued server command: /magicitems:roll
-[19:03:27] [Server thread/INFO]: enzokuoshu2 issued server command: /magicitems:roll
-[19:05:30] [Async Chat Thread - #8/INFO]: [Not Secure] <.robert190206> tp a lienx
-[19:05:43] [Async Chat Thread - #8/INFO]: [Not Secure] <.Lienx10146465> nooooo
-[19:05:44] [Server thread/INFO]: enzokuoshu2 issued server command: /tp .robert190206 .Lienx10146465
-[19:05:44] [Server thread/INFO]: [enzokuoshu2: Teleported .robert190206 to .Lienx10146465]
-[19:06:43] [Async Chat Thread - #10/INFO]: [Not Secure] <.Lienx10146465> abajo
-[19:07:20] [Server thread/INFO]: .Lienx10146465 was slain by .robert190206 using Samurai Katana
-[19:07:35] [Async Chat Thread - #10/INFO]: [Not Secure] <.Lienx10146465> oye idiota te metes en la flecha
-[19:07:45] [Async Chat Thread - #10/INFO]: [Not Secure] <.Lienx10146465> si quisiera matarte hace rato era
-[19:08:21] [Async Chat Thread - #10/INFO]: [Not Secure] <.robert190206> apura vem
-[19:08:52] [Server thread/INFO]: enzokuoshu2 issued server command: /magicitems:roll scroll
-[19:09:21] [Async Chat Thread - #12/INFO]: [Not Secure] <.Lienx10146465> andate a la puta
-[19:09:42] [Async Chat Thread - #12/INFO]: [Not Secure] <.robert190206> salvo tus cosas
-[19:09:50] [Async Chat Thread - #12/INFO]: [Not Secure] <.Lienx10146465> dejalas basura
-[19:09:57] [Async Chat Thread - #12/INFO]: [Not Secure] <.Lienx10146465> largate
-[19:10:06] [Async Chat Thread - #12/INFO]: [Not Secure] <.robert190206> 20 segundo mrd
-[19:10:14] [Async Chat Thread - #12/INFO]: [Not Secure] <.robert190206> vienesy tr doy
-[19:10:15] [Async Chat Thread - #12/INFO]: [Not Secure] <.Lienx10146465> no llego p gil
-[19:10:22] [Server thread/INFO]: enzokuoshu2 issued server command: /tp enzokuoshu2 .Lienx10146465
-[19:10:22] [Server thread/INFO]: [enzokuoshu2: Teleported enzokuoshu2 to .Lienx10146465]
-[19:10:37] [Server thread/INFO]: enzokuoshu2 issued server command: /tp .Lienx10146465 .robert190206
-[19:10:37] [Server thread/INFO]: [enzokuoshu2: Teleported .Lienx10146465 to .robert190206]
-[19:10:39] [Async Chat Thread - #12/INFO]: [Not Secure] <.robert190206> ya tr los llevo
-[19:10:48] [Server thread/INFO]: enzokuoshu2 issued server command: /tp enzokuoshu2 .robert190206
-[19:10:48] [Server thread/INFO]: [enzokuoshu2: Teleported enzokuoshu2 to .robert190206]
-[19:11:04] [Async Chat Thread - #13/INFO]: [Not Secure] <enzokuoshu2> pruebenla
-[19:11:42] [Async Chat Thread - #13/INFO]: [Not Secure] <enzokuoshu2> te di una espada p robert
-[19:11:49] [Async Chat Thread - #13/INFO]: [Not Secure] <enzokuoshu2> testeala
-[19:11:51] [Async Chat Thread - #13/INFO]: [Not Secure] <.Lienx10146465> esta
-[19:11:58] [Async Chat Thread - #13/INFO]: [Not Secure] <enzokuoshu2> la de diamante
-[19:12:07] [Async Chat Thread - #13/INFO]: [Not Secure] <.Lienx10146465> esta riene nombre raro
-[19:12:26] [Async Chat Thread - #13/INFO]: [Not Secure] <enzokuoshu2> tiene cooldown de 25 segundos
-[19:12:33] [Async Chat Thread - #13/INFO]: [Not Secure] <enzokuoshu2> pero tira un rayo a donde apuntes
-[19:12:34] [Server thread/INFO]: .robert190206 was shot by .Lienx10146465 using Fire Bow
-[19:12:40] [Server thread/INFO]: .Lienx10146465 tried to swim in lava
-[19:12:52] [Async Chat Thread - #13/INFO]: [Not Secure] <.Lienx10146465> xD
-[19:12:55] [Async Chat Thread - #13/INFO]: [Not Secure] <enzokuoshu2> los 2 son igual de estupidos
-[19:13:23] [Server thread/INFO]: enzokuoshu2 issued server command: /tp enzokuoshu2
-[19:13:23] [Server thread/INFO]: [enzokuoshu2: Teleported enzokuoshu2 to enzokuoshu2]
-[19:13:33] [Server thread/INFO]: enzokuoshu2 issued server command: /tp .Lienx10146465 enzokuoshu2
-[19:13:33] [Server thread/INFO]: [enzokuoshu2: Teleported .Lienx10146465 to enzokuoshu2]
-[19:13:42] [Server thread/INFO]: enzokuoshu2 issued server command: /tp .robert190206 enzokuoshu2
-[19:13:42] [Server thread/INFO]: [enzokuoshu2: Teleported .robert190206 to enzokuoshu2]
-[19:14:21] [Async Chat Thread - #14/INFO]: [Not Secure] <.Lienx10146465> dame mi madera petrificada
-[19:14:28] [Async Chat Thread - #14/INFO]: [Not Secure] <.Lienx10146465> lo que te pusiste en la cabeza

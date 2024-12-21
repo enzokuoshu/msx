@@ -1,3 +1,255 @@
-armor: {}
+armor:
+  offhand:
+    ==: org.bukkit.inventory.ItemStack
+    v: 4082
+    type: AIR
+    amount: 0
 charms: {}
-contents: {}
+contents:
+  slot_0:
+    ==: org.bukkit.inventory.ItemStack
+    v: 4082
+    type: STONE_SWORD
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"text":"Damaged Dark Dagger","italic":false,"color":"aqua"}'
+      lore:
+      - '{"text":"","extra":[{"text":"Quality: ","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"gray","bold":false},{"text":"48.5","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"#FF6900","bold":false}]}'
+      - '{"text":"","extra":[{"text":"Additional Damage: ","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"gray","bold":false},{"text":"9.8","italic":false,"color":"dark_green"},{"text":"
+        (0.0)","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"#FF6900","bold":false}]}'
+      - '""'
+      - '{"text":"","extra":[{"text":"Obtained by ","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"#606060","bold":false},{"text":".robert190206","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"#00FF5C","bold":false}]}'
+      - '{"text":"","extra":[{"text":"Durability: 70/72","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"gray","bold":false}]}'
+      custom-model-data: 1981820
+      attribute-modifiers:
+        minecraft:attack_speed:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: -2.244898
+          slot: mainhand
+          operation: 0
+          key: minecraft:9594ff6c-57e9-42ea-a0c8-0ad21f10629f
+        minecraft:entity_interaction_range:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: -1.0
+          slot: mainhand
+          operation: 0
+          key: minecraft:7a6d2c83-9a23-405b-a034-759abfd5b1c6
+        minecraft:attack_damage:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: 3.102041
+          slot: mainhand
+          operation: 0
+          key: minecraft:7652c37e-aace-441f-83be-dc6831469e15
+      ItemFlags:
+      - HIDE_ATTRIBUTES
+      Damage: 3
+      PublicBukkitValues: |-
+        {
+            "magicitems:magic-items": "rolled",
+            "magicitems:magic-items-quality": 48.47504342845114d,
+            "magicitems:magic-items-stat": 9.757914520131871d,
+            "valhallammo:actual_stats": "CRIT_CHANCE:0.2:ADD_NUMBER:false;GENERIC_ATTACK_DAMAGE:4.102041:ADD_NUMBER:false;GENERIC_ATTACK_SPEED:1.755102:ADD_NUMBER:false;ATTACK_REACH:-1.0:ADD_NUMBER:false",
+            "valhallammo:default_stats": "CRIT_CHANCE:0.2:ADD_NUMBER:false;GENERIC_ATTACK_DAMAGE:5.0:ADD_NUMBER:false;GENERIC_ATTACK_SPEED:1.8:ADD_NUMBER:false;ATTACK_REACH:-1.0:ADD_NUMBER:false",
+            "valhallammo:durability": 70,
+            "valhallammo:id": 100,
+            "valhallammo:item_flags": "DISPLAY_ATTRIBUTES",
+            "valhallammo:max_durability": 72,
+            "valhallammo:neutral_quality": 80,
+            "valhallammo:quality_smithing": 0
+        }
+  slot_1:
+    ==: org.bukkit.inventory.ItemStack
+    v: 4082
+    type: BOW
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"text":"Fire Bow","italic":false,"color":"#F56C1D"}'
+      lore:
+      - '{"text":"Creates an area with fire and lava.","italic":false,"color":"dark_purple"}'
+      - '{"text":"Sets other players and creatures on fire for 3 seconds.","italic":false,"color":"dark_purple"}'
+      enchants:
+        minecraft:projectile_protection: 1
+      ItemFlags:
+      - HIDE_ENCHANTS
+      Damage: 22
+      PublicBukkitValues: |-
+        {
+            "armorup:firebow": 1b,
+            "magicitems:magic-items": "rolled"
+        }
+  slot_2:
+    ==: org.bukkit.inventory.ItemStack
+    v: 4082
+    type: STONE_PICKAXE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      lore:
+      - '{"text":"","extra":[{"text":"Terrible","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"dark_red","bold":false}]}'
+      - '{"text":"","extra":[{"text":"0.0% Mining Speed","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"gray","bold":false}]}'
+      - '{"text":"","extra":[{"text":"1.2 Attack Speed","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"gray","bold":false}]}'
+      - '{"text":"","extra":[{"text":"2.1 Attack Damage","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"gray","bold":false}]}'
+      - '{"text":"","extra":[{"text":"Durability: 66/72","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"gray","bold":false}]}'
+      attribute-modifiers:
+        minecraft:attack_speed:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: -2.8448979999999997
+          slot: mainhand
+          operation: 0
+          key: minecraft:2e3920df-69fd-4be5-9952-bba53160528d
+        minecraft:attack_damage:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: 1.1020409999999998
+          slot: mainhand
+          operation: 0
+          key: minecraft:9da304fa-2c1f-409c-ad8f-47d24108be5c
+      ItemFlags:
+      - HIDE_ATTRIBUTES
+      Damage: 10
+      PublicBukkitValues: |-
+        {
+            "valhallammo:actual_stats": "GENERIC_ATTACK_DAMAGE:2.102041:ADD_NUMBER:false;MINING_SPEED:4.0:ADD_NUMBER:true;DIG_SPEED:-0.0:ADD_NUMBER:false;GENERIC_ATTACK_SPEED:1.155102:ADD_NUMBER:false",
+            "valhallammo:default_stats": "GENERIC_ATTACK_DAMAGE:3.0:ADD_NUMBER:false;MINING_SPEED:4.0:ADD_NUMBER:true;DIG_SPEED:0.0:ADD_NUMBER:false;GENERIC_ATTACK_SPEED:1.2:ADD_NUMBER:false",
+            "valhallammo:durability": 66,
+            "valhallammo:item_flags": "DISPLAY_ATTRIBUTES",
+            "valhallammo:max_durability": 72,
+            "valhallammo:neutral_quality": 80,
+            "valhallammo:quality_smithing": 0
+        }
+  slot_3:
+    ==: org.bukkit.inventory.ItemStack
+    v: 4082
+    type: BREAD
+    amount: 51
+  slot_4:
+    ==: org.bukkit.inventory.ItemStack
+    v: 4082
+    type: COBBLESTONE
+    amount: 52
+  slot_13:
+    ==: org.bukkit.inventory.ItemStack
+    v: 4082
+    type: GOLD_ORE
+  slot_18:
+    ==: org.bukkit.inventory.ItemStack
+    v: 4082
+    type: PLAYER_HEAD
+    meta:
+      ==: ItemMeta
+      meta-type: SKULL
+      display-name: '{"text":"","extra":[{"text":"Petrified Wood","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"yellow","bold":false}]}'
+      lore:
+      - '{"text":"","extra":[{"text":"Smelt this to get wood","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"yellow","bold":false}]}'
+      skull-owner:
+        ==: PlayerProfile
+        uniqueId: 07471abb-1069-4ba9-a670-990829653635
+        properties:
+        - name: textures
+          value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjgxOGQ2M2YwNTZlYjQ3OTYxM2QxYzRkODZlZDFiY2UwYjM3YmNmMzhlZDdkZDkzZWNiZmM2NmZhZGUxYmY2In19fQ==
+  slot_20:
+    ==: org.bukkit.inventory.ItemStack
+    v: 4082
+    type: RAW_COPPER
+    amount: 12
+  slot_21:
+    ==: org.bukkit.inventory.ItemStack
+    v: 4082
+    type: ANDESITE
+    amount: 30
+  slot_22:
+    ==: org.bukkit.inventory.ItemStack
+    v: 4082
+    type: LAPIS_LAZULI
+    amount: 12
+  slot_26:
+    ==: org.bukkit.inventory.ItemStack
+    v: 4082
+    type: WOODEN_PICKAXE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      lore:
+      - '{"text":"","extra":[{"text":"Shoddy","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"red","bold":false}]}'
+      - '{"text":"","extra":[{"text":"0.0% Mining Speed","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"gray","bold":false}]}'
+      - '{"text":"","extra":[{"text":"1.2 Attack Speed","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"gray","bold":false}]}'
+      - '{"text":"","extra":[{"text":"1.6 Attack Damage","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"gray","bold":false}]}'
+      - '{"text":"","extra":[{"text":"Durability: 45/48","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"gray","bold":false}]}'
+      attribute-modifiers:
+        minecraft:attack_speed:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: -2.818182
+          slot: mainhand
+          operation: 0
+          key: minecraft:d0610e66-5fa3-4571-9de0-7f86c3f5bb6e
+        minecraft:attack_damage:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: 0.6363639999999999
+          slot: mainhand
+          operation: 0
+          key: minecraft:bbce9f4a-724d-4b66-9bc1-aa9f31fdb0ca
+      ItemFlags:
+      - HIDE_ATTRIBUTES
+      Damage: 3
+      PublicBukkitValues: |-
+        {
+            "valhallammo:actual_stats": "GENERIC_ATTACK_DAMAGE:1.636364:ADD_NUMBER:false;MINING_SPEED:2.0:ADD_NUMBER:true;DIG_SPEED:-0.0:ADD_NUMBER:false;GENERIC_ATTACK_SPEED:1.181818:ADD_NUMBER:false",
+            "valhallammo:default_stats": "GENERIC_ATTACK_DAMAGE:2.0:ADD_NUMBER:false;MINING_SPEED:2.0:ADD_NUMBER:true;DIG_SPEED:0.0:ADD_NUMBER:false;GENERIC_ATTACK_SPEED:1.2:ADD_NUMBER:false",
+            "valhallammo:durability": 45,
+            "valhallammo:item_flags": "DISPLAY_ATTRIBUTES",
+            "valhallammo:max_durability": 48,
+            "valhallammo:neutral_quality": 50,
+            "valhallammo:quality_smithing": 0
+        }
+  slot_27:
+    ==: org.bukkit.inventory.ItemStack
+    v: 4082
+    type: BONE
+    amount: 4
+  slot_28:
+    ==: org.bukkit.inventory.ItemStack
+    v: 4082
+    type: RAW_COPPER
+    amount: 64
+  slot_30:
+    ==: org.bukkit.inventory.ItemStack
+    v: 4082
+    type: OAK_PLANKS
+    amount: 48
+  slot_31:
+    ==: org.bukkit.inventory.ItemStack
+    v: 4082
+    type: STICK
+    amount: 22
+  slot_32:
+    ==: org.bukkit.inventory.ItemStack
+    v: 4082
+    type: CRAFTING_TABLE
+  slot_33:
+    ==: org.bukkit.inventory.ItemStack
+    v: 4082
+    type: PLAYER_HEAD
+    amount: 2
+    meta:
+      ==: ItemMeta
+      meta-type: SKULL
+      display-name: '{"text":"","extra":[{"text":"Kelp Ore","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"yellow","bold":false}]}'
+      lore:
+      - '{"text":"","extra":[{"text":"This ore smelts into kelp","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"green","bold":false}]}'
+      skull-owner:
+        ==: PlayerProfile
+        uniqueId: 0c6824a6-4771-489b-a084-109236a11fa8
+        properties:
+        - name: textures
+          value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWZhN2YxNzlkYjkxZGUwZjljNzU1OWE1MTUyY2ExMjg0Yjk5Mjg5YWRlYzhjNWM1ZTdkZWE5YWYyMjc4YWQ1In19fQ==
+  slot_34:
+    ==: org.bukkit.inventory.ItemStack
+    v: 4082
+    type: RAW_IRON
+    amount: 35
+  slot_35:
+    ==: org.bukkit.inventory.ItemStack
+    v: 4082
+    type: ARROW
+    amount: 22

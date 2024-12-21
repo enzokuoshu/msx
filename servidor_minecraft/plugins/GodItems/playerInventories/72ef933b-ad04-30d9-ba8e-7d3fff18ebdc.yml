@@ -9,8 +9,7 @@ contents:
   slot_0:
     ==: org.bukkit.inventory.ItemStack
     v: 4082
-    type: ROTTEN_FLESH
-    amount: 18
+    type: EGG
   slot_1:
     ==: org.bukkit.inventory.ItemStack
     v: 4082
@@ -66,14 +65,7 @@ contents:
   slot_7:
     ==: org.bukkit.inventory.ItemStack
     v: 4082
-    type: DIAMOND_SWORD
-    meta:
-      ==: ItemMeta
-      meta-type: UNSPECIFIC
-      PublicBukkitValues: |-
-        {
-            "magicitems:magic-items": "rolled"
-        }
+    type: COBBLESTONE
   slot_8:
     ==: org.bukkit.inventory.ItemStack
     v: 4082
@@ -104,25 +96,6 @@ contents:
       PublicBukkitValues: |-
         {
             "magicitems:magic-items": "rolled"
-        }
-  slot_22:
-    ==: org.bukkit.inventory.ItemStack
-    v: 4082
-    type: BOW
-    meta:
-      ==: ItemMeta
-      meta-type: UNSPECIFIC
-      display-name: '{"text":"Fire Bow","italic":false,"color":"#F56C1D"}'
-      lore:
-      - '{"text":"Creates an area with fire and lava.","italic":false,"color":"dark_purple"}'
-      - '{"text":"Sets other players and creatures on fire for 3 seconds.","italic":false,"color":"dark_purple"}'
-      enchants:
-        minecraft:projectile_protection: 1
-      ItemFlags:
-      - HIDE_ENCHANTS
-      PublicBukkitValues: |-
-        {
-            "armorup:firebow": 1b
         }
   slot_23:
     ==: org.bukkit.inventory.ItemStack
@@ -186,3 +159,12 @@ contents:
     v: 4082
     type: GOLDEN_APPLE
     amount: 60
+  slot_9:
+    ==: org.bukkit.inventory.ItemStack
+    v: 4082
+    type: WHEAT_SEEDS
+  slot_18:
+    ==: org.bukkit.inventory.ItemStack
+    v: 4082
+    type: ROTTEN_FLESH
+    amount: 18

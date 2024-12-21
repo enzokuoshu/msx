@@ -1,3 +1,250 @@
-armor: {}
+armor:
+  offhand:
+    ==: org.bukkit.inventory.ItemStack
+    v: 4082
+    type: AIR
+    amount: 0
 charms: {}
-contents: {}
+contents:
+  slot_0:
+    ==: org.bukkit.inventory.ItemStack
+    v: 4082
+    type: IRON_SWORD
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"text":"","extra":[{"text":"Samurai Katana","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"gold","bold":true}]}'
+      lore:
+      - '""'
+      - '{"text":"","extra":[{"text":"A fine weapon for ","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"yellow","bold":false}]}'
+      - '{"text":"","extra":[{"text":"the most skilled warriors","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"yellow","bold":false}]}'
+      - '""'
+      - '{"text":"","extra":[{"text":"(Sneak + Right Click) - Dash forward and damage
+        enemies","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"gray","bold":false}]}'
+      - '""'
+      - '{"text":"","extra":[{"text":"Item Ability: ","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"gray","bold":false},{"text":"ON","italic":false,"color":"green"}]}'
+      - '""'
+      - '{"text":"","extra":[{"text":"When in Main Hand:","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"gray","bold":false}]}'
+      - '{"text":"","extra":[{"text":" 11.0 Attack Damage","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"dark_green","bold":false}]}'
+      - '{"text":"","extra":[{"text":" 1.0 Attack Speed","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"dark_green","bold":false}]}'
+      custom-model-data: 1000022
+      enchants:
+        minecraft:looting: 1
+        minecraft:sharpness: 1
+        minecraft:unbreaking: 3
+      attribute-modifiers:
+        minecraft:attack_damage:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: 11.0
+          slot: mainhand
+          operation: 0
+          key: minecraft:a6713238-317b-4e72-ab38-a56e57c36147
+        minecraft:attack_speed:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: -3.0
+          slot: mainhand
+          operation: 0
+          key: minecraft:03b139f7-7e46-4ed8-b6f0-069205298888
+      ItemFlags:
+      - HIDE_ENCHANTS
+      - HIDE_ATTRIBUTES
+      Unbreakable: true
+      PublicBukkitValues: |-
+        {
+            "goditems:code_name": "master_katana"
+        }
+  slot_1:
+    ==: org.bukkit.inventory.ItemStack
+    v: 4082
+    type: STONE_PICKAXE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      lore:
+      - '{"text":"","extra":[{"text":"Terrible","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"dark_red","bold":false}]}'
+      - '{"text":"","extra":[{"text":"0.0% Mining Speed","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"gray","bold":false}]}'
+      - '{"text":"","extra":[{"text":"1.2 Attack Speed","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"gray","bold":false}]}'
+      - '{"text":"","extra":[{"text":"2.1 Attack Damage","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"gray","bold":false}]}'
+      - '{"text":"","extra":[{"text":"Durability: 59/72","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"gray","bold":false}]}'
+      attribute-modifiers:
+        minecraft:attack_speed:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: -2.8448979999999997
+          slot: mainhand
+          operation: 0
+          key: minecraft:d2771ad3-a091-4946-b5a0-1290f04647e9
+        minecraft:attack_damage:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: 1.1020409999999998
+          slot: mainhand
+          operation: 0
+          key: minecraft:32573e2d-aa6b-4421-b0af-d5bcda361b4a
+      ItemFlags:
+      - HIDE_ATTRIBUTES
+      Damage: 23
+      PublicBukkitValues: |-
+        {
+            "valhallammo:actual_stats": "GENERIC_ATTACK_DAMAGE:2.102041:ADD_NUMBER:false;MINING_SPEED:4.0:ADD_NUMBER:true;DIG_SPEED:-0.0:ADD_NUMBER:false;GENERIC_ATTACK_SPEED:1.155102:ADD_NUMBER:false",
+            "valhallammo:default_stats": "GENERIC_ATTACK_DAMAGE:3.0:ADD_NUMBER:false;MINING_SPEED:4.0:ADD_NUMBER:true;DIG_SPEED:0.0:ADD_NUMBER:false;GENERIC_ATTACK_SPEED:1.2:ADD_NUMBER:false",
+            "valhallammo:durability": 59,
+            "valhallammo:item_flags": "DISPLAY_ATTRIBUTES",
+            "valhallammo:max_durability": 72,
+            "valhallammo:neutral_quality": 80,
+            "valhallammo:quality_smithing": 0
+        }
+  slot_2:
+    ==: org.bukkit.inventory.ItemStack
+    v: 4082
+    type: STONE_AXE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      lore:
+      - '{"text":"","extra":[{"text":"Terrible","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"dark_red","bold":false}]}'
+      - '{"text":"","extra":[{"text":"0.0% Mining Speed","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"gray","bold":false}]}'
+      - '{"text":"","extra":[{"text":"0.8 Attack Speed","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"gray","bold":false}]}'
+      - '{"text":"","extra":[{"text":"8.1 Attack Damage","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"gray","bold":false}]}'
+      - '{"text":"","extra":[{"text":"Durability: 54/72","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"gray","bold":false}]}'
+      attribute-modifiers:
+        minecraft:attack_speed:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: -3.244898
+          slot: mainhand
+          operation: 0
+          key: minecraft:7c793605-4722-42c5-a6c2-9061b06af9e7
+        minecraft:attack_damage:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: 7.102041
+          slot: mainhand
+          operation: 0
+          key: minecraft:1a53e510-53f5-40a3-a782-8e4cc1e7ac1c
+      ItemFlags:
+      - HIDE_ATTRIBUTES
+      Damage: 32
+      PublicBukkitValues: |-
+        {
+            "magicitems:magic-items": "rolled",
+            "valhallammo:actual_stats": "GENERIC_ATTACK_DAMAGE:8.102041:ADD_NUMBER:false;MINING_SPEED:4.0:ADD_NUMBER:true;DIG_SPEED:-0.0:ADD_NUMBER:false;GENERIC_ATTACK_SPEED:0.755102:ADD_NUMBER:false",
+            "valhallammo:default_stats": "GENERIC_ATTACK_DAMAGE:9.0:ADD_NUMBER:false;MINING_SPEED:4.0:ADD_NUMBER:true;DIG_SPEED:0.0:ADD_NUMBER:false;GENERIC_ATTACK_SPEED:0.8:ADD_NUMBER:false",
+            "valhallammo:durability": 54,
+            "valhallammo:item_flags": "DISPLAY_ATTRIBUTES",
+            "valhallammo:max_durability": 72,
+            "valhallammo:neutral_quality": 80,
+            "valhallammo:quality_smithing": 0
+        }
+  slot_3:
+    ==: org.bukkit.inventory.ItemStack
+    v: 4082
+    type: OAK_PLANKS
+    amount: 56
+  slot_4:
+    ==: org.bukkit.inventory.ItemStack
+    v: 4082
+    type: COBBLESTONE
+    amount: 64
+  slot_5:
+    ==: org.bukkit.inventory.ItemStack
+    v: 4082
+    type: OAK_LOG
+    amount: 7
+  slot_6:
+    ==: org.bukkit.inventory.ItemStack
+    v: 4082
+    type: RAW_COPPER
+    amount: 15
+  slot_7:
+    ==: org.bukkit.inventory.ItemStack
+    v: 4082
+    type: DIAMOND_SWORD
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"text":"Perfect Primordial Greatsword ✧","italic":false,"color":"aqua"}'
+      lore:
+      - '{"text":"Quality: ","extra":[{"text":"93.8","italic":false,"color":"#FF28B1"}],"italic":false,"color":"gray"}'
+      - '{"text":"Additional Damage: ","extra":[{"text":"1.5","italic":false,"color":"dark_green"},{"text":"
+        (4.0)","italic":false,"color":"#FF28B1"}],"italic":false,"color":"gray"}'
+      - '""'
+      - '{"text":"Ancient Scroll: Lightning Strike","extra":[{"text":" RIGHT CLICK","italic":false,"color":"yellow","bold":true}],"italic":false,"color":"gold"}'
+      - '{"text":"Makes a lightning strike 4 blocks in front of you.","italic":false,"color":"gray"}'
+      - '{"text":"Cooldown: ","extra":[{"text":"25s","italic":false,"color":"green"}],"italic":false,"color":"dark_gray"}'
+      - '""'
+      - '{"text":"Obtained by ","extra":[{"text":"enzokuoshu2","italic":false,"color":"#00FF5C"}],"italic":false,"color":"#606060"}'
+      PublicBukkitValues: |-
+        {
+            "magicitems:magic-items": "rolled",
+            "magicitems:magic-items-quality": 93.7133498228053d,
+            "magicitems:magic-items-scrolls": "lightning",
+            "magicitems:magic-items-stat": 5.4005650297301875d
+        }
+  slot_9:
+    ==: org.bukkit.inventory.ItemStack
+    v: 4082
+    type: WHITE_WOOL
+  slot_10:
+    ==: org.bukkit.inventory.ItemStack
+    v: 4082
+    type: RAW_COPPER
+    amount: 64
+  slot_11:
+    ==: org.bukkit.inventory.ItemStack
+    v: 4082
+    type: ANDESITE
+    amount: 2
+  slot_12:
+    ==: org.bukkit.inventory.ItemStack
+    v: 4082
+    type: COBBLESTONE
+    amount: 32
+  slot_13:
+    ==: org.bukkit.inventory.ItemStack
+    v: 4082
+    type: CRAFTING_TABLE
+    amount: 2
+  slot_15:
+    ==: org.bukkit.inventory.ItemStack
+    v: 4082
+    type: COAL
+  slot_16:
+    ==: org.bukkit.inventory.ItemStack
+    v: 4082
+    type: STICK
+    amount: 3
+  slot_28:
+    ==: org.bukkit.inventory.ItemStack
+    v: 4082
+    type: STONE_PICKAXE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      lore:
+      - '{"text":"","extra":[{"text":"Terrible","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"dark_red","bold":false}]}'
+      - '{"text":"","extra":[{"text":"0.0% Mining Speed","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"gray","bold":false}]}'
+      - '{"text":"","extra":[{"text":"1.2 Attack Speed","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"gray","bold":false}]}'
+      - '{"text":"","extra":[{"text":"2.1 Attack Damage","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"gray","bold":false}]}'
+      - '{"text":"","extra":[{"text":"Durability: 72/72","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"gray","bold":false}]}'
+      attribute-modifiers:
+        minecraft:attack_speed:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: -2.8448979999999997
+          slot: mainhand
+          operation: 0
+          key: minecraft:4039b1a4-e117-449c-b80b-df1e039bbdff
+        minecraft:attack_damage:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: 1.1020409999999998
+          slot: mainhand
+          operation: 0
+          key: minecraft:81b0abd2-4d23-4738-8bf7-69dbc33cf948
+      ItemFlags:
+      - HIDE_ATTRIBUTES
+      PublicBukkitValues: |-
+        {
+            "valhallammo:actual_stats": "GENERIC_ATTACK_DAMAGE:2.102041:ADD_NUMBER:false;MINING_SPEED:4.0:ADD_NUMBER:true;DIG_SPEED:-0.0:ADD_NUMBER:false;GENERIC_ATTACK_SPEED:1.155102:ADD_NUMBER:false",
+            "valhallammo:default_stats": "GENERIC_ATTACK_DAMAGE:3.0:ADD_NUMBER:false;MINING_SPEED:4.0:ADD_NUMBER:true;DIG_SPEED:0.0:ADD_NUMBER:false;GENERIC_ATTACK_SPEED:1.2:ADD_NUMBER:false",
+            "valhallammo:durability": 72,
+            "valhallammo:item_flags": "DISPLAY_ATTRIBUTES",
+            "valhallammo:max_durability": 72,
+            "valhallammo:neutral_quality": 80,
+            "valhallammo:quality_smithing": 0
+        }
