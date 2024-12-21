@@ -313,3 +313,7 @@ Checkout the release here: https://github.com/Sytm/waypoints/releases/tag/v4.5.5
 [00:58:14] [Server thread/INFO]: enzokuoshu2 issued server command: /tps
 [01:03:07] [Server thread/WARN]: A manual (plugin-induced) save has been detected while server is configured to auto-save. This may affect performance.
 [01:03:07] [Server thread/INFO]: [MythicDungeons] §d-= Autosave of habitacion_del_tiempo processed in 18ms. =-
+[01:08:07] [Server thread/INFO]: [MythicDungeons] §d-= Autosave of habitacion_del_tiempo processed in 14ms. =-
+[01:13:07] [Server thread/INFO]: [MythicDungeons] §d-= Autosave of habitacion_del_tiempo processed in 4ms. =-
+[01:13:16] [Server thread/INFO]: enzokuoshu2 issued server command: /md delete habitacion_del_tiempo
+[01:18:07] [Server thread/INFO]: [MythicDungeons] §d-= Autosave of habitacion_del_tiempo processed in 5ms. =-
