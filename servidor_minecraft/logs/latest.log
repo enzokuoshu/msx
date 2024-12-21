@@ -266,3 +266,42 @@ Caused by: java.lang.IllegalStateException: Duplicate entries detected: plugin.y
 [00:38:22] [Server thread/INFO]: Done (32.854s)! For help, type "help"
 [00:38:22] [Craft Scheduler Thread - 8 - Waypoints/INFO]: [Waypoints] The version v4.5.5 for Waypoints is available.
 Checkout the release here: https://github.com/Sytm/waypoints/releases/tag/v4.5.5
+[00:48:19] [User Authenticator #0/INFO]: UUID of player enzokuoshu2 is 72ef933b-ad04-30d9-ba8e-7d3fff18ebdc
+[00:48:22] [Server thread/INFO]: enzokuoshu2 joined the game
+[00:48:22] [Server thread/INFO]: enzokuoshu2[/100.95.11.115:60752] logged in with entity id 12 at ([world]762.9705870153646, 28.0, -59.89444737950134)
+[00:48:24] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Entity uuid already exists: ea6937d1-cac6-4fad-add0-260bc040e0dd, mapped to Bat['Bat'/144, uuid='ea6937d1-cac6-4fad-add0-260bc040e0dd', l='ServerLevel[world]', x=821.31, y=12.46, z=31.08, cpos=[51, 1], tl=268, v=true], can't add Bat['Bat'/154, uuid='ea6937d1-cac6-4fad-add0-260bc040e0dd', l='ServerLevel[world]', x=822.50, y=12.50, z=32.01, cpos=[51, 2], tl=276, v=false]
+[00:48:49] [Server thread/INFO]: enzokuoshu2 has made the advancement [Getting an Upgrade]
+[00:48:54] [Server thread/INFO]: enzokuoshu2 lost connection: Timed out
+[00:48:54] [Server thread/INFO]: enzokuoshu2 left the game
+[00:49:01] [User Authenticator #0/INFO]: UUID of player enzokuoshu2 is 72ef933b-ad04-30d9-ba8e-7d3fff18ebdc
+[00:49:04] [Server thread/INFO]: enzokuoshu2 joined the game
+[00:49:05] [Server thread/INFO]: enzokuoshu2[/100.95.11.115:60774] logged in with entity id 233 at ([world]762.9705870153646, 28.0, -59.89444737950134)
+[00:49:10] [Server thread/INFO]: enzokuoshu2 issued server command: /gamemode survival
+[00:49:10] [Server thread/INFO]: [enzokuoshu2: Set own game mode to Survival Mode]
+[00:49:27] [Server thread/INFO]: [org.milkteamc.autotreechop.libs.hikari.HikariDataSource] HikariPool-1 - Starting...
+[00:49:27] [Server thread/INFO]: [org.milkteamc.autotreechop.libs.hikari.HikariDataSource] HikariPool-1 - Start completed.
+[00:51:27] [Server thread/INFO]: enzokuoshu2 issued server command: /gamemode creative
+[00:51:27] [Server thread/INFO]: [enzokuoshu2: Set own game mode to Creative Mode]
+[00:51:39] [Server thread/INFO]: enzokuoshu2 issued server command: /veinminer groups list
+[00:52:20] [Server thread/INFO]: enzokuoshu2 issued server command: /valhallammo:farming
+[00:52:34] [Server thread/INFO]: enzokuoshu2 issued server command: /skills
+[00:53:13] [Server thread/INFO]: enzokuoshu2 issued server command: /valhalla loot
+[00:54:13] [Server thread/INFO]: enzokuoshu2 issued server command: /valhalla loot
+[00:54:47] [Server thread/INFO]: enzokuoshu2 issued server command: /valhalla help
+[00:55:12] [Server thread/INFO]: enzokuoshu2 issued server command: /valhalla help 2
+[00:56:00] [Server thread/INFO]: enzokuoshu2 issued server command: /valhalla items enzokuoshu2
+[00:57:04] [Server thread/INFO]: enzokuoshu2 issued server command: /dungeon create habitacion del tiempo
+[00:57:18] [Server thread/INFO]: enzokuoshu2 issued server command: /md create habitacion del tiempo
+[00:57:39] [Server thread/INFO]: enzokuoshu2 issued server command: /dungeon edit habitacion
+[00:57:57] [Server thread/INFO]: enzokuoshu2 issued server command: /md create habitacion_del_tiempo
+[00:57:57] [Server thread/ERROR]: No key layers in MapLike[{}]
+[00:57:57] [Server thread/INFO]: Preparing start region for dimension minecraft:habitacion_del_tiempo
+[00:57:57] [Server thread/INFO]: Preparing spawn area: 2%
+[00:57:57] [Server thread/INFO]: Time elapsed: 328 ms
+[00:57:57] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'habitacion_del_tiempo'
+[00:57:57] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'habitacion_del_tiempo'
+[00:57:57] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'habitacion_del_tiempo'
+[00:57:58] [Server thread/INFO]: [ChunkHolderManager] Saved 792 block chunks, 0 entity chunks, 0 poi chunks in world 'habitacion_del_tiempo' in 0.36s
+[00:57:58] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'habitacion_del_tiempo'
+[00:57:58] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'habitacion_del_tiempo'
+[00:57:58] [Craft Scheduler Thread - 69 - MythicDungeons/INFO]: [MythicDungeons] Creating fresh config file for habitacion_del_tiempo

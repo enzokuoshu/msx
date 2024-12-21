@@ -138,8 +138,7 @@ contents:
   slot_31:
     ==: org.bukkit.inventory.ItemStack
     v: 4082
-    type: MUTTON
-    amount: 2
+    type: STONE_PICKAXE
   slot_32:
     ==: org.bukkit.inventory.ItemStack
     v: 4082
@@ -168,3 +167,8 @@ contents:
     v: 4082
     type: ROTTEN_FLESH
     amount: 18
+  slot_22:
+    ==: org.bukkit.inventory.ItemStack
+    v: 4082
+    type: MUTTON
+    amount: 2
