@@ -305,3 +305,11 @@ Checkout the release here: https://github.com/Sytm/waypoints/releases/tag/v4.5.5
 [00:57:58] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'habitacion_del_tiempo'
 [00:57:58] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'habitacion_del_tiempo'
 [00:57:58] [Craft Scheduler Thread - 69 - MythicDungeons/INFO]: [MythicDungeons] Creating fresh config file for habitacion_del_tiempo
+[00:58:06] [Server thread/INFO]: enzokuoshu2 issued server command: /md edit habitacion_del_tiempo
+[00:58:07] [Server thread/INFO]: Preparing start region for dimension minecraft:habitacion_del_tiempo_1
+[00:58:07] [Server thread/INFO]: Time elapsed: 2 ms
+[00:58:07] [Server thread/INFO]: [MythicDungeons] §d-= Loading map habitacion_del_tiempo_1 processed in 74ms. =-
+[00:58:11] [Server thread/INFO]: enzokuoshu2 issued server command: /tps
+[00:58:14] [Server thread/INFO]: enzokuoshu2 issued server command: /tps
+[01:03:07] [Server thread/WARN]: A manual (plugin-induced) save has been detected while server is configured to auto-save. This may affect performance.
+[01:03:07] [Server thread/INFO]: [MythicDungeons] §d-= Autosave of habitacion_del_tiempo processed in 18ms. =-
